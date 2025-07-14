@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Preconnect & Preload -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="preload" as="script" href="js/main.js" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/a.jpeg"/>
+
+  <!-- CSS (hanya satu versi Bootstrap & style Anda) -->
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
+
+  <!-- Icon Fonts -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet"/>
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet"/>
+
+  <!-- Carousel & Lightbox -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"/>
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet"/>
+
+  <!-- assets/js/vendor/aos.css -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<!-- assets/js/vendor/vanilla-tilt.min.js -->
+<script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+<!-- assets/js/vendor/aos.js -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+
+  <!-- Inline styles khusus -->
+  <style>
+    .banner-image {
+      background-image: url('img/img1.webp');
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-6" href="#">
+        <img alt="Logo" class="me-2" height="30" src="img/xolabit.png"/>
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mx-auto"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="index.html"
+              data-i18n="nav.home"
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="about.html"
+              data-i18n="nav.about"
+            ></a>
+          </li>
+          <!-- PRODUCT DROPDOWN -->
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle text-white"
+            href="product.html"
+            id="productDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            data-i18n="nav.product"
+          >
+            Produk
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="productDropdown">
+            <li><a class="dropdown-item" href="produk/aspalemulsi.html" data-i18n="prod.aspalEmulsi">Aspal Emulsi</a></li>
+            <li><a class="dropdown-item" href="produk/aspalpolimer.html" data-i18n="prod.aspalPolimer">Aspal Polimer</a></li>
+            <li><a class="dropdown-item" href="produk/bitumenmembrane.html" data-i18n="prod.bitumenMembrane">Bitumen Membrane</a></li>
+            <li><a class="dropdown-item" href="produk/bitumenpaint.html" data-i18n="prod.bitumenPaint">Bitumen Paint</a></li>
+            <li><a class="dropdown-item" href="produk/coldmix.html" data-i18n="prod.coldmix">Coldmix</a></li>
+            <li><a class="dropdown-item" href="produk/cutback.html" data-i18n="prod.cutback">Cutback</a></li>
+            <li><a class="dropdown-item" href="produk/jointsealant.html" data-i18n="prod.jointSealant">Joint Sealant</a></li>
+            <li><a class="dropdown-item" href="produk/waterprofing.html" data-i18n="prod.waterproofing">Waterproofing</a></li>
+            <li><a class="dropdown-item" href="produk/xolabittcm.html" data-i18n="prod.xolabitTCM">Xolabit TCM</a></li>
+          </ul>
+        </li>
+        <!-- END PRODUCT DROPDOWN -->
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="applications.html"
+              data-i18n="nav.applications"
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="contact.html"
+              data-i18n="nav.contact"
+            ></a>
+          </li>
+
+          <!-- Navbar Language Switcher -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle d-flex align-items-center"
+              href="#"
+              id="languageDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                id="current-flag"
+                src="img/flag-id.png"
+                alt="current lang"
+                width="24"
+                class="me-1"
+              />
+            </a>
+            <ul
+              class="dropdown-menu bg-transparent dropdown-menu-end"
+              aria-labelledby="languageDropdown"
+            >
+              <!-- Bahasa Indonesia -->
+              <li>
+                <a
+                  class="dropdown-item text-center"
+                  href="#"
+                  data-lang="id"
+                >
+                  <img
+                    src="img/flag-id.png"
+                    alt="Indonesia"
+                    width="32"
+                  />
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider m-0"/>
+              </li>
+              <!-- Bahasa English -->
+              <li>
+                <a
+                  class="dropdown-item text-center"
+                  href="#"
+                  data-lang="en"
+                >
+                  <img
+                    src="img/flag-en.jpeg"
+                    alt="English"
+                    width="32"
+                  />
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Banner Image -->
+<header class="hero-banner position-relative w-100 vh-100 d-flex align-items-center text-white">
+  <!-- Gambar Latar Responsif -->
+  <picture class="position-absolute top-0 start-0 w-100 h-100">
+    <source media="(min-width: 576px)" srcset="img/img1.png">
+    <img
+      src="img/img1.png"
+      class="w-100 h-100 object-fit-cover"
+      alt="Truk pengantar aspal di area pabrik XOLABIT"
+      data-i18n="bannerproduct.alt">
+  </picture>
+
+  <!-- Overlay Gradient -->
+  <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
+
+  <!-- Konten Teks -->
+  <div class="container position-relative text-start">
+    <h1
+      class="display-4 fw-bold banner-text-animate banner-text-delay-1"
+      data-i18n="bannerproduct.title">
+      Solusi Aspal Berkinerja Tinggi
+    </h1>
+    <p
+      class="lead mb-4 banner-text-animate banner-text-delay-2"
+      data-i18n="bannerproduct.desc">
+      Grup kami memodifikasi aspal menjadi polimer &amp; emulsi berkualitas, plus layanan chipseal, slurryseal, dan pengiriman tangki curah.
+    </p>
+  </div>
+</header>
+
+
+<main class="container my-5">
+  <!-- Filter Controls -->
+  <div class="row mb-4">
+    <div class="col-12 d-flex justify-content-between align-items-center">
+      <h1 data-i18n="product.heading">Our Product Line</h1>
+      <select id="product-filter" class="form-select form-select-sm w-auto">
+        <option value="all" data-i18n="filter.all">All</option>
+        <option value="emulsion" data-i18n="filter.emulsion">Aspal Emulsi</option>
+        <option value="polymer" data-i18n="filter.polymer">Aspal Polimer</option>
+        <option value="membrane" data-i18n="filter.membrane">Bitumen Membrane</option>
+        <option value="paint" data-i18n="filter.paint">Bitumen Paint</option>
+        <option value="coldmix" data-i18n="filter.coldmix">Coldmix</option>
+        <option value="cutback" data-i18n="filter.cutback">Cutback</option>
+        <option value="joint" data-i18n="filter.joint">Joint Sealant</option>
+        <option value="waterproof" data-i18n="filter.waterproof">Waterproofing</option>
+        <option value="tcm" data-i18n="filter.tcm">XOLABIT TCM</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Product Grid -->
+  <div class="row g-4" id="product-grid">
+<!-- Aspal Emulsi Modern Card with Tighter List -->
+<div class="col-12 col-sm-6 col-lg-4 product-card" data-category="emulsion">
+  <div class="card h-100 shadow-sm border-0 overflow-hidden position-relative hover-scale">
+    <picture>
+      <img src="img/emulsi.jpg" class="card-img-top" alt="Aspal Emulsi XOLABIT PT. APE" data-i18n-alt="product.emulsion_alt">
+    </picture>
+
+    <div class="card-body d-flex flex-column p-4">
+      <h2 class="card-title h5 mb-3" data-i18n="product.emulsion_title">Aspal Emulsi</h2>
+      <p class="card-text mb-3" data-i18n="product.emulsion_short">
+        Emulsi aspal diproduksi dengan menggiling aspal/bitumen menjadi partikel mikroskopis
+        dan mendispersikannya dalam air menggunakan pengemulsi kimia.
+      </p>
+
+      <!-- Accordion for Benefits -->
+      <div class="accordion" id="acc-emulsi">
+        <div class="accordion-item border-0">
+          <h3 class="accordion-header" id="heading-emulsi">
+            <button class="accordion-button collapsed bg-light rounded" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapse-emulsi"
+                    aria-expanded="false" aria-controls="collapse-emulsi">
+              <i class="bi-check-circle-fill me-2"></i>
+              <span data-i18n="product.read_more">Keunggulan</span>
+            </button>
+          </h3>
+          <div id="collapse-emulsi" class="accordion-collapse collapse" aria-labelledby="heading-emulsi" data-bs-parent="#acc-emulsi">
+            <div class="accordion-body small">
+              <ul class="list-unstyled mb-0" data-i18n="product.emulsion_benefits">
+                <li class="d-flex align-items-start mb-1">
+                  <i class="bi-dot me-2 fs-4"></i>Tanpa proses pemanasan
+                </li>
+                <li class="d-flex align-items-start mb-1">
+                  <i class="bi-dot me-2 fs-4"></i>Praktis dan aman
+                </li>
+                <li class="d-flex align-items-start mb-1">
+                  <i class="bi-dot me-2 fs-4"></i>Fleksible
+                </li>
+                <li class="d-flex align-items-start mb-1">
+                  <i class="bi-dot me-2 fs-4"></i>Hemat bahan bakar
+                </li>
+                <li class="d-flex align-items-start mb-1">
+                  <i class="bi-dot me-2 fs-4"></i>Ramah lingkungan
+                </li>
+                <li class="d-flex align-items-start">
+                  <i class="bi-dot me-2 fs-4"></i>Campuran dapat disimpan
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="mt-auto pt-4 d-flex justify-content-between align-items-center">
+        <a href="produk/aspalemulsi.html" class="btn btn-primary rounded-pill px-4 py-2" data-i18n="product.view_details">
+          <i class="bi-box-arrow-up-right me-2"></i>View Details
+        </a>
+        <span class="badge bg-opacity-10 bg-primary text-primary p-2 rounded-circle" title="Emulsion">
+          <i class="bi-droplet-fill fs-5"></i>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Aspal Polimer Modern Card -->
+<div class="col-12 col-sm-6 col-lg-4 product-card" data-category="polymer">
+  <div class="card h-100 shadow-sm border-0 overflow-hidden position-relative hover-scale">
+    <picture>
+      <img
+        src="img/polimer.jpg"
+        class="card-img-top"
+        alt="Aspal Polimer XOLABIT PT. APE"
+        data-i18n-alt="product.polymer_alt"
+      >
+    </picture>
+
+    <div class="card-body d-flex flex-column p-4">
+      <h2 class="card-title h5 mb-3" data-i18n="product.polymer_title">Aspal Polimer</h2>
+      <p class="card-text mb-3" data-i18n="product.polymer_short">
+        Semen aspal modifikasi polimer (PMA) meningkatkan ketahanan permanen dan suhu rendah
+        untuk perkerasan aspal campuran panas.
+      </p>
+
+      <!-- Accordion for Benefits -->
+      <div class="accordion" id="acc-polimer">
+        <div class="accordion-item border-0">
+          <h3 class="accordion-header" id="heading-polimer">
+            <button class="accordion-button collapsed bg-light rounded" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapse-polimer"
+                    aria-expanded="false" aria-controls="collapse-polimer">
+              <i class="bi-check-circle-fill me-2"></i>
+              <span data-i18n="product.benefits">Keunggulan</span>
+            </button>
+          </h3>
+          <div id="collapse-polimer" class="accordion-collapse collapse" aria-labelledby="heading-polimer" data-bs-parent="#acc-polimer">
+            <div class="accordion-body small">
+              <ul class="list-unstyled mb-0" data-i18n="product.polymer_benefits">
+                <li class="d-flex align-items-start mb-1">
+                  <i class="bi-dot me-2 fs-4"></i>Ketahanan deformasi permanen (rutting)
+                </li>
+                <li class="d-flex align-items-start mb-1">
+                  <i class="bi-dot me-2 fs-4"></i>Kekuatan tarik dan modulus elastisitas tinggi
+                </li>
+                <li class="d-flex align-items-start mb-1">
+                  <i class="bi-dot me-2 fs-4"></i>Peningkatan ketahanan retak suhu rendah
+                </li>
+                <li class="d-flex align-items-start mb-1">
+                  <i class="bi-dot me-2 fs-4"></i>Adhesi agregat optimal
+                </li>
+                <li class="d-flex align-items-start">
+                  <i class="bi-dot me-2 fs-4"></i>Umur layanan panjang dan siklus hidup lebih baik
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="mt-auto pt-4 d-flex justify-content-between align-items-center">
+        <a href="produk/aspalpolimer.html" class="btn btn-primary rounded-pill px-4 py-2" data-i18n="product.view_details">
+          <i class="bi-box-arrow-up-right me-2"></i>View Details
+        </a>
+        <span class="badge bg-opacity-10 bg-primary text-primary p-2 rounded-circle" title="Polymer">
+          <i class="bi-flower1-fill fs-5"></i>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   <!-- Bitumen Membrane Modern Card -->
+<div class="col-12 col-sm-6 col-lg-4 product-card" data-category="membrane">
+  <div class="card h-100 shadow-sm border-0 overflow-hidden position-relative hover-scale">
+    <picture>
+      <img
+        src="img/membrane2.png"
+        class="card-img-top"
+        alt="Bitumen Membrane XOLABIT PT. APE"
+        data-i18n-alt="product.membrane_alt"
+      >
+    </picture>
+
+    <div class="card-body d-flex flex-column p-4">
+      <h2 class="card-title h5 mb-3" data-i18n="product.membrane_title">Bitumen Membrane</h2>
+      <p class="card-text mb-3" data-i18n="product.membrane_short">
+        Membrane bitumen diperkuat lateks karet memberikan fleksibilitas dan ketahanan tinggi
+        untuk waterproofing permukaan vertikal dan horizontal.
+      </p>
+
+      <!-- Accordion for Benefits -->
+      <div class="accordion" id="acc-membrane">
+        <div class="accordion-item border-0">
+          <h3 class="accordion-header" id="heading-membrane">
+            <button class="accordion-button collapsed bg-light rounded" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapse-membrane"
+                    aria-expanded="false" aria-controls="collapse-membrane">
+              <i class="bi-check-circle-fill me-2"></i>
+              <span data-i18n="product.benefits">Keunggulan</span>
+            </button>
+          </h3>
+          <div id="collapse-membrane" class="accordion-collapse collapse" aria-labelledby="heading-membrane" data-bs-parent="#acc-membrane">
+            <div class="accordion-body small">
+              <ul class="list-unstyled mb-0" data-i18n="product.membrane_benefits">
+                <li class="d-flex align-items-start mb-1">
+                  <i class="bi-dot me-2 fs-4"></i>Fleksibilitas tinggi pada suhu rendah
+                </li>
+                <li class="d-flex align-items-start mb-1">
+                  <i class="bi-dot me-2 fs-4"></i>Kekuatan tarik optimal
+                </li>
+                <li class="d-flex align-items-start mb-1">
+                  <i class="bi-dot me-2 fs-4"></i>Tahan air dan uap
+                </li>
+                <li class="d-flex align-items-start mb-1">
+                  <i class="bi-dot me-2 fs-4"></i>Pemasangan cepat dan efisien
+                </li>
+                <li class="d-flex align-items-start">
+                  <i class="bi-dot me-2 fs-4"></i>Umur panjang dan perawatan minimal
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="mt-auto pt-4 d-flex justify-content-between align-items-center">
+        <a href="produk/bitumenmembrane.html" class="btn btn-primary rounded-pill px-4 py-2" data-i18n="product.view_details">
+          <i class="bi-box-arrow-up-right me-2"></i>View Details
+        </a>
+        <span class="badge bg-opacity-10 bg-primary text-primary p-2 rounded-circle" title="Membrane">
+          <i class="bi-droplet-fill fs-5"></i>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Bitumen Paint -->
+    <div class="col-12 col-sm-6 col-lg-4 product-card" data-category="paint">
+      <div class="card h-100 shadow-sm hover-zoom">
+        <picture>
+          <img src="img/paint.png" class="card-img-top" alt="" data-i18n-alt="product.paint_alt">
+        </picture>
+        <div class="card-body d-flex flex-column">
+          <h2 class="card-title h5" data-i18n="product.paint_title">Bitumen Paint</h2>
+          <p class="card-text text-truncate" data-bs-toggle="collapse" data-bs-target="#desc-paint" aria-controls="desc-paint" data-i18n="product.paint_short">
+            Short description here...
+          </p>
+          <div class="collapse" id="desc-paint">
+            <ul class="mt-2" data-i18n="product.paint_benefits">
+              <li>Keunggulan 1</li>
+              <li>Keunggulan 2</li>
+              <li>Keunggulan 3</li>
+            </ul>
+          </div>
+          <button type="button" class="btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modal-paint" data-i18n="product.view_details">
+            View Details
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Coldmix -->
+    <div class="col-12 col-sm-6 col-lg-4 product-card" data-category="coldmix">
+      <div class="card h-100 shadow-sm hover-zoom">
+        <picture>
+          <img src="img/coldmix.jpg" class="card-img-top" alt="" data-i18n-alt="product.coldmix_alt">
+        </picture>
+        <div class="card-body d-flex flex-column">
+          <h2 class="card-title h5" data-i18n="product.coldmix_title">Coldmix</h2>
+          <p class="card-text text-truncate" data-bs-toggle="collapse" data-bs-target="#desc-coldmix" aria-controls="desc-coldmix" data-i18n="product.coldmix_short">
+            Short description here...
+          </p>
+          <div class="collapse" id="desc-coldmix">
+            <ul class="mt-2" data-i18n="product.coldmix_benefits">
+              <li>Keunggulan 1</li>
+              <li>Keunggulan 2</li>
+              <li>Keunggulan 3</li>
+            </ul>
+          </div>
+          <button type="button" class="btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modal-coldmix" data-i18n="product.view_details">
+            View Details
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cutback -->
+    <div class="col-12 col-sm-6 col-lg-4 product-card" data-category="cutback">
+      <div class="card h-100 shadow-sm hover-zoom">
+        <picture>
+          <img src="img/cutback.jpg" class="card-img-top" alt="" data-i18n-alt="product.cutback_alt">
+        </picture>
+        <div class="card-body d-flex flex-column">
+          <h2 class="card-title h5" data-i18n="product.cutback_title">Cutback</h2>
+          <p class="card-text text-truncate" data-bs-toggle="collapse" data-bs-target="#desc-cutback" aria-controls="desc-cutback" data-i18n="product.cutback_short">
+            Short description here...
+          </p>
+          <div class="collapse" id="desc-cutback">
+            <ul class="mt-2" data-i18n="product.cutback_benefits">
+              <li>Keunggulan 1</li>
+              <li>Keunggulan 2</li>
+              <li>Keunggulan 3</li>
+            </ul>
+          </div>
+          <button type="button" class="btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modal-cutback" data-i18n="product.view_details">
+            View Details
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Joint Sealant -->
+    <div class="col-12 col-sm-6 col-lg-4 product-card" data-category="joint">
+      <div class="card h-100 shadow-sm hover-zoom">
+        <picture>
+          <img src="img/joint.jpg" class="card-img-top" alt="" data-i18n-alt="product.joint_alt">
+        </picture>
+        <div class="card-body d-flex flex-column">
+          <h2 class="card-title h5" data-i18n="product.joint_title">Joint Sealant</h2>
+          <p class="card-text text-truncate" data-bs-toggle="collapse" data-bs-target="#desc-joint" aria-controls="desc-joint" data-i18n="product.joint_short">
+            Short description here...
+          </p>
+          <div class="collapse" id="desc-joint">
+            <ul class="mt-2" data-i18n="product.joint_benefits">
+              <li>Keunggulan 1</li>
+              <li>Keunggulan 2</li>
+              <li>Keunggulan 3</li>
+            </ul>
+          </div>
+          <button type="button" class="btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modal-joint" data-i18n="product.view_details">
+            View Details
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Waterproofing -->
+    <div class="col-12 col-sm-6 col-lg-4 product-card" data-category="waterproof">
+      <div class="card h-100 shadow-sm hover-zoom">
+        <picture>
+          <img src="img/water.png" class="card-img-top" alt="" data-i18n-alt="product.waterproof_alt">
+        </picture>
+        <div class="card-body d-flex flex-column">
+          <h2 class="card-title h5" data-i18n="product.waterproof_title">Waterproofing</h2>
+          <p class="card-text text-truncate" data-bs-toggle="collapse" data-bs-target="#desc-waterproof" aria-controls="desc-waterproof" data-i18n="product.waterproof_short">
+            Short description here...
+          </p>
+          <div class="collapse" id="desc-waterproof">
+            <ul class="mt-2" data-i18n="product.waterproof_benefits">
+              <li>Keunggulan 1</li>
+              <li>Keunggulan 2</li>
+              <li>Keunggulan 3</li>
+            </ul>
+          </div>
+          <button type="button" class="btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modal-waterproof" data-i18n="product.view_details">
+            View Details
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- XOLABIT TCM -->
+    <div class="col-12 col-sm-6 col-lg-4 product-card" data-category="tcm">
+      <div class="card h-100 shadow-sm hover-zoom">
+        <picture>
+          <img src="img/tcm.jpg" class="card-img-top" alt="" data-i18n-alt="product.tcm_alt">
+        </picture>
+        <div class="card-body d-flex flex-column">
+          <h2 class="card-title h5" data-i18n="product.tcm_title">XOLABIT TCM</h2>
+          <p class="card-text text-truncate" data-bs-toggle="collapse" data-bs-target="#desc-tcm" aria-controls="desc-tcm" data-i18n="product.tcm_short">
+            Short description here...
+          </p>
+          <div class="collapse" id="desc-tcm">
+            <ul class="mt-2" data-i18n="product.tcm_benefits">
+              <li>Keunggulan 1</li>
+              <li>Keunggulan 2</li>
+              <li>Keunggulan 3</li>
+            </ul>
+          </div>
+          <button type="button" class="btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modal-tcm" data-i18n="product.view_details">
+            View Details
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+  <!--==========wa===================-->
+  <div class="whatsapp-button" style="position: fixed; bottom: 20px; right: 20px; z-index: 999;">
+    <img
+      id="wa-icon"
+      src="img/wa.png"
+      alt="Chat via WhatsApp"
+      class="wa-icon"
+      loading="lazy"
+      decoding="async"
+      style="width: 90px; height: auto; cursor: pointer;"
+    />
+  </div>
+
+  <!-- WhatsApp Form Modal -->
+  <div
+    id="waFormModal"
+    style="display: none; position: fixed; bottom: 100px; right: 20px;
+          width: 300px; background: white; border: 1px solid #ccc;
+          border-radius: 10px; padding: 20px; z-index: 1000;
+          box-shadow: 0 0 10px rgba(0,0,0,0.3);"
+  >
+    <h5 data-i18n="wa.form_title">Form Kontak WA</h5>
+    <input
+      id="nama"
+      class="form-control mb-2"
+      placeholder=""
+      data-i18n-placeholder="wa.nama"
+      required
+    />
+    <input
+      id="asalpt"
+      class="form-control mb-2"
+      placeholder=""
+      data-i18n-placeholder="wa.asalpt"
+      required
+    />
+    <input
+      id="email"
+      type="email"
+      class="form-control mb-2"
+      placeholder=""
+      data-i18n-placeholder="wa.email"
+      required
+    />
+    <textarea
+      id="tujuan"
+      class="form-control mb-2"
+      rows="2"
+      placeholder=""
+      data-i18n-placeholder="wa.tujuan"
+      required
+    ></textarea>
+    <button
+      onclick="kirimWA()"
+      class="btn btn-success w-100"
+      data-i18n="wa.send_button"
+    >Kirim ke WhatsApp</button>
+  </div>
+
+<!-- Partial: Footer for XOLABIT Website -->
+<footer class="bg-light text-dark pt-5">
+  <div class="container">
+    <div class="row">
+      <!-- About Section -->
+      <div class="col-md-4 mb-4">
+        <img
+      src="img/xolabit.png"
+      alt="Logo Xolabit"
+      width="120"
+      class="img-fluid"
+      data-i18n-alt="footer.logo_alt"
+    />
+        <p data-i18n="footer.about_text">Solusi Aspal Berkinerja Tinggi</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-2 mb-4">
+        <h5 data-i18n="footer.links_title">Tautan</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" data-i18n="footer.home">Beranda</a></li>
+          <li><a href="product.html" data-i18n="footer.product">Product</a></li>
+          <li><a href="applications.html" data-i18n="footer.applications">Aplikasi</a></li>
+          <li><a href="contact.html" data-i18n="footer.contact">Kontak</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-3 mb-4">
+        <h5 data-i18n="footer.contact_title">Kontak</h5>
+        <ul class="list-unstyled">
+          <li>
+            <i class="bi bi-geo-alt-fill me-2"></i>
+            <span data-i18n="footer.address">Jl. TB Simatupang Raya Kav. IS No. 01, RT02/RW17 Pd. Pinang Kecamatan Kebayoran Lama Jakarta Selatan dki jakarta</span>
+          </li>
+          <li>
+            <i class="bi bi-telephone-fill me-2"></i>
+            <a href="tel:+6281225189212" data-i18n="footer.phone">+62 812-3456-789</a>
+          </li>
+          <li>
+            <i class="bi bi-envelope-fill me-2"></i>
+            <a href="mailto:xolabitb@gmail.com">info@xolabit.com</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Newsletter & Social -->
+      <div class="col-md-3 mb-4">
+        <h5 data-i18n="footer.newsletter_title">Ikuti Kami</h5>
+        <div class="mt-3">
+          <a href="https://www.facebook.com/AspalPolimerEmulsindo" class="me-3"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.youtube.com/@APEGroupPTAPEPTMBSPTABI" class="me-3"><i class="bi bi-youtube"></i></a>
+          <a href="https://www.linkedin.com/company/pt-aspal-polimer-emulsindo"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Copyright -->
+    <div class="text-center py-3">
+      <small data-i18n="footer.copy">© 2025 Xolabit. Semua hak cipta.</small>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/i18n.js"></script>
+  <script>
+  // Init AOS
+  AOS.init();
+  // Init Vanilla Tilt
+  VanillaTilt.init(document.querySelectorAll(".tilt-card"), {
+    glare: true,
+    "max-glare": 0.2
+  });
+</script>
+
+ </body>
+</html>

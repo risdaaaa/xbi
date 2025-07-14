@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Google Analytics / GTAG (keep this here!) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9V3Q03BFQW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-9V3Q03BFQW');
+  </script>
+
+  <!-- SEO Meta Tags -->
+  <title data-i18n="blog.meta.title">APE Blog – PT Aspal Polimer Emulsindo</title>
+  <meta name="description"
+        data-i18n="blog.meta.description"
+        content="Kumpulan artikel terbaru tentang Aspal Polimer, Aspal Emulsi, Chipseal & Slurryseal dari PT Aspal Polimer Emulsindo."/>
+  <meta name="keywords" content="aspal, polimer, emulsindo, blog, chipseal, slurryseal, bitumen"/>
+  <link rel="canonical" href="https://aplikasibitumen.co.id/blog.html"/>
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website"/>
+  <meta property="og:url"         content="https://aplikasibitumen.co.id/blog.html"/>
+  <meta property="og:title"       data-i18n="blog.og.title" content="APE Blog – PT Aspal Polimer Emulsindo"/>
+  <meta property="og:description" data-i18n="blog.og.description"
+        content="Baca artikel terbaru tentang teknologi aspal dan emulsio n dari PT Aspal Polimer Emulsindo."/>
+  <meta property="og:image"       content="https://aplikasibitumen.co.id/img/blog-og.jpg"/>
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image"/>
+  <meta name="twitter:title"       data-i18n="blog.twitter.title" content="APE Blog – PT Aspal Polimer Emulsindo"/>
+  <meta name="twitter:description" data-i18n="blog.twitter.description"
+        content="Insight & update teknologi aspal oleh PT Aspal Polimer Emulsindo."/>
+  <meta name="twitter:image"       content="https://aplikasibitumen.co.id/img/blog-og.jpg"/>
+
+  <!-- JSON-LD Structured Data for Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "PT Aspal Polimer Emulsindo",
+    "url": "https://aplikasibitumen.co.id/",
+    "logo": "https://aplikasibitumen.co.id/img/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+62-291-6913767",
+      "contactType": "customer service",
+      "areaServed": "ID"
+    }
+  }
+  </script>
+
+  <!-- Favicon & Styles -->
+  <link rel="icon" type="image/png" href="img/a.jpeg"/>
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+
+  <!-- Inline offset for fixed-top navbar -->
+  <style>
+    .navbar { background-color: #5a6780 !important; }
+    :root { --navbar-height: 70px; }
+    body { padding-top: var(--navbar-height); }
+    html { scroll-padding-top: var(--navbar-height); }
+    .pt-navbar { padding-top: var(--navbar-height); }
+  </style>
+</head>
+<body>
+ <body>
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-6" href="#">
+        <img alt="Logo" class="me-2" height="30" src="img/logo.png"/>
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mx-auto"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="index.html"
+              data-i18n="nav.home"
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="about.html"
+              data-i18n="nav.about"
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="product.html"
+              data-i18n="nav.product"
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="applications.html"
+              data-i18n="nav.applications"
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="contact.html"
+              data-i18n="nav.contact"
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="blog.html"
+              data-i18n="nav.blog"
+            ></a>
+          </li>
+
+          <!-- Navbar Language Switcher -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle d-flex align-items-center"
+              href="#"
+              id="languageDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                id="current-flag"
+                src="img/flag-id.png"
+                alt="current lang"
+                width="24"
+                class="me-1"
+              />
+            </a>
+            <ul
+              class="dropdown-menu bg-transparent dropdown-menu-end"
+              aria-labelledby="languageDropdown"
+            >
+              <!-- Bahasa Indonesia -->
+              <li>
+                <a
+                  class="dropdown-item text-center"
+                  href="#"
+                  data-lang="id"
+                >
+                  <img
+                    src="img/flag-id.png"
+                    alt="Indonesia"
+                    width="32"
+                  />
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider m-0"/>
+              </li>
+              <!-- Bahasa English -->
+              <li>
+                <a
+                  class="dropdown-item text-center"
+                  href="#"
+                  data-lang="en"
+                >
+                  <img
+                    src="img/flag-en.jpeg"
+                    alt="English"
+                    width="32"
+                  />
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Carousel with i18n -->
+<div class="content-wrapper mx-auto pt-navbar" style="max-width: 70%;">
+  <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="d-flex align-items-stretch flex-md-row flex-column">
+          <div class="position-relative col-md-6 p-0">
+            <img
+              src="img/imgb1.jpeg"
+              class="img-fluid w-100 h-100"
+              style="object-fit: cover;"
+              alt=""
+              data-i18n-alt="carousel.slide1.img_alt"
+            />
+            <button class="carousel-control-prev position-absolute top-50 start-0 translate-middle-y"
+                    data-bs-slide="prev" data-bs-target="#newsCarousel" type="button">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next position-absolute top-50 end-0 translate-middle-y"
+                    data-bs-slide="next" data-bs-target="#newsCarousel" type="button">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <div class="col-md-6 d-flex flex-column justify-content-center p-4">
+            <h2 class="fw-bold" data-i18n="carousel.slide1.title"></h2>
+            <p data-i18n="carousel.slide1.description"></p>
+            <a class="btn btn-warning mt-2" href="blog/blog1.html" data-i18n="carousel.slide1.link"></a>
+            <small class="text-muted mt-2" data-i18n="carousel.slide1.date"></small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="d-flex align-items-stretch flex-md-row flex-column">
+          <div class="position-relative col-md-6 p-0">
+            <img
+              src="img/imbg2-2.jpeg"
+              class="img-fluid w-100 h-100"
+              style="object-fit: cover;"
+              alt=""
+              data-i18n-alt="carousel.slide2.img_alt"
+            />
+            <button class="carousel-control-prev position-absolute top-50 start-0 translate-middle-y"
+                    data-bs-slide="prev" data-bs-target="#newsCarousel" type="button">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next position-absolute top-50 end-0 translate-middle-y"
+                    data-bs-slide="next" data-bs-target="#newsCarousel" type="button">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <div class="col-md-6 d-flex flex-column justify-content-center p-4">
+            <h2 class="fw-bold" data-i18n="carousel.slide2.title"></h2>
+            <p data-i18n="carousel.slide2.description"></p>
+            <a class="btn btn-warning mt-2" href="blog/blog2.html" data-i18n="carousel.slide2.link"></a>
+            <small class="text-muted mt-2" data-i18n="carousel.slide2.date"></small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="d-flex align-items-stretch flex-md-row flex-column">
+          <div class="position-relative col-md-6 p-0">
+            <img
+              src="img/imgb3-1.jpeg"
+              class="img-fluid w-100 h-100"
+              style="object-fit: cover;"
+              alt=""
+              data-i18n-alt="carousel.slide3.img_alt"
+            />
+            <button class="carousel-control-prev position-absolute top-50 start-0 translate-middle-y"
+                    data-bs-slide="prev" data-bs-target="#newsCarousel" type="button">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next position-absolute top-50 end-0 translate-middle-y"
+                    data-bs-slide="next" data-bs-target="#newsCarousel" type="button">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <div class="col-md-6 d-flex flex-column justify-content-center p-4">
+            <h2 class="fw-bold" data-i18n="carousel.slide3.title"></h2>
+            <p data-i18n="carousel.slide3.description"></p>
+            <a class="btn btn-warning mt-2" href="blog/blog3.html" data-i18n="carousel.slide3.link"></a>
+            <small class="text-muted mt-2" data-i18n="carousel.slide3.date"></small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="carousel-item">
+        <div class="d-flex align-items-stretch flex-md-row flex-column">
+          <div class="position-relative col-md-6 p-0">
+            <img
+              src="img/imgb4.jpg"
+              class="img-fluid w-100 h-100"
+              style="object-fit: cover;"
+              alt=""
+              data-i18n-alt="carousel.slide4.img_alt"
+            />
+            <button class="carousel-control-prev position-absolute top-50 start-0 translate-middle-y"
+                    data-bs-slide="prev" data-bs-target="#newsCarousel" type="button">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next position-absolute top-50 end-0 translate-middle-y"
+                    data-bs-slide="next" data-bs-target="#newsCarousel" type="button">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <div class="col-md-6 d-flex flex-column justify-content-center p-4">
+            <h2 class="fw-bold" data-i18n="carousel.slide4.title"></h2>
+            <p data-i18n="carousel.slide4.description"></p>
+            <a class="btn btn-warning mt-2" href="blog/blog4.html" data-i18n="carousel.slide4.link"></a>
+            <small class="text-muted mt-2" data-i18n="carousel.slide4.date"></small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 5 -->
+      <div class="carousel-item">
+        <div class="d-flex align-items-stretch flex-md-row flex-column">
+          <div class="position-relative col-md-6 p-0">
+            <img
+              src="img/imgb5.jpg"
+              class="img-fluid w-100 h-100"
+              style="object-fit: cover;"
+              alt=""
+              data-i18n-alt="carousel.slide5.img_alt"
+            />
+            <button class="carousel-control-prev position-absolute top-50 start-0 translate-middle-y"
+                    data-bs-slide="prev" data-bs-target="#newsCarousel" type="button">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next position-absolute top-50 end-0 translate-middle-y"
+                    data-bs-slide="next" data-bs-target="#newsCarousel" type="button">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <div class="col-md-6 d-flex flex-column justify-content-center p-4">
+            <h2 class="fw-bold" data-i18n="carousel.slide5.title"></h2>
+            <p data-i18n="carousel.slide5.description"></p>
+            <a class="btn btn-warning mt-2" href="blog/blog5.html" data-i18n="carousel.slide5.link"></a>
+            <small class="text-muted mt-2" data-i18n="carousel.slide5.date"></small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 6 -->
+      <div class="carousel-item">
+        <div class="d-flex align-items-stretch flex-md-row flex-column">
+          <div class="position-relative col-md-6 p-0">
+            <img
+              src="img/imgb6.jpg"
+              class="img-fluid w-100 h-100"
+              style="object-fit: cover;"
+              alt=""
+              data-i18n-alt="carousel.slide6.img_alt"
+            />
+            <button class="carousel-control-prev position-absolute top-50 start-0 translate-middle-y"
+                    data-bs-slide="prev" data-bs-target="#newsCarousel" type="button">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next position-absolute top-50 end-0 translate-middle-y"
+                    data-bs-slide="next" data-bs-target="#newsCarousel" type="button">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <div class="col-md-6 d-flex flex-column justify-content-center p-4">
+            <h2 class="fw-bold" data-i18n="carousel.slide6.title"></h2>
+            <p data-i18n="carousel.slide6.description"></p>
+            <a class="btn btn-warning mt-2" href="blog/blog6.html" data-i18n="carousel.slide6.link"></a>
+            <small class="text-muted mt-2" data-i18n="carousel.slide6.date"></small>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+  
+<!-- Artikel Cards -->
+<div class="container my-5 content-wrapper mx-auto" style="max-width: 70%;">
+  <div class="row g-4">
+    <!-- Card 1 -->
+    <div class="col-md-4 fade-in d-flex">
+      <div class="news-card shadow-sm rounded-4 overflow-hidden d-flex flex-column h-100">
+        <div class="card-img-wrapper">
+          <img
+            src="img/imgb1.jpeg"
+            class="img-fluid w-100"
+            alt=""
+            data-i18n-alt="cards.card1.img_alt"
+          />
+        </div>
+        <div class="p-3">
+          <h5 class="fw-bold">
+            <a
+              class="text-dark text-decoration-none"
+              href="blog/blog1.html"
+              data-i18n="cards.card1.title"
+            ></a>
+          </h5>
+          <small class="text-muted" data-i18n="cards.card1.date"></small>
+          <p class="mt-2 text-muted" data-i18n="cards.card1.description"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4 fade-in d-flex">
+      <div class="news-card shadow-sm rounded-4 overflow-hidden d-flex flex-column h-100">
+        <div class="card-img-wrapper">
+          <img
+            src="img/imbg2-2.jpeg"
+            class="img-fluid w-100"
+            alt=""
+            data-i18n-alt="cards.card2.img_alt"
+          />
+        </div>
+        <div class="p-3">
+          <h5 class="fw-bold">
+            <a
+              class="text-dark text-decoration-none"
+              href="blog/blog2.html"
+              data-i18n="cards.card2.title"
+            ></a>
+          </h5>
+          <small class="text-muted" data-i18n="cards.card2.date"></small>
+          <p class="mt-2 text-muted" data-i18n="cards.card2.description"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4 fade-in d-flex">
+      <div class="news-card shadow-sm rounded-4 overflow-hidden d-flex flex-column h-100">
+        <div class="card-img-wrapper">
+          <img
+            src="img/imgb3-1.jpeg"
+            class="img-fluid w-100"
+            alt=""
+            data-i18n-alt="cards.card3.img_alt"
+          />
+        </div>
+        <div class="p-3">
+          <h5 class="fw-bold">
+            <a
+              class="text-dark text-decoration-none"
+              href="blog/blog3.html"
+              data-i18n="cards.card3.title"
+            ></a>
+          </h5>
+          <small class="text-muted" data-i18n="cards.card3.date"></small>
+          <p class="mt-2 text-muted" data-i18n="cards.card3.description"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col-md-4 fade-in d-flex">
+      <div class="news-card shadow-sm rounded-4 overflow-hidden d-flex flex-column h-100">
+        <div class="card-img-wrapper">
+          <img
+            src="img/imgb4.jpg"
+            class="img-fluid w-100"
+            alt=""
+            data-i18n-alt="cards.card4.img_alt"
+          />
+        </div>
+        <div class="p-3">
+          <h5 class="fw-bold">
+            <a
+              class="text-dark text-decoration-none"
+              href="blog/blog4.html"
+              data-i18n="cards.card4.title"
+            ></a>
+          </h5>
+          <small class="text-muted" data-i18n="cards.card4.date"></small>
+          <p class="mt-2 text-muted" data-i18n="cards.card4.description"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="col-md-4 fade-in d-flex">
+      <div class="news-card shadow-sm rounded-4 overflow-hidden d-flex flex-column h-100">
+        <div class="card-img-wrapper">
+          <img
+            src="img/imgb5.jpg"
+            class="img-fluid w-100"
+            alt=""
+            data-i18n-alt="cards.card5.img_alt"
+          />
+        </div>
+        <div class="p-3">
+          <h5 class="fw-bold">
+            <a
+              class="text-dark text-decoration-none"
+              href="blog/blog5.html"
+              data-i18n="cards.card5.title"
+            ></a>
+          </h5>
+          <small class="text-muted" data-i18n="cards.card5.date"></small>
+          <p class="mt-2 text-muted" data-i18n="cards.card5.description"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="col-md-4 fade-in d-flex">
+      <div class="news-card shadow-sm rounded-4 overflow-hidden d-flex flex-column h-100">
+        <div class="card-img-wrapper">
+          <img
+            src="img/imgb5.jpg"
+            class="img-fluid w-100"
+            alt=""
+            data-i18n-alt="cards.card6.img_alt"
+          />
+        </div>
+        <div class="p-3">
+          <h5 class="fw-bold">
+            <a
+              class="text-dark text-decoration-none"
+              href="blog/blog6.html"
+              data-i18n="cards.card6.title"
+            ></a>
+          </h5>
+          <small class="text-muted" data-i18n="cards.card6.date"></small>
+          <p class="mt-2 text-muted" data-i18n="cards.card6.description"></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!--==========wa===================-->
+
+  <!-- Floating WhatsApp Button -->
+  <div class="whatsapp-button" style="position: fixed; bottom: 20px; right: 20px; z-index: 999;">
+    <img
+      id="wa-icon"
+      src="img/wa.png"
+      alt="Chat via WhatsApp"
+      class="wa-icon"
+      loading="lazy"
+      decoding="async"
+      style="width: 90px; height: auto; cursor: pointer;"
+    />
+  </div>
+
+  <!-- WhatsApp Form Modal -->
+  <div
+    id="waFormModal"
+    style="display: none; position: fixed; bottom: 100px; right: 20px;
+          width: 300px; background: white; border: 1px solid #ccc;
+          border-radius: 10px; padding: 20px; z-index: 1000;
+          box-shadow: 0 0 10px rgba(0,0,0,0.3);"
+  >
+    <h5 data-i18n="wa.form_title">Form Kontak WA</h5>
+    <input
+      id="nama"
+      class="form-control mb-2"
+      placeholder=""
+      data-i18n-placeholder="wa.nama"
+      required
+    />
+    <input
+      id="asalpt"
+      class="form-control mb-2"
+      placeholder=""
+      data-i18n-placeholder="wa.asalpt"
+      required
+    />
+    <input
+      id="email"
+      type="email"
+      class="form-control mb-2"
+      placeholder=""
+      data-i18n-placeholder="wa.email"
+      required
+    />
+    <textarea
+      id="tujuan"
+      class="form-control mb-2"
+      rows="2"
+      placeholder=""
+      data-i18n-placeholder="wa.tujuan"
+      required
+    ></textarea>
+    <button
+      onclick="kirimWA()"
+      class="btn btn-success w-100"
+      data-i18n="wa.send_button"
+    >Kirim ke WhatsApp</button>
+  </div>
+
+  <!--==========wa===================-->
+<!-- Footer -->
+  <footer class="py-4 text-white" style="background-color: #5a6780;">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <div>
+        <img alt="Logo" height="40" src="img/logo.png"/>
+        <p class="fw-bold mt-2" data-i18n="footer.company_name">PT Aspal Polimer Emulsindo</p>
+        <p data-i18n="footer.description">Merupakan produsen aspal emulsi dan aspal modifikasi sejak tahun 2017 di Indonesia.</p>
+        <p class="fw-bold mt-3 mb-1" data-i18n="footer.follow_us">Follow Us</p>
+        <a class="me-3 fs-5 text-warning" href="https://www.facebook.com/AspalPolimerEmulsindo/" target="_blank" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a class="fs-5 text-warning" href="https://www.linkedin.com/company/pt-aspal-polimer-emulsindo/" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div>
+        <p class="fw-bold" data-i18n="footer.contact_heading">PT. Aspal Polimer Emulsindo</p>
+        <p>
+          <span data-i18n="footer.address1">Jalan Raya Demak-Kudus KM 2.2, Kampung Sekaran</span><br/>
+          <span data-i18n="footer.address2">Desa Mranak, Kecamatan Wonosalam</span><br/>
+          <span data-i18n="footer.address3">Kabupaten Demak – Provinsi Jawa Tengah.</span><br/>
+          <span data-i18n="footer.phone_label">Phone:</span> <a class="text-dark text-decoration-underline" href="tel:+622916913767">+62 291-6913767</a><br/>
+          <span data-i18n="footer.email_label">Email:</span> <a class="text-dark text-decoration-underline" href="mailto:contact@ape-bitumen.co.id">contact@ape-bitumen.co.id</a>
+        </p>
+      </div>
+      <div>
+        <img alt="Pabrik" class="img-fluid" src="img/img3.png" style="max-width: 200px;" loading="lazy" decoding="async"/>
+      </div>
+    </div>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/i18n.js"></script>
+ </body>
+</html>

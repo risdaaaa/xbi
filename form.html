@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Google Analytics / GTAG (keep this here!) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9V3Q03BFQW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-9V3Q03BFQW');
+  </script>
+
+  <!-- Dynamic Title & SEO Meta -->
+  <title data-i18n="form.meta.title">Form Kontak – PT Aspal Polimer Emulsindo</title>
+  <meta name="description"
+        data-i18n="form.meta.description"
+        content="Isi formulir kontak PT Aspal Polimer Emulsindo untuk permintaan produk, data sheet, atau dukungan teknis aspal polimer, emulsi, dan waterproofing."/>
+  <meta name="keywords" content="form kontak, aspal, polimer, emulsindo, request data sheet, layanan"/>
+  <link rel="canonical" href="https://aplikasibitumen.co.id/form.html"/>
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website"/>
+  <meta property="og:url"         content="https://aplikasibitumen.co.id/form.html"/>
+  <meta property="og:title"       data-i18n="form.og.title" content="Form Kontak – PT Aspal Polimer Emulsindo"/>
+  <meta property="og:description" data-i18n="form.og.description"
+        content="Isi form kontak untuk kebutuhan produk aspal polimer, emulsi, dingin, atau waterproofing."/>
+  <meta property="og:image"       content="https://aplikasibitumen.co.id/img/form-og.jpg"/>
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image"/>
+  <meta name="twitter:title"       data-i18n="form.twitter.title" content="Form Kontak – PT Aspal Polimer Emulsindo"/>
+  <meta name="twitter:description" data-i18n="form.twitter.description"
+        content="Form kontak untuk request produk dan data sheet APE."/>
+  <meta name="twitter:image"       content="https://aplikasibitumen.co.id/img/form-og.jpg"/>
+
+  <!-- JSON-LD: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "PT Aspal Polimer Emulsindo",
+    "url": "https://aplikasibitumen.co.id/",
+    "logo": "https://aplikasibitumen.co.id/img/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+62-291-6913767",
+      "contactType": "customer service",
+      "areaServed": "ID"
+    }
+  }
+  </script>
+
+  <!-- Favicon & Styles -->
+  <link rel="icon" href="img/a.jpeg" type="image/png"/>
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet"/>
+
+  <!-- Inline offset for fixed-top navbar -->
+  <style>
+    .form-section { padding-top: calc(4.5rem + 1rem); }
+    /* Pastikan ini di bawah import bootstrap.min.css */
+.navbar {
+  background-color: #5a6780 !important;  /* samakan dengan footer */
+}
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-6" href="#">
+        <img alt="Logo" class="me-2" height="30" src="img/logo.png"/>
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mx-auto"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="index.html"
+              data-i18n="nav.home"
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="about.html"
+              data-i18n="nav.about"
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="product.html"
+              data-i18n="nav.product"
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="applications.html"
+              data-i18n="nav.applications"
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="contact.html"
+              data-i18n="nav.contact"
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="blog.html"
+              data-i18n="nav.blog"
+            ></a>
+          </li>
+
+          <!-- Navbar Language Switcher -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle d-flex align-items-center"
+              href="#"
+              id="languageDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                id="current-flag"
+                src="img/flag-id.png"
+                alt="current lang"
+                width="24"
+                class="me-1"
+              />
+            </a>
+            <ul
+              class="dropdown-menu bg-transparent dropdown-menu-end"
+              aria-labelledby="languageDropdown"
+            >
+              <!-- Bahasa Indonesia -->
+              <li>
+                <a
+                  class="dropdown-item text-center"
+                  href="#"
+                  data-lang="id"
+                >
+                  <img
+                    src="img/flag-id.png"
+                    alt="Indonesia"
+                    width="32"
+                  />
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider m-0"/>
+              </li>
+              <!-- Bahasa English -->
+              <li>
+                <a
+                  class="dropdown-item text-center"
+                  href="#"
+                  data-lang="en"
+                >
+                  <img
+                    src="img/flag-en.jpeg"
+                    alt="English"
+                    width="32"
+                  />
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ <!-- Form Kontak APE - Versi Rapi & Responsif -->
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+  <style>
+    #mc_embed_signup {
+      background: #fff;
+      font: 14px Helvetica, Arial, sans-serif;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 700px;
+      margin: 50px auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    #mc_embed_signup h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .mc-field-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-weight: 600;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      font-size: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .button {
+      background-color: #25D366;
+      color: white;
+      font-weight: bold;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .button:hover {
+      background-color: #1ebe5d;
+    }
+
+    .indicates-required {
+      font-size: 13px;
+      color: #999;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    
+  </style>
+
+  <div id="mc_embed_signup">
+    <form action="https://ape-bitumen.us4.list-manage.com/subscribe/post?u=5b775ac41b7df301086f3392b&amp;id=fdbc40c6f3&amp;f_id=004e15eaf0"
+      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+      class="validate" novalidate>
+
+  <h2 data-i18n="contactForm.title">Formulir Kontak PT APE</h2>
+  <div class="indicates-required" data-i18n="contactForm.required_note">
+    <span class="asterisk">*</span> wajib diisi
+  </div>
+
+  <div class="mc-field-group">
+    <label for="mce-EMAIL" data-i18n="contactForm.email_label">
+      Alamat Email <span class="asterisk">*</span>
+    </label>
+    <input type="email" name="EMAIL" id="mce-EMAIL"
+           class="required email" required
+           placeholder="" data-i18n-placeholder="contactForm.email_label">
+  </div>
+
+  <div class="mc-field-group">
+    <label for="mce-FNAME" data-i18n="contactForm.name_label">
+      Nama <span class="asterisk">*</span>
+    </label>
+    <input type="text" name="FNAME" id="mce-FNAME"
+           class="required" required
+           placeholder="" data-i18n-placeholder="contactForm.name_label">
+  </div>
+
+  <div class="mc-field-group">
+    <label for="mce-COMPANY" data-i18n="contactForm.company_label">
+      Nama Perusahaan <span class="asterisk">*</span>
+    </label>
+    <input type="text" name="COMPANY" id="mce-COMPANY"
+           class="required" required
+           placeholder="" data-i18n-placeholder="contactForm.company_label">
+  </div>
+
+  <div class="mc-field-group">
+    <label for="mce-MMERGE8" data-i18n="contactForm.product_label">
+      Produk yang Dibutuhkan <span class="asterisk">*</span>
+    </label>
+    <select name="MMERGE8" id="mce-MMERGE8"
+            class="required" required
+            data-i18n-placeholder="contactForm.product_label">
+      <option value="" data-i18n="contactForm.product_option_default">
+        -- Pilih Produk --
+      </option>
+      <option value="Aspal Polimer" data-i18n="contactForm.product_option_aspalPolimer">Aspal Polimer</option>
+      <option value="Aspal Emulsi"  data-i18n="contactForm.product_option_aspalEmulsi">Aspal Emulsi</option>
+      <option value="Aspal Dingin"  data-i18n="contactForm.product_option_aspalDingin">Aspal Dingin</option>
+      <option value="Waterproofing"  data-i18n="contactForm.product_option_waterproofing">Waterproofing</option>
+      <option value="Terminal Aspal" data-i18n="contactForm.product_option_terminalAspal">Terminal Aspal</option>
+      <option value="Membran Aspal"  data-i18n="contactForm.product_option_membranAspal">Membran Aspal</option>
+      <option value="Chutback"       data-i18n="contactForm.product_option_chutback">Chutback</option>
+      <option value="Aspal Plug"     data-i18n="contactForm.product_option_aspalPlug">Aspal Plug</option>
+      <option value="Lainnya"        data-i18n="contactForm.product_option_lainnya">Lainnya</option>
+    </select>
+  </div>
+
+  <div class="mc-field-group">
+    <label for="mce-MMERGE7" data-i18n="contactForm.message_label">
+      Pesan <span class="asterisk">*</span>
+    </label>
+    <input type="text" name="MMERGE7" id="mce-MMERGE7"
+           class="required" required
+           placeholder="" data-i18n-placeholder="contactForm.message_label">
+  </div>
+
+  <!-- Anti-bot hidden field -->
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+    <input type="text" name="b_5b775ac41b7df301086f3392b_fdbc40c6f3"
+           tabindex="-1" value="">
+  </div>
+
+  <div class="clear">
+    <input type="submit" name="subscribe" id="mc-embedded-subscribe"
+           class="button"
+           data-i18n="contactForm.submit" value="Kirim">
+  </div>
+
+</form>
+
+  </div>
+
+  <script src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+  <script>
+    (function($) {
+      window.fnames = new Array();
+      window.ftypes = new Array();
+      fnames[0] = 'EMAIL'; ftypes[0] = 'email';
+      fnames[1] = 'FNAME'; ftypes[1] = 'text';
+      fnames[6] = 'COMPANY'; ftypes[6] = 'text';
+      fnames[7] = 'MMERGE7'; ftypes[7] = 'text';
+      fnames[8] = 'MMERGE8'; ftypes[8] = 'dropdown';
+    })(jQuery);
+    var $mcj = jQuery.noConflict(true);
+  </script>
+
+  
+  <!-- Floating WhatsApp Button -->
+  <div class="whatsapp-button" style="position: fixed; bottom: 20px; right: 20px; z-index: 999;">
+    <img
+      id="wa-icon"
+      src="img/wa.png"
+      alt="Chat via WhatsApp"
+      class="wa-icon"
+      loading="lazy"
+      decoding="async"
+      style="width: 90px; height: auto; cursor: pointer;"
+    />
+  </div>
+
+  <!-- WhatsApp Form Modal -->
+  <div
+    id="waFormModal"
+    style="display: none; position: fixed; bottom: 100px; right: 20px;
+          width: 300px; background: white; border: 1px solid #ccc;
+          border-radius: 10px; padding: 20px; z-index: 1000;
+          box-shadow: 0 0 10px rgba(0,0,0,0.3);"
+  >
+    <h5 data-i18n="wa.form_title">Form Kontak WA</h5>
+    <input
+      id="nama"
+      class="form-control mb-2"
+      placeholder=""
+      data-i18n-placeholder="wa.nama"
+      required
+    />
+    <input
+      id="asalpt"
+      class="form-control mb-2"
+      placeholder=""
+      data-i18n-placeholder="wa.asalpt"
+      required
+    />
+    <input
+      id="email"
+      type="email"
+      class="form-control mb-2"
+      placeholder=""
+      data-i18n-placeholder="wa.email"
+      required
+    />
+    <textarea
+      id="tujuan"
+      class="form-control mb-2"
+      rows="2"
+      placeholder=""
+      data-i18n-placeholder="wa.tujuan"
+      required
+    ></textarea>
+    <button
+      onclick="kirimWA()"
+      class="btn btn-success w-100"
+      data-i18n="wa.send_button"
+    >Kirim ke WhatsApp</button>
+  </div>
+
+  <!--==========wa===================-->
+<!-- Footer -->
+  <footer class="py-4 text-white" style="background-color: #5a6780;">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <div>
+        <img alt="Logo" height="40" src="img/logo.png"/>
+        <p class="fw-bold mt-2" data-i18n="footer.company_name">PT Aspal Polimer Emulsindo</p>
+        <p data-i18n="footer.description">Merupakan produsen aspal emulsi dan aspal modifikasi sejak tahun 2017 di Indonesia.</p>
+        <p class="fw-bold mt-3 mb-1" data-i18n="footer.follow_us">Follow Us</p>
+        <a class="me-3 fs-5 text-warning" href="https://www.facebook.com/AspalPolimerEmulsindo/" target="_blank" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a class="fs-5 text-warning" href="https://www.linkedin.com/company/pt-aspal-polimer-emulsindo/" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div>
+        <p class="fw-bold" data-i18n="footer.contact_heading">PT. Aspal Polimer Emulsindo</p>
+        <p>
+          <span data-i18n="footer.address1">Jalan Raya Demak-Kudus KM 2.2, Kampung Sekaran</span><br/>
+          <span data-i18n="footer.address2">Desa Mranak, Kecamatan Wonosalam</span><br/>
+          <span data-i18n="footer.address3">Kabupaten Demak – Provinsi Jawa Tengah.</span><br/>
+          <span data-i18n="footer.phone_label">Phone:</span> <a class="text-dark text-decoration-underline" href="tel:+622916913767">+62 291-6913767</a><br/>
+          <span data-i18n="footer.email_label">Email:</span> <a class="text-dark text-decoration-underline" href="mailto:contact@ape-bitumen.co.id">contact@ape-bitumen.co.id</a>
+        </p>
+      </div>
+      <div>
+        <img alt="Pabrik" class="img-fluid" src="img/img3.png" style="max-width: 200px;" loading="lazy" decoding="async"/>
+      </div>
+    </div>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/i18n.js"></script>
+ </body>
+</html>

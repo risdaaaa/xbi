@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Preconnect & Preload -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="preload" as="script" href="js/main.js" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/a.jpeg"/>
+
+  <!-- CSS (hanya satu versi Bootstrap & style Anda) -->
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
+
+  <!-- Icon Fonts -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet"/>
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet"/>
+
+  <!-- Carousel & Lightbox -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"/>
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet"/>
+
+  <!-- assets/js/vendor/aos.css -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<!-- assets/js/vendor/vanilla-tilt.min.js -->
+<script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+<!-- assets/js/vendor/aos.js -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+
+  <!-- Inline styles khusus -->
+  <style>
+    .banner-image {
+      background-image: url('img/img1.webp');
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-6" href="#">
+        <img alt="Logo" class="me-2" height="30" src="img/xolabit.png"/>
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mx-auto"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="index.html"
+              data-i18n="nav.home"
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="about.html"
+              data-i18n="nav.about"
+            ></a>
+          </li>
+          <!-- PRODUCT DROPDOWN -->
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle text-white"
+            href="product.html"
+            id="productDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            data-i18n="nav.product"
+          >
+            Produk
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="productDropdown">
+            <li><a class="dropdown-item" href="produk/aspalemulsi.html" data-i18n="prod.aspalEmulsi">Aspal Emulsi</a></li>
+            <li><a class="dropdown-item" href="produk/aspalpolimer.html" data-i18n="prod.aspalPolimer">Aspal Polimer</a></li>
+            <li><a class="dropdown-item" href="produk/bitumenmembrane.html" data-i18n="prod.bitumenMembrane">Bitumen Membrane</a></li>
+            <li><a class="dropdown-item" href="produk/bitumenpaint.html" data-i18n="prod.bitumenPaint">Bitumen Paint</a></li>
+            <li><a class="dropdown-item" href="produk/coldmix.html" data-i18n="prod.coldmix">Coldmix</a></li>
+            <li><a class="dropdown-item" href="produk/cutback.html" data-i18n="prod.cutback">Cutback</a></li>
+            <li><a class="dropdown-item" href="produk/jointsealant.html" data-i18n="prod.jointSealant">Joint Sealant</a></li>
+            <li><a class="dropdown-item" href="produk/waterprofing.html" data-i18n="prod.waterproofing">Waterproofing</a></li>
+            <li><a class="dropdown-item" href="produk/xolabittcm.html" data-i18n="prod.xolabitTCM">Xolabit TCM</a></li>
+          </ul>
+        </li>
+        <!-- END PRODUCT DROPDOWN -->
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="applications.html"
+              data-i18n="nav.applications"
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="contact.html"
+              data-i18n="nav.contact"
+            ></a>
+          </li>
+
+          <!-- Navbar Language Switcher -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle d-flex align-items-center"
+              href="#"
+              id="languageDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                id="current-flag"
+                src="img/flag-id.png"
+                alt="current lang"
+                width="24"
+                class="me-1"
+              />
+            </a>
+            <ul
+              class="dropdown-menu bg-transparent dropdown-menu-end"
+              aria-labelledby="languageDropdown"
+            >
+              <!-- Bahasa Indonesia -->
+              <li>
+                <a
+                  class="dropdown-item text-center"
+                  href="#"
+                  data-lang="id"
+                >
+                  <img
+                    src="img/flag-id.png"
+                    alt="Indonesia"
+                    width="32"
+                  />
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider m-0"/>
+              </li>
+              <!-- Bahasa English -->
+              <li>
+                <a
+                  class="dropdown-item text-center"
+                  href="#"
+                  data-lang="en"
+                >
+                  <img
+                    src="img/flag-en.jpeg"
+                    alt="English"
+                    width="32"
+                  />
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Banner Image -->
+<header class="hero-banner position-relative w-100 vh-100 d-flex align-items-center text-white">
+  <!-- Gambar Latar Responsif -->
+  <picture class="position-absolute top-0 start-0 w-100 h-100">
+    <source media="(min-width: 576px)" srcset="img/img1.png">
+    <img
+      src="img/img1.png"
+      class="w-100 h-100 object-fit-cover"
+      alt="Truk pengantar aspal di area pabrik XOLABIT"
+      data-i18n="bannerproduct.alt">
+  </picture>
+
+  <!-- Overlay Gradient -->
+  <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
+
+  <!-- Konten Teks -->
+  <div class="container position-relative text-start">
+    <h1
+      class="display-4 fw-bold banner-text-animate banner-text-delay-1"
+      data-i18n="bannerproduct.title">
+      Solusi Aspal Berkinerja Tinggi
+    </h1>
+    <p
+      class="lead mb-4 banner-text-animate banner-text-delay-2"
+      data-i18n="bannerproduct.desc">
+      Grup kami memodifikasi aspal menjadi polimer &amp; emulsi berkualitas, plus layanan chipseal, slurryseal, dan pengiriman tangki curah.
+    </p>
+  </div>
+</header>
+
+  <!-- Application Page Section -->
+  <section id="layanan" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="fw-bold text-warning mb-2" data-i18n="applications.services.title"></h2>
+
+      <p class="mt-4 text-dark" data-i18n="applications.services.description"></p>
+
+      <!-- Gambar Diagram CHIPSEAL-SLURRYSEAL -->
+      <div class="mt-5">
+        <img src="img/img17.png"
+             alt="Chipseal dan Slurryseal"
+             class="img-fluid"
+             style="max-width: 400px;">
+      </div>
+    </div>
+  </section>
+
+  <!-- CHIPSEAL Section -->
+  <section id="chipseal" class="py-5" style="background-color: #ffffff;">
+    <div class="container">
+      <div class="row">
+        <!-- Deskripsi -->
+        <div class="col-md-7">
+          <h3 class="fw-bold" style="color: #1d3557;" data-i18n="applications.chipseal.title"></h3>
+          <p data-i18n="applications.chipseal.description"></p>
+
+          <p class="fw-bold"><span data-i18n="applications.chipseal.types_label"></span></p>
+          <div class="d-grid gap-2 mb-3">
+            <div class="btn btn-light border text-start" data-i18n="applications.chipseal.types.0"></div>
+            <div class="btn btn-light border text-start" data-i18n="applications.chipseal.types.1"></div>
+            <div class="btn btn-light border text-start" data-i18n="applications.chipseal.types.2"></div>
+            <div class="btn btn-light border text-start" data-i18n="applications.chipseal.types.3"></div>
+            <div class="btn btn-light border text-start" data-i18n="applications.chipseal.types.4"></div>
+          </div>
+
+          <p class="fw-bold" data-i18n="applications.chipseal.typical_sizes"></p>
+          <p class="fw-bold"><span data-i18n="applications.chipseal.ratio"></span></p>
+
+          <p class="fw-bold"><span data-i18n="applications.chipseal.adhesive_label"></span></p>
+          <div class="btn btn-light border mb-2" data-i18n="applications.chipseal.adhesives.0"></div>
+          <div class="btn btn-light border mb-2" data-i18n="applications.chipseal.adhesives.1"></div>
+
+          <p class="fw-bold mt-3"><span data-i18n="applications.chipseal.binder_label"></span></p>
+          <div class="btn btn-light border" data-i18n="applications.chipseal.binders.0"></div>
+        </div>
+
+        <!-- Gambar & Keunggulan -->
+        <div class="col-md-5">
+          <div class="text-white p-3 rounded shadow-sm" style="background-color: #1d3557;">
+            <img src="img/img19.png" class="img-fluid rounded mb-3" alt="Gambar Chipseal">
+            <h5 class="fw-bold text-center" data-i18n="applications.chipseal.advantages_title"></h5>
+            <ul class="mb-0">
+              <li data-i18n="applications.chipseal.advantages.0"></li>
+              <li data-i18n="applications.chipseal.advantages.1"></li>
+              <li data-i18n="applications.chipseal.advantages.2"></li>
+              <li data-i18n="applications.chipseal.advantages.3"></li>
+              <li data-i18n="applications.chipseal.advantages.4"></li>
+              <li data-i18n="applications.chipseal.advantages.5"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLURRYSEAL Section -->
+  <section id="slurryseal" class="py-5" style="background-color: #ffffff;">
+    <div class="container">
+      <div class="row">
+        <!-- Deskripsi -->
+        <div class="col-md-7">
+          <h3 class="fw-bold" style="color: #6c757d;" data-i18n="applications.slurryseal.title"></h3>
+          <p data-i18n="applications.slurryseal.description"></p>
+
+          <p class="fw-bold"><span data-i18n="applications.slurryseal.composition_label"></span></p>
+          <div class="d-grid gap-2 mb-3">
+            <div class="btn btn-light border text-start" data-i18n="applications.slurryseal.composition.0"></div>
+            <div class="btn btn-light border text-start" data-i18n="applications.slurryseal.composition.1"></div>
+            <div class="btn btn-light border text-start" data-i18n="applications.slurryseal.composition.2"></div>
+            <div class="btn btn-light border text-start" data-i18n="applications.slurryseal.composition.3"></div>
+            <div class="btn btn-light border text-start" data-i18n="applications.slurryseal.composition.4"></div>
+          </div>
+
+          <p class="fw-bold"><span data-i18n="applications.slurryseal.typical_sizes_label"></span></p>
+          <img src="img/img21.png"
+               class="img-fluid rounded shadow-sm mb-3"
+               alt=""
+               data-i18n-alt="applications.slurryseal.sizes_image_alt">
+
+        </div>
+
+        <!-- Gambar & Keunggulan -->
+        <div class="col-md-5">
+          <div class="text-white p-3 rounded shadow-sm" style="background-color: #6c757d;">
+            <img src="img/img20.png" class="img-fluid rounded mb-3" alt="Slurry 1">
+            <h5 class="fw-bold text-center" data-i18n="applications.slurryseal.advantages_title"></h5>
+            <ul class="mb-0">
+              <li data-i18n="applications.slurryseal.advantages.0"></li>
+              <li data-i18n="applications.slurryseal.advantages.1"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--==========wa===================-->
+  <div class="whatsapp-button" style="position: fixed; bottom: 20px; right: 20px; z-index: 999;">
+    <img
+      id="wa-icon"
+      src="img/wa.png"
+      alt="Chat via WhatsApp"
+      class="wa-icon"
+      loading="lazy"
+      decoding="async"
+      style="width: 90px; height: auto; cursor: pointer;"
+    />
+  </div>
+
+  <!-- WhatsApp Form Modal -->
+  <div
+    id="waFormModal"
+    style="display: none; position: fixed; bottom: 100px; right: 20px;
+          width: 300px; background: white; border: 1px solid #ccc;
+          border-radius: 10px; padding: 20px; z-index: 1000;
+          box-shadow: 0 0 10px rgba(0,0,0,0.3);"
+  >
+    <h5 data-i18n="wa.form_title">Form Kontak WA</h5>
+    <input
+      id="nama"
+      class="form-control mb-2"
+      placeholder=""
+      data-i18n-placeholder="wa.nama"
+      required
+    />
+    <input
+      id="asalpt"
+      class="form-control mb-2"
+      placeholder=""
+      data-i18n-placeholder="wa.asalpt"
+      required
+    />
+    <input
+      id="email"
+      type="email"
+      class="form-control mb-2"
+      placeholder=""
+      data-i18n-placeholder="wa.email"
+      required
+    />
+    <textarea
+      id="tujuan"
+      class="form-control mb-2"
+      rows="2"
+      placeholder=""
+      data-i18n-placeholder="wa.tujuan"
+      required
+    ></textarea>
+    <button
+      onclick="kirimWA()"
+      class="btn btn-success w-100"
+      data-i18n="wa.send_button"
+    >Kirim ke WhatsApp</button>
+  </div>
+
+<!-- Partial: Footer for XOLABIT Website -->
+<footer class="bg-light text-dark pt-5">
+  <div class="container">
+    <div class="row">
+      <!-- About Section -->
+      <div class="col-md-4 mb-4">
+        <img
+      src="img/xolabit.png"
+      alt="Logo Xolabit"
+      width="120"
+      class="img-fluid"
+      data-i18n-alt="footer.logo_alt"
+    />
+        <p data-i18n="footer.about_text">Solusi Aspal Berkinerja Tinggi</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-2 mb-4">
+        <h5 data-i18n="footer.links_title">Tautan</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" data-i18n="footer.home">Beranda</a></li>
+          <li><a href="product.html" data-i18n="footer.product">Product</a></li>
+          <li><a href="applications.html" data-i18n="footer.applications">Aplikasi</a></li>
+          <li><a href="contact.html" data-i18n="footer.contact">Kontak</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-3 mb-4">
+        <h5 data-i18n="footer.contact_title">Kontak</h5>
+        <ul class="list-unstyled">
+          <li>
+            <i class="bi bi-geo-alt-fill me-2"></i>
+            <span data-i18n="footer.address">Jl. TB Simatupang Raya Kav. IS No. 01, RT02/RW17 Pd. Pinang Kecamatan Kebayoran Lama Jakarta Selatan dki jakarta</span>
+          </li>
+          <li>
+            <i class="bi bi-telephone-fill me-2"></i>
+            <a href="tel:+6281225189212" data-i18n="footer.phone">+62 812-3456-789</a>
+          </li>
+          <li>
+            <i class="bi bi-envelope-fill me-2"></i>
+            <a href="mailto:xolabitb@gmail.com">info@xolabit.com</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Newsletter & Social -->
+      <div class="col-md-3 mb-4">
+        <h5 data-i18n="footer.newsletter_title">Ikuti Kami</h5>
+        <div class="mt-3">
+          <a href="https://www.facebook.com/AspalPolimerEmulsindo" class="me-3"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.youtube.com/@APEGroupPTAPEPTMBSPTABI" class="me-3"><i class="bi bi-youtube"></i></a>
+          <a href="https://www.linkedin.com/company/pt-aspal-polimer-emulsindo"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Copyright -->
+    <div class="text-center py-3">
+      <small data-i18n="footer.copy">© 2025 Xolabit. Semua hak cipta.</small>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/i18n.js"></script>
+  <script>
+  // Init AOS
+  AOS.init();
+  // Init Vanilla Tilt
+  VanillaTilt.init(document.querySelectorAll(".tilt-card"), {
+    glare: true,
+    "max-glare": 0.2
+  });
+</script>
+
+ </body>
+</html>
