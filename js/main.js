@@ -1,125 +1,140 @@
-// main.js
-document.addEventListener("DOMContentLoaded", () => {
-  // — AOS Init (scroll animations)
-  if (window.AOS) {
-    AOS.init({ duration: 700, once: true, easing: "ease-in-out" });
-  }
+window.addEventListener('DOMContentLoaded', () => {
+  const navbarEl = document.querySelector('.navbar');
+  const progressBar = document.createElement('div');
+  progressBar.id = 'scroll-progress';
+  document.body.prepend(progressBar);
 
-  // — Helper: IntersectionObserver untuk fade-in .reveal
-  const revealEls = document.querySelectorAll(".reveal");
-  if (revealEls.length) {
-    const io = new IntersectionObserver((entries, obs) => {
-      entries.forEach((e) => {
-        if (e.isIntersecting) {
-          e.target.classList.add("active");
-          obs.unobserve(e.target);
+  const waIcon  = document.getElementById('wa-icon');
+  const waModal = document.getElementById('waFormModal');
+  const waClose = document.querySelector('.wa-close');
+  const waSend  = document.getElementById('wa-send-btn');
+  const yearEl  = document.getElementById('current-year');
+  const backBtn = document.getElementById('back-to-top');
+  const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+  const heroEls  = document.querySelectorAll('.hero-content h1, .hero-content p, .hero-content .btn');
+  const scrollDown = document.querySelector('.scroll-down');
+  const jelajahBtn = document.querySelector('.hero-content .btn');
+  const bannerImg = document.querySelector('#about-banner img');
+
+  // — SCROLL HANDLER (throttled via requestAnimationFrame)
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(() => {
+      const scrollY   = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const pct       = docHeight > 0 ? (scrollY / docHeight) * 100 : 0;
+
+      // Navbar background toggle
+      if (navbarEl) {
+        navbarEl.classList.toggle('navbar-scrolled', scrollY > 0);
+      }
+
+      // Progress bar
+      progressBar.style.width = `${pct}%`;
+
+      // Parallax banner
+      if (bannerImg) {
+        bannerImg.style.transform = `translateY(${scrollY * 0.2}px)`;
+      }
+
+      // Back-to-top visibility
+      if (backBtn) {
+        if (scrollY > 200) {
+          backBtn.style.display = 'block';
+          backBtn.style.opacity = '1';
+        } else {
+          backBtn.style.opacity = '0';
+          backBtn.style.display = 'none';
         }
-      });
-    }, { threshold: 0.2 });
-    revealEls.forEach((el) => io.observe(el));
+      }
+
+      ticking = false;
+    }, { passive: true });
+  }, { passive: true });
+
+  // — NAV-LINK ACTIVE STATE
+  const path = window.location.pathname;
+  navLinks.forEach(link => {
+    const href = link.getAttribute('href');
+    if (
+      (href !== 'index.html' && path.endsWith(href)) ||
+      (href === 'index.html' && (path === '/' || path.endsWith('/index.html')))
+    ) {
+      link.classList.add('active', 'fw-bold');
+    }
+  });
+
+  // — HERO TEXT REVEAL
+  heroEls.forEach((el, i) => {
+    el.style.opacity   = 0;
+    el.style.transform = 'translateY(20px)';
+    setTimeout(() => {
+      el.style.transition = 'opacity .6s ease, transform .6s ease';
+      el.style.opacity    = 1;
+      el.style.transform  = 'translateY(0)';
+    }, 300 + i * 200);
+  });
+
+  // — SMOOTH SCROLL HELPERS
+  function smoothScrollTo(selector) {
+    const tgt = document.querySelector(selector);
+    tgt && tgt.scrollIntoView({ behavior: 'smooth' });
   }
+  if (jelajahBtn) jelajahBtn.addEventListener('click', e => {
+    e.preventDefault();
+    smoothScrollTo('#produk, #produk-unggulan');
+  });
+  if (scrollDown) scrollDown.addEventListener('click', () => {
+    smoothScrollTo('#produk, #produk-unggulan');
+  });
 
-  // — PRODUCT FILTER & ANIMATE-IN
-  const filterSelect = document.getElementById("product-filter");
-  const grid = document.getElementById("product-grid");
-  const cards = document.querySelectorAll(".product-card");
-  if (filterSelect && grid && cards.length) {
-    // on-scroll reveal fallback
-    const scrollObserver = new IntersectionObserver((ents, obs) => {
-      ents.forEach((e) => {
-        if (e.isIntersecting) {
-          e.target.style.opacity = "1";
-          obs.unobserve(e.target);
-        }
-      });
-    }, { threshold: 0.2 });
-    cards.forEach((c) => scrollObserver.observe(c));
-
-    // filter function with fade-out/in & stagger
-    const applyFilter = (cat) => {
-      grid.classList.add("hide");
-      setTimeout(() => {
-        cards.forEach((card, i) => {
-          const show = cat === "all" || card.dataset.category === cat;
-          card.style.display = show ? "" : "none";
-          if (show) card.style.setProperty("--delay", `${i * 0.05}s`);
-        });
-        grid.classList.remove("hide");
-      }, 300);
+  // — WHATSAPP FORM MODAL
+  if (waIcon && waModal && waClose && waSend) {
+    const openWa = () => {
+      waModal.style.display = 'block';
+      waModal.setAttribute('aria-hidden', 'false');
+    };
+    const closeWa = () => {
+      waModal.style.display = 'none';
+      waModal.setAttribute('aria-hidden', 'true');
     };
 
-    filterSelect.addEventListener("change", () => {
-      filterSelect.classList.add("active");
-      applyFilter(filterSelect.value);
-      grid.scrollIntoView({ behavior: "smooth", block: "start" });
+    waIcon.addEventListener('click', openWa);
+    waClose.addEventListener('click', closeWa);
+    document.addEventListener('click', e => {
+      if (waModal.style.display === 'block' && !waModal.contains(e.target) && e.target !== waIcon) {
+        closeWa();
+      }
     });
-    filterSelect.addEventListener("keydown", (e) => {
-      if (e.key === "Enter") e.target.focus();
-    });
-  }
-
-  // — NAVBAR SCROLL & PROGRESS BAR
-  const navbar = document.querySelector(".navbar");
-  if (navbar) {
-    // insert progress bar element
-    const progress = document.createElement("div");
-    progress.id = "scroll-progress";
-    document.body.prepend(progress);
-
-    window.addEventListener("scroll", () => {
-      const y = window.scrollY;
-      // toggle background on any scroll
-      navbar.classList.toggle("navbar-scrolled", y > 0);
-      // update progress width
-      const docH = document.documentElement.scrollHeight - window.innerHeight;
-      const pct = docH > 0 ? (y / docH) * 100 : 0;
-      progress.style.width = `${pct}%`;
+    waSend.addEventListener('click', () => {
+      const nama   = document.getElementById('nama')?.value.trim();
+      const asalpt = document.getElementById('asalpt')?.value.trim();
+      const email  = document.getElementById('email')?.value.trim();
+      const tujuan = document.getElementById('tujuan')?.value.trim();
+      if (!nama || !asalpt || !email || !tujuan) {
+        alert('Lengkapi semua field!');
+        return;
+      }
+      const msg = encodeURIComponent(`Halo, saya *${nama}* dari *${asalpt}*.\nEmail: ${email}\nTujuan: ${tujuan}`);
+      window.open(`https://wa.me/6281313089239?text=${msg}`, '_blank');
     });
   }
 
-  // — ACTIVE NAV-LINK HIGHLIGHT
-  const page = window.location.pathname.split("/").pop();
-  document.querySelectorAll(".navbar-nav .nav-link").forEach((a) => {
-    const href = a.getAttribute("href");
-    if (href === page) {
-      a.classList.add("active", "fw-bold");
-    }
-  });
+  // — FOOTER: Dynamic Year & Tooltips
+  if (yearEl) {
+    yearEl.textContent = new Date().getFullYear();
+  }
+  if (window.bootstrap) {
+    document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      .forEach(el => new bootstrap.Tooltip(el));
+  }
 
-  // — WhatsApp form send
-  const kirimWA = () => {
-    const get = (id) => document.getElementById(id)?.value.trim();
-    const [nama, asalPt, email, tujuan] = ["nama","asalpt","email","tujuan"].map(get);
-    if (!nama || !asalPt || !email || !tujuan) {
-      return alert("Semua kolom wajib diisi.");
-    }
-    const pesan = encodeURIComponent(
-      `Halo, saya ${nama} dari ${asalPt}.\nEmail: ${email}\nTujuan: ${tujuan}`
-    );
-    window.open(`https://wa.me/6281310463069?text=${pesan}`, "_blank");
-  };
-  window.kirimWA = kirimWA;  // expose globally if dipanggil via onclick
-
-  // — Mailchimp redirect
-  const mcForm = document.getElementById("mc-embedded-subscribe-form");
-  if (mcForm) {
-    mcForm.addEventListener("submit", () => {
-      setTimeout(() => {
-        window.location.href = "thankyou.html";
-      }, 2000);
+  // — BACK-TO-TOP CLICK
+  if (backBtn) {
+    backBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     });
   }
-});
-// toggle teaser text icon
-document.querySelectorAll('[data-bs-toggle="collapse"]').forEach(btn => {
-  btn.addEventListener('click', e => {
-    const icon = e.currentTarget.querySelector('.bi');
-    const target = document.querySelector(e.currentTarget.dataset.bsTarget);
-    setTimeout(() => {
-      e.currentTarget.setAttribute(
-        'aria-expanded',
-        target.classList.contains('show')
-      );
-    }, 200);
-  });
 });

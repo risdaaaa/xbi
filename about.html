@@ -34,22 +34,20 @@
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<!-- Ganti <script src="js/vanilla-tilt.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+/>
 
-
-  <!-- Inline styles khusus -->
-  <style>
-    .banner-image {
-      background-image: url('img/img1.webp');
-      background-size: cover;
-    }
-  </style>
 </head>
 <body>
   <!-- Navbar -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
     <div class="container">
       <a class="navbar-brand fw-bold fs-6" href="#">
-        <img alt="Logo" class="me-2" height="30" src="img/xolabit.png"/>
+        <img alt="Logo" class="me-2" height="30" src="img/xbi.png"/>
       </a>
 
       <button
@@ -95,15 +93,9 @@
             Produk
           </a>
           <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="productDropdown">
-            <li><a class="dropdown-item" href="produk/aspalemulsi.html" data-i18n="prod.aspalEmulsi">Aspal Emulsi</a></li>
-            <li><a class="dropdown-item" href="produk/aspalpolimer.html" data-i18n="prod.aspalPolimer">Aspal Polimer</a></li>
             <li><a class="dropdown-item" href="produk/bitumenmembrane.html" data-i18n="prod.bitumenMembrane">Bitumen Membrane</a></li>
             <li><a class="dropdown-item" href="produk/bitumenpaint.html" data-i18n="prod.bitumenPaint">Bitumen Paint</a></li>
-            <li><a class="dropdown-item" href="produk/coldmix.html" data-i18n="prod.coldmix">Coldmix</a></li>
-            <li><a class="dropdown-item" href="produk/cutback.html" data-i18n="prod.cutback">Cutback</a></li>
-            <li><a class="dropdown-item" href="produk/jointsealant.html" data-i18n="prod.jointSealant">Joint Sealant</a></li>
             <li><a class="dropdown-item" href="produk/waterprofing.html" data-i18n="prod.waterproofing">Waterproofing</a></li>
-            <li><a class="dropdown-item" href="produk/xolabittcm.html" data-i18n="prod.xolabitTCM">Xolabit TCM</a></li>
           </ul>
         </li>
         <!-- END PRODUCT DROPDOWN -->
@@ -181,342 +173,266 @@
       </div>
     </div>
   </nav>
-  
-  <!-- Banner Image -->
-<header class="hero-banner position-relative w-100 vh-100 d-flex align-items-center text-white">
-  <!-- Gambar Latar Responsif -->
-  <picture class="position-absolute top-0 start-0 w-100 h-100">
-    <source media="(min-width: 576px)" srcset="img/img1.png">
-    <img
-      src="img/img1.png"
-      class="w-100 h-100 object-fit-cover"
-      alt="Truk pengantar aspal di area pabrik XOLABIT"
-      data-i18n="bannerproduct.alt">
-  </picture>
 
-  <!-- Overlay Gradient -->
-  <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
-
-  <!-- Konten Teks -->
-  <div class="container position-relative text-start">
-    <h1
-      class="display-4 fw-bold banner-text-animate banner-text-delay-1"
-      data-i18n="bannerproduct.title">
-      Solusi Aspal Berkinerja Tinggi
-    </h1>
-    <p
-      class="lead mb-4 banner-text-animate banner-text-delay-2"
-      data-i18n="bannerproduct.desc">
-      Grup kami memodifikasi aspal menjadi polimer &amp; emulsi berkualitas, plus layanan chipseal, slurryseal, dan pengiriman tangki curah.
-    </p>
-  </div>
-</header>
-
-
-<!-- ----------------------------------------
-  Section: Visi & Misi (Modern)
----------------------------------------- -->
-<section id="vision-mission" class="py-5 position-relative overflow-hidden">
-  <!-- Bentuk dekoratif di background -->
-  <div class="decor-circle position-absolute bg-warning rounded-circle"></div>
-
-  <div class="container position-relative">
-    <!-- Section Heading -->
-    <div class="text-center mb-5">
-      <i class="bi bi-lightbulb-fill display-4 text-warning mb-2"></i>
-      <h2 class="fw-bold" data-i18n="visionmission.title">Visi &amp; Misi</h2>
-      <p class="text-muted fs-5" data-i18n="visionmission.subtitle">
-        Membangun Infrastruktur Jalan Berkualitas dengan Inovasi dan Keunggulan
-      </p>
-    </div>
-
-    <!-- Cards Row -->
-    <div class="row g-4">
-      <!-- Visi Card -->
-      <div class="col-lg-6">
-        <div class="card vision-card h-100 border-0 rounded-3 shadow-sm p-4">
-          <h3 class="card-title fw-bold mb-3" data-i18n="visionmission.visi.title">Visi</h3>
-          <p class="card-text fs-6" data-i18n="visionmission.visi.text">
-            Menjadi perusahaan aspal terdepan di Indonesia yang mandiri, berdaya saing global,
-            dan mendukung pembangunan infrastruktur nasional yang berkelanjutan.
+   <!-- ================================
+         Banner Interaktif Halaman About
+    ================================= -->
+    <section id="about-banner" class="position-relative overflow-hidden">
+      <picture>
+        <source media="(min-width: 768px)" srcset="img/img22.png">
+        <img src="img/img22.png"
+             class="img-fluid w-100"
+             alt="Banner Halaman Tentang Kami"
+             data-i18n="about.banner.alt">
+      </picture>
+      <div class="banner-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center text-center">
+        <div class="container text-white px-4">
+          <h1 class="display-4 fw-bold mb-3" data-i18n="about.banner.title">
+            Tentang Kami
+          </h1>
+          <p class="lead mb-4" data-i18n="about.banner.subtitle">
+            Xolabit Bitumen Industri: Solusi Tahan Air Terpercaya
           </p>
+          <a href="#history"
+             class="btn btn-primary btn-lg"
+             data-i18n="about.banner.cta">
+            Pelajari Lebih Lanjut
+          </a>
+        </div>
+      </div>
+    </section>
+
+<section id="vision-mission" class="py-5 bg-light">
+  <div class="container">
+    <!-- Section Heading -->
+    <header class="text-center mb-5">
+      <h1 class="fw-bold" data-i18n="visionMission.title">Visi & Misi</h1>
+      <p class="text-muted" data-i18n="visionMission.subtitle">Mewujudkan kualitas dan keunggulan nasional</p>
+    </header>
+
+    <div class="row g-4">
+      <!-- Vision Card -->
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body text-center">
+            <img src="img/img18.png" class="mb-3" alt="Ikon Visi" width="60" />
+            <h2 class="h5 mb-3" data-i18n="vision.heading">Visi</h2>
+            <p class="text-muted" data-i18n="vision.text">
+              Menjadi Perusahaan yang sehat, mandiri berdaya saing Nasional dengan menyediakan produk aspal berkualitas dalam mendukung pembangunan infrastruktur di Indonesia
+            </p>
+          </div>
         </div>
       </div>
 
-      <!-- Misi Card -->
-      <div class="col-lg-6">
-        <div class="card mission-card h-100 border-0 rounded-3 shadow-sm p-4">
-          <h3 class="card-title fw-bold mb-3" data-i18n="visionmission.misi.title">Misi</h3>
-          <ul class="list-unstyled fs-6">
-            <li class="d-flex align-items-start mb-3">
-              <img src="img/img18.png" alt="Ikon centang" class="me-2 icon-sm">
-              <span data-i18n="visionmission.misi.point1">
-                Menyediakan produk aspal polimer &amp; emulsi berkualitas sesuai spesifikasi.
-              </span>
-            </li>
-            <li class="d-flex align-items-start mb-3">
-              <img src="img/img18.png" alt="Ikon centang" class="me-2 icon-sm">
-              <span data-i18n="visionmission.misi.point2">
-                Memberikan layanan chipseal, slurryseal, dan distribusi tangki curah tepat waktu.
-              </span>
-            </li>
-            <li class="d-flex align-items-start">
-              <img src="img/img18.png" alt="Ikon centang" class="me-2 icon-sm">
-              <span data-i18n="visionmission.misi.point3">
-                Mengutamakan kepuasan pelanggan melalui kualitas, inovasi, dan keberlanjutan.
-              </span>
-            </li>
-          </ul>
+      <!-- Mission Card -->
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body text-center">
+            <img src="img/img18.png" class="mb-3" alt="Ikon Misi" width="60" />
+            <h2 class="h5 mb-3" data-i18n="mission.heading">Misi</h2>
+            <ul class="list-unstyled text-start">
+              <li class="mb-2 d-flex"><i class="bi bi-check-circle text-primary me-2"></i>
+                <span data-i18n="mission.point1">Memberikan solusi kepada pelanggan untuk memenuhi kebutuhannya akan aspal berkualitas sesuai spesifikasi yang dibutuhkan.</span>
+              </li>
+              <li class="mb-2 d-flex"><i class="bi bi-check-circle text-primary me-2"></i>
+                <span data-i18n="mission.point2">Menjadikan kepuasan pelanggan sebagai bagian dari tujuan akhir setiap produk yang dihasilkan dengan mengutamakan kualitas dan ketepatan waktu.</span>
+              </li>
+              <li class="d-flex"><i class="bi bi-check-circle text-primary me-2"></i>
+                <span data-i18n="mission.point3">Fokus mendukung terwujudnya infrastruktur jalan yang berkualitas dan handal.</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ----------------------------------------
-  Section: Struktur Grup 
----------------------------------------- -->
-<section id="org-structure" class="py-5 bg-white">
-  <div class="container position-relative">
+<section id="group-company" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold" data-i18n="group.title">Grup Perusahaan</h2>
+      <p class="text-muted" data-i18n="group.subtitle">Bagian dari PT. Xolare RCR Energy</p>
+    </div>
 
-    <!-- Baris Parent + Penjelasan -->
-    <div class="row align-items-center mb-5">
-      <!-- Parent Node -->
-      <div 
-        class="col-md-6 mb-4 mb-md-0 tilt-card parent-node p-4 bg-white rounded-3 shadow-sm text-center text-md-start"
-        data-tilt data-tilt-max="10" data-aos="fade-right" data-aos-duration="800">
-        <img src="img/xolare.png" alt="Logo PT. Xolare RCR Energy" class="logo-lg mb-3">
-        <h4 class="fw-bold" data-i18n="org.parent.title">PT. Xolare RCR Energy</h4>
-        <a 
-          href="https://www.xolare.co.id/" 
-          class="btn btn-warning btn-sm mt-2" 
-          target="_blank" rel="noopener noreferrer"
-          data-i18n="org.parent.button">
-          Selengkapnya
-        </a>
-      </div>
-      <!-- Penjelasan Anak Perusahaan -->
-      <div 
-        class="col-md-6 tilt-card p-4 rounded-3 shadow-sm bg-light text-center text-md-start"
-        data-tilt data-tilt-max="5" data-aos="fade-left" data-aos-duration="800">
-        <h5 class="fw-semibold mb-3" data-i18n="org.subtitle">Anak Perusahaan XOLARE</h5>
-        <p class="mb-0" data-i18n="org.subtitle.text">
-          Kami memiliki beberapa entitas usaha yang berfokus pada produksi dan distribusi aspal
-          polimer, emulsi, serta layanan pengaspalan di berbagai wilayah Indonesia.
-        </p>
+    <!-- Induk -->
+    <div class="text-center mb-5">
+      <div class="card border-0 shadow-sm p-4 d-inline-block animate-scale">
+        <img src="img/xolare.png" alt="Logo Xolare" height="60" class="mb-3">
+        <h5 class="fw-semibold mb-1" data-i18n="group.parent">PT. Xolare RCR Energy</h5>
+        <a href="https://www.xolare.co.id/" class="btn btn-warning btn-sm mt-2" data-i18n="button.more">Selengkapnya</a>
       </div>
     </div>
 
-    <!-- Children Grid -->
-    <div class="children-grid">
-      <!-- PT. APE -->
-      <div 
-        class="chart-node tilt-card p-4 rounded-3 shadow-sm text-center"
-        data-tilt data-tilt-scale="1.02" 
-        data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-        <img src="img/ape.jpeg" alt="Logo PT. Aspal Polimer Emulsindo" class="logo-sm mb-2">
-        <h6 class="fw-bold" data-i18n="org.child.ape">PT. Aspal Polimer Emulsindo</h6>
-        <a 
-          href="https://ape-bitumen.co.id/" 
-          class="btn btn-outline-warning btn-sm mt-3" 
-          target="_blank" rel="noopener noreferrer"
-          data-i18n="org.child.button">
-          Selengkapnya
-        </a>
+    <!-- Anak Perusahaan -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4">
+      <!-- Card Template -->
+      <div class="col">
+        <div class="card h-100 text-center border-0 shadow-sm p-3 animate-scale">
+          <img src="img/ape - Copy.jpeg" class="mx-auto mb-2" alt="Logo APE" height="50">
+          <h6 class="fw-bold small" data-i18n="group.ape">PT. Aspal Polimer Emulsindo</h6>
+          <a href="https://ape-bitumen.co.id/" class="btn btn-warning btn-sm mt-2" data-i18n="button.more">Selengkapnya</a>
+        </div>
       </div>
 
-      <!-- PT. MBS -->
-      <div 
-        class="chart-node tilt-card p-4 rounded-3 shadow-sm text-center"
-        data-tilt data-tilt-scale="1.02" 
-        data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
-        <img src="img/mbs.jpeg" alt="Logo PT. Modifikasi Bitumen Sumatera" class="logo-sm mb-2">
-        <h6 class="fw-bold" data-i18n="org.child.mbs">PT. Modifikasi Bitumen Sumatera</h6>
-        <a 
-          href="https://modifikasibitumen.co.id/" 
-          class="btn btn-outline-warning btn-sm mt-3" 
-          target="_blank" rel="noopener noreferrer"
-          data-i18n="org.child.button">
-          Selengkapnya
-        </a>
+      <div class="col">
+        <div class="card h-100 text-center border-0 shadow-sm p-3 animate-scale">
+          <img src="img/mbs.jpeg" class="mx-auto mb-2" alt="Logo MBS" height="50">
+          <h6 class="fw-bold small" data-i18n="group.mbs">PT. Modifikasi Bitumen Sumatera</h6>
+          <a href="https://modifikasibitumen.co.id/" class="btn btn-warning btn-sm mt-2" data-i18n="button.more">Selengkapnya</a>
+        </div>
       </div>
 
-      <!-- PT. Xolabit Bitumen Borneo -->
-      <div 
-        class="chart-node tilt-card p-4 rounded-3 shadow-sm text-center"
-        data-tilt data-tilt-scale="1.02" 
-        data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
-        <img src="img/xbb.jpg" alt="Logo PT. Xolabit Bitumen Borneo" class="logo-sm mb-2">
-        <h6 class="fw-bold" data-i18n="org.child.borneo">PT. Xolabit Bitumen Borneo</h6>
-        <a 
-          href="https://www.xolabit.com/" 
-          class="btn btn-outline-warning btn-sm mt-3" 
-          target="_blank" rel="noopener noreferrer"
-          data-i18n="org.child.button">
-          Selengkapnya
-        </a>
+      <div class="col">
+        <div class="card h-100 text-center border-0 shadow-sm p-3 animate-scale">
+          <img src="img/xbb.jpg" class="mx-auto mb-2" alt="Logo Borneo" height="50">
+          <h6 class="fw-bold small" data-i18n="group.borneo">PT. Xolabit Bitumen Borneo</h6>
+          <a href="produk/borneo.html" class="btn btn-warning btn-sm mt-2" data-i18n="button.more">Selengkapnya</a>
+        </div>
       </div>
 
-      <!-- PT. Xolabit Bitumen Industri -->
-      <div 
-        class="chart-node tilt-card p-4 rounded-3 shadow-sm text-center"
-        data-tilt data-tilt-scale="1.02" 
-        data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
-        <img src="img/xbi.jpg" alt="Logo PT. Xolabit Bitumen Industri" class="logo-sm mb-2">
-        <h6 class="fw-bold" data-i18n="org.child.industri">PT. Xolabit Bitumen Industri</h6>
-        <a 
-          href="https://www.xolabit.com/" 
-          class="btn btn-outline-warning btn-sm mt-3" 
-          target="_blank" rel="noopener noreferrer"
-          data-i18n="org.child.button">
-          Selengkapnya
-        </a>
+      <div class="col">
+        <div class="card h-100 text-center border-0 shadow-sm p-3 animate-scale">
+          <img src="img/xbi.jpg" class="mx-auto mb-2" alt="Logo XBI" height="50">
+          <h6 class="fw-bold small" data-i18n="group.xbi">PT. Xolabit Bitumen Industri</h6>
+          <a href="produk/xbi.html" class="btn btn-warning btn-sm mt-2" data-i18n="button.more">Selengkapnya</a>
+        </div>
       </div>
 
-      <!-- PT. ABI -->
-      <div 
-        class="chart-node tilt-card p-4 rounded-3 shadow-sm text-center"
-        data-tilt data-tilt-scale="1.02" 
-        data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
-        <img src="img/abi.jpeg" alt="Logo PT. Aplikasi Bitumen Indonesia" class="logo-sm mb-2">
-        <h6 class="fw-bold" data-i18n="org.child.abi">PT. Aplikasi Bitumen Indonesia</h6>
-        <a 
-          href="https://aplikasibitumen.co.id/" 
-          class="btn btn-outline-warning btn-sm mt-3" 
-          target="_blank" rel="noopener noreferrer"
-          data-i18n="org.child.button">
-          Selengkapnya
-        </a>
+      <div class="col">
+        <div class="card h-100 text-center border-0 shadow-sm p-3 animate-scale">
+          <img src="img/abi.jpeg" class="mx-auto mb-2" alt="Logo ABI" height="50">
+          <h6 class="fw-bold small" data-i18n="group.abi">PT. Aplikasi Bitumen Indonesia</h6>
+          <a href="https://aplikasibitumen.co.id/" class="btn btn-warning btn-sm mt-2" data-i18n="button.more">Selengkapnya</a>
+        </div>
       </div>
     </div>
   </div>
 </section>
-  <!--==========wa===================-->
-  <div class="whatsapp-button" style="position: fixed; bottom: 20px; right: 20px; z-index: 999;">
+
+
+  <!-- WhatsApp Floating Button -->
+  <div class="whatsapp-button">
     <img
       id="wa-icon"
       src="img/wa.png"
       alt="Chat via WhatsApp"
-      class="wa-icon"
       loading="lazy"
       decoding="async"
-      style="width: 90px; height: auto; cursor: pointer;"
+      data-i18n-alt="wa.chat_alt"
     />
   </div>
 
   <!-- WhatsApp Form Modal -->
-  <div
-    id="waFormModal"
-    style="display: none; position: fixed; bottom: 100px; right: 20px;
-          width: 300px; background: white; border: 1px solid #ccc;
-          border-radius: 10px; padding: 20px; z-index: 1000;
-          box-shadow: 0 0 10px rgba(0,0,0,0.3);"
-  >
-    <h5 data-i18n="wa.form_title">Form Kontak WA</h5>
-    <input
-      id="nama"
-      class="form-control mb-2"
-      placeholder=""
-      data-i18n-placeholder="wa.nama"
-      required
-    />
-    <input
-      id="asalpt"
-      class="form-control mb-2"
-      placeholder=""
-      data-i18n-placeholder="wa.asalpt"
-      required
-    />
-    <input
-      id="email"
-      type="email"
-      class="form-control mb-2"
-      placeholder=""
-      data-i18n-placeholder="wa.email"
-      required
-    />
-    <textarea
-      id="tujuan"
-      class="form-control mb-2"
-      rows="2"
-      placeholder=""
-      data-i18n-placeholder="wa.tujuan"
-      required
-    ></textarea>
-    <button
-      onclick="kirimWA()"
-      class="btn btn-success w-100"
-      data-i18n="wa.send_button"
-    >Kirim ke WhatsApp</button>
+  <div id="waFormModal" class="wa-modal" aria-hidden="true">
+    <div class="wa-modal-content">
+      <button class="wa-close" aria-label="Close">&times;</button>
+      <h5 data-i18n="wa.form_title">Form Kontak WA</h5>
+      <input
+        id="nama"
+        class="form-control mb-2"
+        placeholder=""
+        data-i18n-placeholder="wa.nama"
+        required
+      />
+      <input
+        id="asalpt"
+        class="form-control mb-2"
+        placeholder=""
+        data-i18n-placeholder="wa.asalpt"
+        required
+      />
+      <input
+        id="email"
+        type="email"
+        class="form-control mb-2"
+        placeholder=""
+        data-i18n-placeholder="wa.email"
+        required
+      />
+      <textarea
+        id="tujuan"
+        class="form-control mb-2"
+        rows="2"
+        placeholder=""
+        data-i18n-placeholder="wa.tujuan"
+        required
+      ></textarea>
+      <button id="wa-send-btn" class="btn btn-success w-100" data-i18n="wa.send_button">
+        Kirim ke WhatsApp
+      </button>
+    </div>
   </div>
 
-<!-- Partial: Footer for XOLABIT Website -->
-<footer class="bg-light text-dark pt-5">
+<footer class="bg-light text-dark pt-5 position-relative">
   <div class="container">
-    <div class="row">
-      <!-- About Section -->
-      <div class="col-md-4 mb-4">
-        <img
-      src="img/xolabit.png"
-      alt="Logo Xolabit"
-      width="120"
-      class="img-fluid"
-      data-i18n-alt="footer.logo_alt"
-    />
+    <div class="row gy-4">
+      <!-- About -->
+      <div class="col-md-4">
+        <img src="img/xolabit.png" alt="Logo Xolabit" width="140" class="mb-2 img-fluid" data-i18n-alt="footer.logo_alt" />
         <p data-i18n="footer.about_text">Solusi Aspal Berkinerja Tinggi</p>
       </div>
 
       <!-- Quick Links -->
-      <div class="col-md-2 mb-4">
+      <div class="col-md-2">
         <h5 data-i18n="footer.links_title">Tautan</h5>
         <ul class="list-unstyled">
-          <li><a href="index.html" data-i18n="footer.home">Beranda</a></li>
-          <li><a href="product.html" data-i18n="footer.product">Product</a></li>
-          <li><a href="applications.html" data-i18n="footer.applications">Aplikasi</a></li>
-          <li><a href="contact.html" data-i18n="footer.contact">Kontak</a></li>
+          <li><a href="index.html" class="footer-link">Beranda</a></li>
+          <li><a href="about.html" class="footer-link">Tentang</a></li>
+          <li><a href="applications.html" class="footer-link">Aplikasi</a></li>
+          <li><a href="contact.html" class="footer-link">Kontak</a></li>
         </ul>
       </div>
 
-      <!-- Contact Info -->
-      <div class="col-md-3 mb-4">
+      <!-- Contact & Socials -->
+      <div class="col-md-6">
         <h5 data-i18n="footer.contact_title">Kontak</h5>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled small mb-3">
           <li>
             <i class="bi bi-geo-alt-fill me-2"></i>
-            <span data-i18n="footer.address">Jl. TB Simatupang Raya Kav. IS No. 01, RT02/RW17 Pd. Pinang Kecamatan Kebayoran Lama Jakarta Selatan dki jakarta</span>
+            <span>Jl. TB Simatupang Raya Kav. IS No.01, Jakarta Selatan</span>
           </li>
           <li>
             <i class="bi bi-telephone-fill me-2"></i>
-            <a href="tel:+6281225189212" data-i18n="footer.phone">+62 812-3456-789</a>
+            <a href="tel:+6281225189212" class="footer-link">+62 812-3456-789</a>
           </li>
           <li>
             <i class="bi bi-envelope-fill me-2"></i>
-            <a href="mailto:xolabitb@gmail.com">info@xolabit.com</a>
+            <a href="mailto:info@xolabit.com" class="footer-link">info@xolabit.com</a>
           </li>
         </ul>
-      </div>
-
-      <!-- Newsletter & Social -->
-      <div class="col-md-3 mb-4">
-        <h5 data-i18n="footer.newsletter_title">Ikuti Kami</h5>
-        <div class="mt-3">
-          <a href="https://www.facebook.com/AspalPolimerEmulsindo" class="me-3"><i class="bi bi-facebook"></i></a>
-          <a href="https://www.youtube.com/@APEGroupPTAPEPTMBSPTABI" class="me-3"><i class="bi bi-youtube"></i></a>
-          <a href="https://www.linkedin.com/company/pt-aspal-polimer-emulsindo"><i class="bi bi-linkedin"></i></a>
+        <div>
+          <a href="https://www.facebook.com/AspalPolimerEmulsindo" class="social-icon" data-bs-toggle="tooltip" title="Facebook">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://www.youtube.com/@APEGroupPTAPEPTMBSPTABI" class="social-icon" data-bs-toggle="tooltip" title="YouTube">
+            <i class="bi bi-youtube"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/pt-aspal-polimer-emulsindo" class="social-icon" data-bs-toggle="tooltip" title="LinkedIn">
+            <i class="bi bi-linkedin"></i>
+          </a>
         </div>
       </div>
     </div>
 
-    <hr>
+    <hr class="my-4">
 
-    <!-- Copyright -->
-    <div class="text-center py-3">
-      <small data-i18n="footer.copy">© 2025 Xolabit. Semua hak cipta.</small>
+    <div class="d-flex justify-content-between align-items-center small">
+      <div>
+        <span id="footer-copy" data-i18n="footer.copy">
+          © <span id="current-year"></span> Xolabit. Semua hak cipta.
+        </span>
+      </div>
+      <button id="back-to-top" class="btn btn-outline-secondary btn-sm" aria-label="Back to top">
+        <i class="bi bi-arrow-up-short"></i>
+      </button>
     </div>
   </div>
 </footer>
 
+
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/main.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/main.js"></script>
   <script src="js/i18n.js"></script>
