@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZJK184H8CW');
+  </script>
+
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Preconnect & Preload -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link rel="preload" as="script" href="../js/main.js" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../img/a.jpeg"/>
+
+  <!-- CSS (hanya satu versi Bootstrap & style Anda) -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../css/style.css" rel="stylesheet"/>
+
+  <!-- Icon Fonts -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet"/>
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet"/>
+
+  <!-- Carousel & Lightbox -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"/>
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet"/>
+
+  <!-- assets/js/vendor/aos.css -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<!-- assets/js/vendor/vanilla-tilt.min.js -->
+<script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+<!-- assets/js/vendor/aos.js -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<!-- Ganti <script src="js/vanilla-tilt.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+/>
+
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-6" href="#">
+        <img alt="Logo" class="me-2" height="30" src="../img/xbi.png"/>
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mx-auto"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="../index.html"
+              data-i18n="nav.home"
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="../about.html"
+              data-i18n="nav.about"
+            ></a>
+          </li>
+          <!-- PRODUCT DROPDOWN -->
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle text-white"
+            id="productDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            data-i18n="nav.product"
+          >
+            Produk
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="productDropdown">
+            <li><a class="dropdown-item" href="bitumenmembrane.html" data-i18n="prod.bitumenMembrane">Bitumen Membrane</a></li>
+            <li><a class="dropdown-item" href="bitumenpaint.html" data-i18n="prod.bitumenPaint">Bitumen Paint</a></li>
+            <li><a class="dropdown-item" href="waterprofing.html" data-i18n="prod.waterproofing">Waterproofing</a></li>
+            <li><a class="dropdown-item" href="aspalemulsi.html" data-i18n="prod.aspalEmulsi">Aspal Emulsi</a></li>
+            <li><a class="dropdown-item" href="aspalpolimer.html" data-i18n="prod.aspalPolimer">Aspal Polimer</a></li>
+            <li><a class="dropdown-item" href="asphalticplug.html" data-i18n="prod.asphaltPlug">Asphaltic Plug</a></li>
+            <li><a class="dropdown-item" href="coldmix.html" data-i18n="prod.coldmix">Coldmix</a></li>
+          </ul>
+        </li>
+        <!-- END PRODUCT DROPDOWN -->
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="../contact.html"
+              data-i18n="nav.contact"
+            ></a>
+          </li>
+
+          <!-- Navbar Language Switcher -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle d-flex align-items-center"
+              href="#"
+              id="languageDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                id="current-flag"
+                src="../img/flag-id.png"
+                alt="current lang"
+                width="24"
+                class="me-1"
+              />
+            </a>
+            <ul
+              class="dropdown-menu bg-transparent dropdown-menu-end"
+              aria-labelledby="languageDropdown"
+            >
+              <!-- Bahasa Indonesia -->
+              <li>
+                <a
+                  class="dropdown-item text-center"
+                  href="#"
+                  data-lang="id"
+                >
+                  <img
+                    src="../img/flag-id.png"
+                    alt="Indonesia"
+                    width="32"
+                  />
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider m-0"/>
+              </li>
+              <!-- Bahasa English -->
+              <li>
+                <a
+                  class="dropdown-item text-center"
+                  href="#"
+                  data-lang="en"
+                >
+                  <img
+                    src="../img/flag-en.jpeg"
+                    alt="English"
+                    width="32"
+                  />
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- ================================
+     Banner Interaktif Halaman Aspal Dingin
+================================= -->
+<section id="about-banner" class="position-relative overflow-hidden">
+  <picture>
+    <source media="(min-width: 768px)" srcset="../img/bannercoldmix.jpg">
+    <img src="../img/bannercoldmix.jpg"
+         class="img-fluid w-100"
+         alt="Banner Halaman Aspal Dingin"
+         data-i18n="dingin.banner.alt">
+  </picture>
+  <div class="banner-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center text-center">
+    <div class="container text-white px-4 text-start">
+      <h1 class="display-4 fw-bold mb-3" data-i18n="dingin.banner.title">
+        XOLABIT <br> BITUMEN COLDMIX
+      </h1>
+      <p class="lead mb-4" data-i18n="dingin.banner.subtitle">
+        Solusi praktis dan cepat untuk perbaikan jalan tanpa pemanasan
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-light" id="aspaldingin">
+  <div class="container polymer-layout">
+    <div class="row align-items-start">
+      <!-- Kolom Kiri -->
+      <div class="col-md-6 mb-4">
+        <h4 class="fw-bold text-warning" data-i18n="product.dingin.title"></h4>
+        <p class="fst-italic text-secondary" data-i18n="product.dingin.subtitle"></p>
+
+        <div class="row">
+          <div class="col-md-6 d-flex flex-column align-items-start">
+            <img
+              src="../img/aspaldingin.png"
+              data-i18n-alt="product.dingin.image_alt"
+              class="img-fluid mb-3"
+              style="max-width: 250px;"
+            />
+            <p class="text-primary fw-bold mb-0" data-i18n="product.dingin.packaging_label"></p>
+            <p class="text-primary" data-i18n="product.dingin.packaging.item1"></p>
+          </div>
+          <div class="col-md-6 d-flex flex-column justify-content-start gap-2">
+            <div class="small-product-button border rounded p-2 text-center">
+              <div data-i18n="product.dingin.products.item1.title"></div>
+              <small class="fst-italic text-muted" data-i18n="product.dingin.products.item1.subtitle"></small>
+            </div>
+            <div class="small-product-button border rounded p-2 text-center">
+              <div data-i18n="product.dingin.products.item2.title"></div>
+              <small class="fst-italic text-muted" data-i18n="product.dingin.products.item2.subtitle"></small>
+            </div>
+          </div>
+        </div>
+
+        <h5 class="text-warning fw-bold mt-4" data-i18n="product.dingin.usage.title"></h5>
+        <p data-i18n="product.dingin.usage.text"></p>
+      </div>
+
+      <!-- Kolom Kanan -->
+      <div class="col-md-6">
+        <div class="p-3 bg-dark text-white rounded">
+          <p data-i18n="product.dingin.technical.p1"></p>
+          <p data-i18n="product.dingin.technical.p2"></p>
+          <p data-i18n="product.dingin.technical.p3"></p>
+          <img
+            src="../img/dingin.png"
+            data-i18n-alt="product.dingin.technical.image_alt"
+            class="img-fluid mt-3 rounded shadow-sm"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- WhatsApp Floating Button -->
+  <div class="whatsapp-button">
+    <img
+      id="wa-icon"
+      src="../img/wa.png"
+      alt="Chat via WhatsApp"
+      loading="lazy"
+      decoding="async"
+      data-i18n-alt="wa.chat_alt"
+    />
+  </div>
+
+  <!-- WhatsApp Form Modal -->
+  <div id="waFormModal" class="wa-modal" aria-hidden="true">
+    <div class="wa-modal-content">
+      <button class="wa-close" aria-label="Close">&times;</button>
+      <h5 data-i18n="wa.form_title">Form Kontak WA</h5>
+      <input
+        id="nama"
+        class="form-control mb-2"
+        placeholder=""
+        data-i18n-placeholder="wa.nama"
+        required
+      />
+      <input
+        id="asalpt"
+        class="form-control mb-2"
+        placeholder=""
+        data-i18n-placeholder="wa.asalpt"
+        required
+      />
+      <input
+        id="email"
+        type="email"
+        class="form-control mb-2"
+        placeholder=""
+        data-i18n-placeholder="wa.email"
+        required
+      />
+      <textarea
+        id="tujuan"
+        class="form-control mb-2"
+        rows="2"
+        placeholder=""
+        data-i18n-placeholder="wa.tujuan"
+        required
+      ></textarea>
+      <button id="wa-send-btn" class="btn btn-success w-100" data-i18n="wa.send_button">
+        Kirim ke WhatsApp
+      </button>
+    </div>
+  </div>
+
+<footer class="bg-light text-dark pt-5 position-relative">
+  <div class="container">
+    <div class="row gy-4">
+      <!-- About -->
+      <div class="col-md-4">
+        <img src="../img/xbi.png" alt="Logo Xolabit" width="140" class="mb-2 img-fluid" data-i18n-alt="footer.logo_alt" />
+        <p data-i18n="footer.about_text">Solusi Aspal Berkinerja Tinggi</p>
+      </div>
+
+      <!-- Quick Links -->
+    <div class="col-md-2">
+      <h5 data-i18n="footer.links_title">Tautan</h5>
+      <ul class="list-unstyled">
+        <li><a href="../index.html" class="footer-link" data-i18n="footer.link_home">Beranda</a></li>
+        <li><a href="../about.html" class="footer-link" data-i18n="footer.link_about">Tentang</a></li>
+        <li><a href="../contact.html" class="footer-link" data-i18n="footer.link_contact">Kontak</a></li>
+      </ul>
+    </div>
+
+
+      <!-- Contact & Socials -->
+      <div class="col-md-6">
+        <h5 data-i18n="footer.contact_title">Kontak</h5>
+        <ul class="list-unstyled small mb-3">
+          <li>
+            <i class="bi bi-geo-alt-fill me-2"></i>
+            <span>Dsn. Krajan, Desa/Kelurahan Karangasem, Kec. Jenu, Kab. Tuban</span>
+          </li>
+          <li>
+            <i class="bi bi-telephone-fill me-2"></i>
+            <a href="tel:+6281314413317" class="footer-link">+62 813-1441-3317</a>
+          </li>
+          <li>
+            <i class="bi bi-envelope-fill me-2"></i>
+            <a href="mailto:industri.xolabit@gmail.com" class="footer-link">industri.xolabit@gmail.com</a>
+          </li>
+        </ul>
+        <div>
+          <a href="https://www.facebook.com/share/14Fdr2ptZAh/" class="social-icon" data-bs-toggle="tooltip" title="Facebook">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://www.youtube.com/@APEGroupPTAPEPTMBSPTABI" class="social-icon" data-bs-toggle="tooltip" title="YouTube">
+            <i class="bi bi-youtube"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/ptxolabitbitumenindustri/" class="social-icon" data-bs-toggle="tooltip" title="LinkedIn">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/ape.group?igsh=MTh1cjdrdjRjOHd5Zw==" class="social-icon" data-bs-toggle="tooltip" title="Instagram">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-4">
+
+    <div class="d-flex justify-content-between align-items-center small">
+      <div>
+        <span id="footer-copy" data-i18n="footer.copy">
+          © <span id="current-year"></span> Xolabit. Semua hak cipta.
+        </span>
+      </div>
+      <button id="back-to-top" class="btn btn-outline-secondary btn-sm" aria-label="Back to top">
+        <i class="bi bi-arrow-up-short"></i>
+      </button>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/i18n.js"></script>
+  <script>
+  // Init AOS
+  AOS.init();
+  // Init Vanilla Tilt
+  VanillaTilt.init(document.querySelectorAll(".tilt-card"), {
+    glare: true,
+    "max-glare": 0.2
+  });
+</script>
+
+ </body>
+</html>
+`

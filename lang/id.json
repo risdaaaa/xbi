@@ -1,598 +1,143 @@
 {
-  "index": {
-    "meta": {
-      "title": "Aspal Emulsi & Aspal Polimer Terbaik Indonesia | APE Bitumen",
-      "description": "PT Aspal Polimer Emulsindo: Spesialis Aspal Modifikasi Polimer & Aspal Emulsi Berkualitas Tinggi untuk Infrastruktur Jalan di Indonesia.",
-      "keywords": "aspal, polimer, emulsindo, bitumen, infrastruktur, jalan, road construction",
-      "og_title": "PT Aspal Polimer Emulsindo – Solusi Aspal Polimer & Emulsi Terbaik",
-      "og_description": "Spesialis Aspal Modifikasi Polimer & Aspal Emulsi Berkualitas Tinggi untuk Infrastruktur Jalan di Indonesia.",
-      "twitter_title": "PT Aspal Polimer Emulsindo – Solusi Aspal Polimer & Emulsi",
-      "twitter_description": "Spesialis Aspal Modifikasi Polimer & Aspal Emulsi Berkualitas Tinggi untuk Infrastruktur Jalan di Indonesia."
-    }
-  },
   "nav": {
     "home": "Beranda",
     "about": "Tentang",
     "product": "Produk",
-    "applications": "Aplikasi",
-    "contact": "Kontak",
-    "blog": "Blog"
-  },
-  "bannerhome": {
-    "small": "PT Aspal Polimer Emulsindo",
-    "heading": "Spesialis Aspal Modifikasi Polimer & Aspal Emulsi Berkualitas Tinggi untuk Jalan Lebih Tangguh dan Tahan Lama",
-    "sub": "Mitra Terpercaya Pembangunan Infrastruktur Indonesia."
-  },
-  "abouthome": {
-    "description": "PT Aspal Polimer Emulsindo berfokus pada produksi berbagai jenis aspal berkualitas tinggi untuk mendukung pembangunan infrastruktur di Indonesia.",
-    "read_more": "Selengkapnya"
-  },
-  "featureshome": {
-    "title": "Keunggulan Kami",
-    "strength": {
-      "title": "LEBIH KUAT",
-      "text": "Jalan raya yang menggunakan Aspal yang kami produksi akan lebih kuat melayani kendaraan dengan beban dan trafik yang tinggi."
-    },
-    "economical": {
-      "title": "LEBIH EKONOMIS",
-      "text": "Biaya pembangunan ulang dan perawatan jalan raya dapat dihemat, karena stabilitas jalan tinggi."
-    },
-    "durable": {
-      "title": "LEBIH AWET",
-      "text": "Umur pemakaian jalan raya aspal akan lebih lama karena properties aspal telah dimodifikasi."
-    }
-  },
-  "achievementhome": {
-    "title": "Pencapaian Kami",
-    "clients": "Klien",
-    "projects": "Proyek",
-    "workers": "Pekerja"
-  },
-  "producthome": {
-    "title": "Produk Kami",
-    "description": "Produk yang diproduksi oleh PT. Aspal Polimer Emulsindo adalah berkualitas tinggi, memenuhi semua standar dan spesifikasi melalui Quality Control.",
-    "read_more": "Selengkapnya",
-    "image_alt": "Produk Aspal Polimer Emulsindo"
+    "contact": "Kontak"
   },
   "wa": {
+    "chat_alt": "Chat via WhatsApp",
     "form_title": "Form Kontak WA",
-    "nama": "Nama",
+    "nama": "Nama Lengkap",
     "asalpt": "Nama Perusahaan",
-    "email": "Alamat Email",
-    "tujuan": "Tujuan Chat",
+    "email": "Email Aktif",
+    "tujuan": "Apa yang ingin Anda tanyakan?",
     "send_button": "Kirim ke WhatsApp"
   },
   "footer": {
-    "company_name": "PT Aspal Polimer Emulsindo",
-    "description": "Merupakan produsen aspal emulsi dan aspal modifikasi sejak tahun 2017 di Indonesia.",
-    "follow_us": "Follow Us",
-    "contact_heading": "PT. Aspal Polimer Emulsindo",
-    "address1": "Jalan Raya Demak-Kudus KM 2.2, Kampung Sekaran",
-    "address2": "Desa Mranak, Kecamatan Wonosalam",
-    "address3": "Kabupaten Demak – Provinsi Jawa Tengah.",
-    "phone_label": "Phone:",
-    "email_label": "Email:"
+    "logo_alt": "Logo Xolabit",
+    "about_text": "Solusi Aspal Berkinerja Tinggi",
+    "links_title": "Tautan",
+    "link_home": "Beranda",
+    "link_about": "Tentang",
+    "link_contact": "Kontak",
+    "contact_title": "Kontak",
+    "copy": "© 2025 Xolabit. Semua hak cipta."
   },
-  "about": {
-    "title": "Tentang Kami",
-    "description1": "PT Aspal Polimer Emulsindo (APE) adalah perusahaan nasional yang bergerak di bidang produksi dan distribusi aspal modifikasi berkinerja tinggi. Fokus kami adalah pada Aspal Polimer, Aspal Plastik, dan Aspal Emulsi yang dirancang untuk memenuhi kebutuhan pembangunan infrastruktur jalan di seluruh Indonesia.",
-    "description2": "Dengan komitmen pada kualitas, seluruh produk APE telah melalui pengawasan ketat dan memenuhi standar mutu nasional serta internasional seperti SNI, ASTM, dan AASHTO. Produk kami dirancang untuk tahan terhadap berbagai kondisi iklim dan beban lalu lintas yang berat.",
-    "description3": "Kami terus berinovasi untuk menyediakan produk aspal terbaik yang mendukung efisiensi proyek konstruksi serta keberlanjutan jangka panjang, menjadikan APE sebagai mitra andal dalam pembangunan jalan di Indonesia."
-  },
-  "xolare": {
-    "title": "XOLARE GROUP",
-    "ape": {
-      "title": "APE",
-      "description": "PT Aspal Polimer Emulsindo adalah perusahaan inti XOLARE GROUP yang memproduksi aspal polimer, aspal emulsi, dan aspal plastik untuk kebutuhan infrastruktur jalan.",
-      "learn_more": "Selengkapnya"
-    },
-    "mbs": {
-      "title": "MBS",
-      "description": "PT Modifikasi Bitumen Sumatera (MBS) adalah anak usaha APE yang fokus melayani kebutuhan produk aspal modifikasi di wilayah Sumatera.",
-      "learn_more": "Selengkapnya"
-    },
-    "abi": {
-      "title": "ABI",
-      "description": "PT Aplikasi Bitumen Indonesia (ABI) adalah unit usaha yang menyediakan jasa aplikasi dan pelapisan aspal untuk proyek konstruksi jalan.",
-      "learn_more": "Selengkapnya"
-    }
-  },
-  "vision": {
-    "title": "Visi",
-    "icon_alt": "Ikon",
-    "item1": "Menjadi perusahaan yang sehat, mandiri, berdaya saing nasional dengan menyediakan produk aspal terbaik dalam mendukung pembangunan infrastruktur di Indonesia."
-  },
-  "mission": {
-    "title": "Misi",
-    "icon_alt": "Ikon",
-    "item1": "Memberikan solusi kepada pelanggan untuk memenuhi kebutuhannya akan aspal berkualitas sesuai spesifikasi yang dibutuhkan.",
-    "item2": "Menjadikan kepuasan pelanggan sebagai bagian dari tujuan akhir setiap produk yang dihasilkan dengan mengutamakan kualitas dan ketepatan waktu.",
-    "item3": "Mengembangkan profesionalisme dan menjunjung tinggi nilai-nilai etika bisnis.",
-    "item4": "Fokus mendukung terwujudnya infrastruktur jalan yang berkualitas dan handal."
-  },
-  "product": {
-    "meta": {
-      "title": "Produk Kami - PT Aspal Polimer Emulsindo",
-      "description": "Jelajahi produk unggulan PT Aspal Polimer Emulsindo: Aspal Polimer, Aspal Emulsi, Aspal Dingin, Waterproofing, dan lainnya dengan kualitas terbaik.",
-      "og_title": "PT Aspal Polimer Emulsindo | Produk Unggulan",
-      "og_description": "Jelajahi produk unggulan PT Aspal Polimer Emulsindo: Aspal Polimer, Aspal Emulsi, Aspal Dingin, Waterproofing, dan lainnya dengan kualitas terbaik.",
-      "twitter_title": "PT Aspal Polimer Emulsindo | Produk Unggulan",
-      "twitter_description": "Jelajahi produk unggulan PT Aspal Polimer Emulsindo: Aspal Polimer, Aspal Emulsi, Aspal Dingin, Waterproofing, dan lainnya dengan kualitas terbaik."
-    },
-    "sidebar": {
-      "title": "Pilih Produk"
-    },
+  "home": {
     "banner": {
-      "title": "PT Aspal Polimer Emulsindo",
-      "description": "PT Aspal Polimer Emulsindo adalah produsen aspal terpercaya di Indonesia yang berfokus pada pengolahan aspal emulsi, aspal polimer, aspal drum pen 60/70, dan berbagai produk aspal berkualitas tinggi. Semua produk kami diproduksi dengan kontrol kualitas ketat dan sesuai standar nasional serta internasional. Pabrik pengolahan aspal kami yang berlokasi di Kabupaten Demak memproduksi berbagai jenis aspal modifikasi seperti aspal emulsi CRS, CMS, CSS, aspal cutback, tambalan cepat mantap (TCM), dan produk waterproofing berbasis bitumen."
+      "title": "XOLABIT BITUMEN INDUSTRI",
+      "subtitle": "Produsen terpercaya solusi aspal modifikasi dan waterproofing berkualitas tinggi untuk mendukung infrastruktur berkelanjutan di Indonesia.",
+      "alt": "Banner Halaman Beranda"
     },
-    "section_title": "Produk Kami",
-    "list": {
-      "aspalPolimer": "Aspal Polimer",
-      "aspalEmulsi": "Aspal Emulsi",
-      "aspalDingin": "Aspal Dingin (Cold Mix)",
-      "waterproofing": "Waterproofing",
-      "bitumenPaint": "Cat Bitumen",
-      "asphalticPlug": "Asphaltic Plug"
+    "about": {
+      "title": "Tentang Kami",
+      "description": "PT Xolabit Bitumen Industri berawal dari PT Aspal Polimer Emulsindo yang telah berpengalaman dalam bisnis produsen aspal emulsi dan aspal modifikasi sejak tahun 2017...",
+      "button": "Pelajari Lebih Lanjut",
+      "cta2": "Hubungi Kami",
+      "img_alt": "Tim XBI meninjau proyek waterproofing"
     },
-    "request_data_sheet": "Minta Lembar Data Produk",
-    "polimer": {
-      "title": "ASPAL POLIMER",
-      "subtitle": "POLYMER BITUMEN",
-      "packaging_label": "Packaging:",
-      "packaging": {
-        "item1": "Steel Drum @150Kg",
-        "item2": "Zak / Sack @50Kg"
-      },
-      "products": {
-        "item1": {
-          "title": "Xolabit – Aspal Karet",
-          "subtitle": "Natural Rubber Bitumen"
-        },
-        "item2": {
-          "title": "Xolabit – Aspal Plastik",
-          "subtitle": "Plastic Recycle Bitumen"
-        },
-        "item3": {
-          "title": "Xolabit – Aspal Polimer",
-          "subtitle": "PG-70, PG-76, PG-82"
-        }
-      },
-      "image_alt": "Drum Aspal Polimer XOLABIT",
-      "usage": {
-        "title": "Penggunaan",
-        "text": "Pengaspalan pada lintasan landasan udara, jalan perkotaan, jalan tol, dan pengaspalan lainnya."
-      },
-      "technical": {
-        "p1": "Semen aspal modifikasi polimer (PMA) telah digunakan selama bertahun-tahun untuk mengurangi tingkat keparahan kerusakan, dan memperpanjang masa pakai perkerasan dan pelapisan aspal campuran panas.",
-        "p2": "XOLABIT menawarkan lini PMA tercanggih di industri, yang dirancang untuk memaksimalkan efek menguntungkan dari pengikat pada deformasi permanen, kelelahan, dan retak suhu rendah dalam kondisi lingkungan dan lalu lintas Anda.",
-        "benefits_label": "Manfaat PMA:",
-        "benefit1": "Ketahanan lebih baik terhadap deformasi permanen (rutting dan shoving)",
-        "benefit2": "Sangat meningkatkan kekuatan tarik dan modulus elastisitas",
-        "benefit3": "Peningkatan ketahanan dan suhu kelelahan",
-        "benefit4": "Adhesi agregat sangat baik",
-        "benefit5": "Meningkatkan masa pakai layanan dan siklus hidup",
-        "benefit6": "Tidak diperlukan penanganan khusus atau kondisi penyimpanan khusus",
-        "benefit7": "Tidak memerlukan peralatan khusus untuk pengangkutan atau pengaspalan"
-      }
-    },
-    "emulsi": {
-      "title": "ASPAL EMULSI",
-      "subtitle": "EMULSION BITUMEN",
-      "packaging_label": "Packaging:",
-      "packaging": {
-        "item1": "Steel Drum @155Kg",
-        "item2": "Steel Drum @200Kg"
-      },
-      "products": {
-        "item1": "XOLABIT CRS-1",
-        "item2": "XOLABIT CRS-2",
-        "item3": "XOLABIT CRS-2p",
-        "item4": "XOLABIT CMS-2",
-        "item5": "XOLABIT CMS-2h",
-        "item6": "XOLABIT CSS-1",
-        "item7": "XOLABIT CSS-1h"
-      },
-      "image_alt": "Ilustrasi Emulsi Aspal",
-      "usage": {
-        "title": "Penggunaan",
-        "text": "Perkerasan jalan, perekat ubin, pelapisan segel, pelapisan ulang, sebagai bahan pengisi."
-      },
-      "technical": {
-        "p1": "Emulsi aspal diproduksi dengan menggiling aspal/bitumen menjadi partikel mikroskopis dan mendispersikannya dalam air menggunakan pengemulsi kimia. Tetesan kecil aspal tetap tersuspensi secara seragam sampai emulsi digunakan.",
-        "p2": "Kimia emulsi aspal menentukan stabilitas sistem. Ketika emulsi digunakan di lapangan, sistem pada suatu saat akan menjadi tidak stabil dan menyebabkan suspensi aspal dan air bergeser. Hal ini menyebabkan air menguap, meninggalkan sisa aspal yang melapisi dan mengikat agregat saat digunakan selama aplikasi jalan.",
-        "p3": "Emulsi aspal XOLABIT memiliki beragam aplikasi, mulai dari perekat ubin, hingga lapisan bawah kendaraan. Penggunaan utama disesuaikan dengan jalan raya, termasuk pelapisan segel dan sistem daur ulang."
-      }
-    },
-    "dingin": {
-      "title": "ASPAL DINGIN (Cold Mix)",
-      "subtitle": "COLDMIX DGEM",
-      "image_alt": "Coldmix DGEM Asphalt",
-      "packaging_label": "Packaging:",
-      "packaging": {
-        "item1": "Sack @25Kg"
-      },
-      "products": {
-        "item1": {
-          "title": "XOLABIT DGEM TCM",
-          "subtitle": "Type IV, V, VI"
-        },
-        "item2": {
-          "title": "XOLABIT DGEM SCMA",
-          "subtitle": "Type IV, V, VI"
-        }
-      },
-      "usage": {
-        "title": "Penggunaan",
-        "text": "Cocok untuk perbaikan kecil pada trotoar, jalan akses, lubang aspal, area penyimpanan, dan lokasi pekerjaan."
-      },
-      "technical": {
-        "p1": "Campuran aspal dingin mengacu pada campuran aspal yang dicampur dengan agregat yang tidak dipanaskan, pengisi mineral, dan emulsi aspal. Campuran ini dapat digunakan sepanjang hari dan sangat cocok untuk perbaikan berbagai jenis permukaan jalan.",
-        "p2": "Campuran ini tidak memerlukan pemanasan, fleksibel, dan dapat menyembuhkan dirinya sendiri bahkan di bawah tekanan dan suhu rendah.",
-        "p3": "Pabrik Aspal Dingin yang kami miliki memungkinkan desain khusus untuk kebutuhan pelanggan. Oleh karena itu, aspal dingin kami diterima dengan baik oleh berbagai kalangan."
-      }
-    },
-    "waterproofing": {
-      "title": "BITUMEN WATERPROOFING",
-      "subtitle": "MEMBRAN BITUMEN",
-      "image_alt": "Bitumen Waterproofing",
-      "packaging_label": "Packaging:",
-      "packaging": {
-        "item1": "Pail @18Kg"
-      },
-      "products": {
-        "item1": "XOLABIT SEALKOTE"
-      },
-      "usage": {
-        "title": "Penggunaan",
-        "text": "Menjaga dinding agar tidak lembab, melapisi tangki air, mencegah karat pada bagian bawah, struktur besi dan struktur atap kendaraan bermotor, anti bocor untuk talang dan atap seng, dapur, kamar mandi, struktur beton, perahu dan kapal ikan."
-      },
-      "technical": {
-        "p1": "XOLABIT memproduksi dan menyediakan lini lengkap membran kedap air dan kedap lembab.",
-        "p2": "Membran kedap air membentuk lapisan monolitik yang tahan terhadap penetrasi kelembaban dan tetap fleksibel pada berbagai suhu. Dapat digunakan di berbagai aplikasi mulai dari jembatan hingga atap.",
-        "p3": "Membran kedap lembab adalah campuran dari aspal pilihan dan pengurangan minyak bumi, sesuai spesifikasi kedap air. Dapat digunakan sebagai pelapis atau pelindung untuk meningkatkan daya ikat antara substrat dan pelapis. Digunakan untuk mencegah migrasi uap melalui beton atau struktur lainnya."
-      }
-    },
-    "paint": {
-      "title": "CAT BITUMEN & MEMBRANE",
-      "subtitle": "BITUMEN PAINT",
-      "image_alt": "Bitumen Paint",
-      "packaging_label": "Packaging:",
-      "packaging": {
-        "item1": "Tin Can @1L",
-        "item2": "Tin Can @5L",
-        "item3": "Tin Can @20L"
-      },
-      "products": {
-        "item1": "XOLABIT BITUMEN PAINT"
-      },
-      "usage": {
-        "title": "Penggunaan",
-        "text": "Dapat digunakan pada pipa, beton, struktur baja, kayu, dan kapal laut, tangga, jembatan, talang, pipa bawah, pagar, gerbang, dll."
-      },
-      "technical": {
-        "p1": "XOLABIT BITUMEN PAINT digunakan sebagai lapisan dingin, pelindung, efektif, tahan cuaca dan tahan korosi yang dibutuhkan beton bawah. Cocok untuk permukaan logam, jembatan, tangga darurat, talang, pagar, gerbang, dll.",
-        "p2": "XOLABIT BITUMEN PAINT juga dapat digunakan sebagai bahan primer untuk lembaran dan membran cair. Dapat digunakan di laut dan permukaan baja serta bagian dalam tangki non-air."
-      }
+    "about_title": "Mengapa Xolabit?",
+    "about_text": "Dengan pengalaman lebih dari 10 tahun, kami menyediakan solusi aspal & bitumen yang tahan lama dan ramah lingkungan.",
+    "feature_quality": "Kualitas Teruji & Bersertifikat",
+    "feature_rnd": "R&D & Pengujian Laboratorium",
+    "feature_support": "Dukungan Teknis 24/7",
+    "feature_eco": "Ramah Lingkungan"
+  },
+  "produkhome": {
+    "heading": "Produk",
+    "subheading": "Pilihan terbaik dari XBI untuk kebutuhan waterproofing Anda",
+    "bitumenpaint": {
+      "title": "Bitumen Paint",
+      "desc": "Pelapis dingin yang melindungi secara efektif dari cuaca dan korosi.",
+      "button": "Info Lanjut",
+      "alt": "Xolabit Bitumen Paint"
     },
     "membrane": {
-      "title": "MEMBRANE BITUMEN",
-      "subtitle": "HYDROSTOP",
-      "image_alt": "XOLABIT Membrane",
-      "products": {
-        "item1": "XOLABIT HYDROSTOP BITUMEN MEMBRANE",
-        "item2": "PY-P (Plain Polos)",
-        "item3": "PY-M (Mineral Finish / Pasir)",
-        "item4": "PRIMER WB (Waterbase)",
-        "item5": "PRIMER S (Solventbase)"
-      },
-      "usage": {
-        "title": "Penggunaan",
-        "text": "Dapat digunakan pada dinding, atap, talang, bawah pipa dan kolam."
-      },
-      "technical": {
-        "p1": "XOLABIT Membrane adalah pelapis berbahan dasar bitumen yang diperkuat lateks karet untuk memberikan fleksibilitas dan peningkatan kekuatan.",
-        "p2": "Membrane ini digunakan pada dinding penahan tanah, atap, kolam, pipa bawah, box saluran, tanggul dan area rentan air lainnya."
-      }
+      "title": "Bitumen Membrane",
+      "desc": "Pelapis fleksibel yang diperkuat lateks karet untuk melindungi permukaan.",
+      "button": "Info Lanjut",
+      "alt": "Xolabit Bitumen Membrane"
     },
-    "asphalticPlug": {
-      "title": "ASPHALTIC PLUG",
-      "subtitle": "Expansion Joint Sealant",
-      "image_alt": "Asphaltic Plug",
-      "packaging_label": "Packaging:",
-      "packaging": {
-        "item1": "Steel Drum @17Kg"
-      },
-      "products": {
-        "item1": "AP-85 JOINT SEALANT (Sambungan Beton)",
-        "item2": "AP-125 EXPANSION JOINT (Jembatan)"
-      },
-      "usage": {
-        "title": "Penggunaan",
-        "text": "Cocok untuk sambungan jembatan, concrete pavement, waterproofing, sambungan delatasi bangunan, joint sealant beton, dan aplikasi fleksibel bitumen lainnya."
-      },
-      "technical": {
-        "p1": "XOLABIT Asphaltic Plug dirancang untuk sambungan ekspansi dengan kapasitas gerak rendah hingga sedang, cocok digunakan pada jembatan jalan raya dan struktur lainnya.",
-        "p2": "Desain maksimum pergerakan sambungan ini adalah ±25 mm horizontal dan ±1.5 mm vertikal.",
-        "benefits_asphaltic": "Keunggulan:",
-        "benefitplug1": "Waterproof sempurna",
-        "benefitplug2": "Permukaan berkendara halus dan nyaman",
-        "benefitplug3": "Daya tahan tinggi dan fleksibel",
-        "benefitplug4": "Pemasangan cepat dan mudah dirawat"
-      }
+    "waterproofing": {
+      "title": "Waterproofing",
+      "desc": "Membran kedap air dan kedap lembap",
+      "button": "Info Lanjut",
+      "alt": "Xolabit Waterproofing"
     }
   },
-  "applications": {
-    "meta": {
-      "title": "Aplikasi – PT Aspal Polimer Emulsindo",
-      "description": "Solusi Aplikasi Bitumen Emulsindo untuk berbagai kebutuhan konstruksi jalan dan infrastruktur di Indonesia."
-    },
+  "about": {
     "banner": {
-      "heading": "APLIKASI",
-      "dots": "•••••",
-      "intro": "PT Aspal Polimer Emulsindo (APE) menyediakan berbagai produk aspal berkualitas tinggi seperti aspal polimer, aspal emulsi, aspal dingin, dan waterproofing untuk mendukung pekerjaan aplikasi aspal di berbagai proyek pembangunan jalan nasional, jalan tol, jalan perkotaan, hingga perbaikan jalan berlubang. Produk-produk APE dirancang untuk memenuhi kebutuhan konstruksi jalan di Indonesia, tahan terhadap cuaca tropis, dan sesuai untuk beban lalu lintas tinggi. Dengan teknologi modern dan material premium, aplikasi aspal dari APE sangat cocok digunakan oleh kontraktor jalan, instansi pemerintah, maupun proyek infrastruktur skala besar."
-    },
-    "services": {
-      "title": "LAYANAN YANG KAMI SEDIAKAN",
-      "description": "Melalui PT. Aspal Polimer Emulsindo sebagai anak perusahaan PT. Xolare RCR Energy, kami memberikan jasa chipseal maupun slurryseal baik untuk konstruksi bangunan maupun konstruksi jalan."
-    },
-    "chipseal": {
-      "title": "CHIPSEAL",
-      "description": "CHIPSEAL adalah pemberian satu lapisan aspal yang diikuti dengan satu lapisan chipping. Proses ini dapat diulang berkali-kali dengan teknik dan ukuran chipping yang sesuai tipe yang diinginkan.",
-      "types_label": "Jenis:",
-      "types": [
-        "Single layer (BURTU)",
-        "Double layer (BURDA)",
-        "Racked-in (Lapisan Bersusun)",
-        "Sandwich Dressing",
-        "Precoat + Single Dressing"
-      ],
-      "typical_sizes": "Tipikal Ukuran: 7, 10, 14, 16 & 20 mm",
-      "ratio": "Rasio: 1 : 2",
-      "adhesive_label": "Bahan Perekat:",
-      "adhesives": [
-        "Aspal Emulsi: CRS-1, CRS-2 atau CRS-2P",
-        "Aspal Panas: Aspal cement / Aspal Polimer"
-      ],
-      "binder_label": "Binder yang digunakan:",
-      "binders": ["Xolabit PMB PG-76"],
-      "advantages_title": "Keunggulan",
-      "advantages": [
-        "Harganya lebih murah dibandingkan Hotmix",
-        "Permukaan kedap air, cepat pengerjaan",
-        "Cocok untuk lalu-lintas tinggi sampai rendah",
-        "Permukaan jalan tampak baru",
-        "Fleksibel",
-        "Menjamin adhesi yang baik"
-      ]
-    },
-    "slurryseal": {
-      "title": "SLURRYSEAL",
-      "description": "SLURRYSEAL adalah lapis penutup bubur aspal emulsi untuk perbaikan minor retak halus, pengisian rongga, keausan, dan memperbaiki tekstur permukaan jalan.",
-      "composition_label": "Komposisi:",
-      "composition": [
-        "Agregat",
-        "Mineral Filler",
-        "Air",
-        "Aspal Emulsi (CSS-1H/CQS-1H)",
-        "Additive"
-      ],
-      "typical_sizes_label": "Tipikal Ukuran:",
-      "sizes_image_alt": "Ukuran Slurryseal",
-      "advantages_title": "Keunggulan",
-      "advantages": [
-        "Merekat homogen pada permukaan perkerasan",
-        "Tekstur permukaan baru tahan lama dan kesat"
-      ]
+      "alt": "Banner Halaman Tentang Kami",
+      "title": "Tentang Kami",
+      "subtitle": "PT Xolabit Bitumen Industri berdiri sejak 2017, berawal dari PT Aspal Polimer Emulsindo, dan kini didukung dua anak usaha serta tim profesional yang berkomitmen pada kualitas dan transparansi."
     }
   },
-  "contactForm": {
-    "title": "Formulir Kontak PT APE",
-    "required_note": "wajib diisi",
-    "email_label": "Alamat Email",
-    "name_label": "Nama",
-    "company_label": "Nama Perusahaan",
-    "product_label": "Produk yang Dibutuhkan",
-    "product_option_default": "-- Pilih Produk --",
-    "product_option_aspalPolimer": "Aspal Polimer",
-    "product_option_aspalEmulsi": "Aspal Emulsi",
-    "product_option_aspalDingin": "Aspal Dingin",
-    "product_option_waterproofing": "Waterproofing",
-    "product_option_terminalAspal": "Terminal Aspal",
-    "product_option_membranAspal": "Membran Aspal",
-    "product_option_chutback": "Chutback",
-    "product_option_aspalPlug": "Aspal Plug",
-    "product_option_lainnya": "Lainnya",
-    "message_label": "Pesan",
-    "submit": "Kirim"
+  "visionMission": {
+    "title": "Visi & Misi",
+    "subtitle": "Mewujudkan kualitas dan keunggulan nasional"
   },
-  "carousel": {
-    "slide1": {
-      "img_alt": "Pengujian MSCR pada Aspal Polimer",
-      "title": "Pengujian MSCR: Menjamin Kualitas Aspal Polimer untuk Lalu Lintas Berat",
-      "description": "APE Update — Aspal polimer adalah aspal yang dimodifikasi dengan bahan polimer untuk meningkatkan kinerja dan ketahanannya terhadap beban lalu lintas berat.",
-      "link": "Baca Selengkapnya",
-      "date": "22 Maret 2025"
-    },
-    "slide2": {
-      "img_alt": "Chip Seal Aspal Polimer pada Jalan Tambang",
-      "title": "Aplikasi Double Chip Seal Aspal Polimer PG-76 untuk Jalan Tambang di Indonesia",
-      "description": "APE Update — Teknologi ini melibatkan aplikasi dua lapis aspal panas dan agregat batu pecah yang sangat cocok untuk jalan tambang.",
-      "link": "Baca Selengkapnya",
-      "date": "22 Maret 2025"
-    },
-    "slide3": {
-      "img_alt": "Crumb Rubber PG-76 untuk Chip Seal",
-      "title": "Solusi Aspal PG-76 Crumb Rubber untuk Aplikasi Double Chip Seal",
-      "description": "APE Update — PG-76 crumb rubber meningkatkan kekuatan struktural dan mengurangi biaya pemeliharaan jalan tambang secara signifikan.",
-      "link": "Baca Selengkapnya",
-      "date": "22 Maret 2025"
-    },
-    "slide4": {
-      "img_alt": "Preservasi Aspal dan Bitumen",
-      "title": "Faktor Penentu Biaya Preservasi Aspal dan Bitumen",
-      "description": "Xolabit — Menyelami faktor-faktor kompleks yang mempengaruhi biaya preservasi perkerasan.",
-      "link": "Baca Selengkapnya",
-      "date": "2 Juni 2025"
-    },
-    "slide5": {
-      "img_alt": "Xolabit PG Aspal Polimer Berkinerja Tinggi",
-      "title": "Xolabit PG: Solusi Aspal Polimer Berkinerja Tinggi",
-      "description": "Xolabit — Produk PG asphalt cement yang dirancang untuk memenuhi standar AASHTO dan proyek berat.",
-      "link": "Baca Selengkapnya",
-      "date": "2 Juni 2025"
-    },
-    "slide6": {
-      "img_alt": "Waterproofing Bitumen Cair",
-      "title": "Waterproofing Bitumen Cair: Perlindungan Serbaguna",
-      "description": "Xolabit — Pelapis emulsi SS-1h untuk pondasi, jembatan, dan aplikasi waterproofing lainnya.",
-      "link": "Baca Selengkapnya",
-      "date": "2 Juni 2025"
-    }
+  "vision": {
+    "heading": "Visi",
+    "text": "Menjadi Perusahaan yang sehat, mandiri berdaya saing Nasional dengan menyediakan produk aspal berkualitas dalam mendukung pembangunan infrastruktur di Indonesia"
   },
-  "cards": {
-    "card1": {
-      "img_alt": "Berita 1",
-      "title": "Pengujian MSCR: Menjamin Kualitas Aspal Polimer untuk Lalu Lintas Berat",
-      "date": "March 22, 2025",
-      "description": "APE Update — Aspal polimer adalah aspal yang dimodifikasi dengan bahan polimer untuk meningkatkan kinerja dan ketahanannya terhadap beban lalu lintas berat..."
+  "mission": {
+    "heading": "Misi",
+    "point1": "Memberikan solusi kepada pelanggan untuk memenuhi kebutuhannya akan aspal berkualitas sesuai spesifikasi yang dibutuhkan.",
+    "point2": "Menjadikan kepuasan pelanggan sebagai bagian dari tujuan akhir setiap produk yang dihasilkan dengan mengutamakan kualitas dan ketepatan waktu.",
+    "point3": "Fokus mendukung terwujudnya infrastruktur jalan yang berkualitas dan handal."
+  },
+  "struktur_title": "Board of Directors",
+  "komisaris_name": "Achmad Alwi SH",
+  "komisaris_title": "Komisaris",
+  "dirutama_name": "Mochamad Bhadawi",
+  "dirutama_title": "Direktur Utama",
+  "group": {
+    "title": "Grup Perusahaan",
+    "subtitle": "Bagian dari PT. Xolare RCR Energy",
+    "parent": "PT. Xolare RCR Energy",
+    "ape": "PT. Aspal Polimer Emulsindo",
+    "mbs": "PT. Modifikasi Bitumen Sumatera",
+    "borneo": "PT. Xolabit Bitumen Borneo",
+    "xbi": "PT. Xolabit Bitumen Industri",
+    "abi": "PT. Aplikasi Bitumen Indonesia"
+  },
+  "button": {
+    "more": "Selengkapnya"
+  },
+  "contact": {
+    "subtitle": "Hubungi Kami",
+    "title": "Kantor & Lokasi Kami",
+    "desc": "Kami siap membantu kebutuhan proyek Anda dengan solusi bitumen terbaik.",
+    "header": "Kontak",
+    "address": "Dusun Kedungrejo, Desa Karangasem RT 03 RW 05, Kec. Jenu, Kab. Tuban, Jawa Timur - Indonesia 62352"
+  },
+  "emulsi": {
+    "title": "ASPAL EMULSI",
+    "subtitle": "EMULSION BITUMEN",
+    "packaging_label": "Kemasan:",
+    "packaging": {
+      "item1": "Drum Baja @155Kg",
+      "item2": "Drum Baja @200Kg"
     },
-    "card2": {
-      "img_alt": "Berita 2",
-      "title": "Aplikasi Double Chip Seal Aspal Polimer PG-76 untuk Jalan Tambang di Indonesia",
-      "date": "March 22, 2025",
-      "description": "APE Update — Teknologi ini melibatkan aplikasi dua lapis aspal panas dan agregat batu pecah yang sangat cocok untuk jalan tambang..."
+    "products": {
+      "item1": "XOLABIT CRS-1",
+      "item2": "XOLABIT CRS-2",
+      "item3": "XOLABIT CRS-2p",
+      "item4": "XOLABIT CMS-2",
+      "item5": "XOLABIT CMS-2h",
+      "item6": "XOLABIT CSS-1",
+      "item7": "XOLABIT CSS-1h"
     },
-    "card3": {
-      "img_alt": "Berita 3",
-      "title": "Solusi Aspal PG-76 Crumb Rubber untuk Aplikasi Double Chip Seal pada Jalan Tambang",
-      "date": "March 22, 2025",
-      "description": "APE Update — Aspal merupakan material perkerasan jalan yang banyak digunakan karena fleksibilitas dan ketahanannya..."
+    "image_alt": "Ilustrasi Emulsi Aspal",
+    "usage": {
+      "title": "Penggunaan",
+      "text": "Perkerasan jalan, perekat ubin, pelapisan segel, pelapisan ulang, sebagai bahan pengisi."
     },
-    "card4": {
-      "img_alt": "Berita 4",
-      "title": "Faktor Penentu Biaya Preservasi Aspal dan Bitumen",
-      "date": "June 2, 2025",
-      "description": "Xolabit — Memahami faktor biaya preservasi perkerasan aspal dan bitumen untuk mengoptimalkan anggaran pemeliharaan..."
-    },
-    "card5": {
-      "img_alt": "Berita 5",
-      "title": "Xolabit PG: Solusi Aspal Polimer Berkinerja Tinggi",
-      "date": "June 2, 2025",
-      "description": "Xolabit — Produk PG yang memenuhi standar AASHTO untuk keandalan dan umur panjang perkerasan jalan..."
-    },
-    "card6": {
-      "img_alt": "Berita 6",
-      "title": "Waterproofing Bitumen Cair: Perlindungan Tahan Air Serbaguna",
-      "date": "June 2, 2025",
-      "description": "Xolabit — Pelapis bitumen cair SS-1h cocok untuk aplikasi atap, pondasi, dan jembatan, memberikan proteksi maksimal..."
-    }
-  },
-
-
-  "article1": {
-    "title": "Pengujian MSCR: Menjamin Kualitas Aspal Polimer untuk Lalu Lintas Berat",
-    "p1": "Aspal polimer adalah aspal yang dimodifikasi dengan bahan polimer untuk meningkatkan kinerja dan ketahanannya terhadap kerusakan akibat beban lalu lintas. Salah satu metode pengujian yang digunakan untuk mengevaluasi kinerja aspal polimer pada suhu tinggi adalah pengujian MSCR (Multiple Stress Creep Recovery). Pengujian MSCR adalah pengujian yang mengukur perilaku deformasi aspal polimer akibat beban siklik yang berubah-ubah.",
-    "p2": "Pengujian ini dilakukan dengan mengaplikasikan beban geser (shear stress) yang berbeda-beda pada aspal polimer selama 1 detik, kemudian memberikan waktu pemulihan (recovery) selama 9 detik. Pengulangan ini dilakukan sebanyak 10 kali untuk setiap tingkat beban geser. Dari pengujian ini, dapat diperoleh dua parameter utama, yaitu non-recoverable creep compliance (Jnr) dan percent recovery (R). Jnr adalah ukuran dari deformasi permanen yang terjadi pada aspal polimer setelah waktu pemulihan. Jnr yang rendah menunjukkan bahwa aspal polimer memiliki ketahanan yang baik terhadap aliran plastis (plastic flow) yang menyebabkan timbulnya alur (rutting) pada permukaan jalan. R adalah ukuran dari kemampuan aspal polimer untuk pulih kembali dari deformasi elastis setelah dilepasnya beban. R yang tinggi menunjukkan bahwa aspal polimer memiliki sifat viskoelastis yang baik, yang berarti dapat menyerap energi dari beban lalu lintas dan mengurangi kelelahan (fatigue) pada lapisan aspal.",
-    "p3": "Salah satu faktor yang mempengaruhi kinerja aspal polimer pada suhu tinggi adalah jumlah beban lalu lintas yang diterima oleh jalan. Beban lalu lintas ini dapat diukur dengan menggunakan konsep ESAL (Equivalent Single Axle Load), yang merupakan satuan standar untuk menghitung jumlah beban roda tunggal ekuivalen yang diterima oleh jalan selama masa pakainya. ESAL yang tinggi menunjukkan bahwa jalan menerima beban lalu lintas yang berat dan sering, sehingga membutuhkan aspal polimer yang memiliki Jnr yang rendah dan R yang tinggi.",
-    "p4": "Dengan demikian, pengujian MSCR aspal polimer kaitanya dengan ESAL adalah pengujian yang penting untuk menentukan kualitas dan kinerja aspal polimer pada suhu tinggi, terutama untuk jalan-jalan yang menerima beban lalu lintas yang tinggi. Pengujian ini dapat membantu dalam merancang dan memilih aspal polimer yang sesuai dengan kondisi lalu lintas dan lingkungan yang ada.",
-    "image_alt": "Tabel Klasifikasi Beban Lalu Lintas dan Jnr"
-  },
-  "article2": {
-    "title": "Aplikasi Double Chip Seal Aspal Polimer PG-76 untuk Jalan Tambang di Indonesia",
-    "p1": "Jalan tambang batubara di Indonesia, seperti di wilayah Kalimantan dan Sumatera, menghadapi kondisi lingkungan yang ekstrem—mulai dari beban lalu lintas berat, debu yang tinggi, genangan air, hingga erosi tanah. Kondisi ini menyebabkan kerusakan pada permukaan jalan serta menimbulkan biaya pemeliharaan yang tinggi. Oleh karena itu, diperlukan solusi pengawetan perkerasan jalan yang kuat, tahan lama, dan ekonomis.",
-    "p2": "Salah satu solusi potensial adalah penerapan hot double chip seal menggunakan aspal polimer PG-76. Teknologi ini melibatkan aplikasi dua lapis aspal panas dan agregat batu pecah secara berurutan di atas permukaan jalan yang ada. Metode ini mampu membentuk lapisan aus baru yang tahan terhadap retak, lepas butiran (raveling), dan bleeding.",
-    "p3": "Penerapan hot double chip seal dapat meningkatkan ketahanan selip (skid resistance), kedap air (waterproofing), serta memperbaiki tampilan jalan. Selain itu, metode ini juga dapat meredam kebisingan dan mengurangi debu di lingkungan sekitar tambang.",
-    "image1_alt": "Struktur permukaan chip seal",
-    "p4": "Penggunaan aspal polimer PG-76—yang dimodifikasi dengan polimer styrene-butadiene atau styrene-butadiene-styrene (SBS)—menjadi nilai tambah signifikan. Aspal ini memiliki viskositas dan elastisitas yang lebih tinggi dibandingkan aspal konvensional, serta lebih tahan terhadap suhu ekstrem dan proses penuaan. Ini memberikan daya rekat (adhesion) dan kohesi yang lebih baik, serta meningkatkan daya tahan chip seal terhadap beban lalu lintas berat.",
-    "image2_alt": "Jenis chip seal",
-    "p5": "Berdasarkan studi dari Asphalt Emulsion Manufacturers Association (AEMA), penggunaan aspal PG-76 untuk hot double chip seal dapat mengurangi biaya siklus hidup hingga 25% dibandingkan dengan aspal biasa. Tak hanya itu, teknologi ini juga dapat memperpanjang umur layanan jalan hingga 7 tahun dan mengurangi frekuensi perawatan hingga 50%.",
-    "p6": "Dengan semua keunggulan tersebut, hot double chip seal dengan aspal polimer PG-76 merupakan pilihan yang tepat untuk aplikasi jalan tambang di Indonesia. Solusi ini tidak hanya memberikan ketahanan jangka panjang, tetapi juga lebih hemat biaya dan ramah lingkungan."
-  },
-  "article3": {
-    "title": "Solusi Aspal PG-76 Crumb Rubber untuk Aplikasi Double Chip Seal pada Jalan Tambang di Indonesia",
-    "p1": "Aspal merupakan material perkerasan jalan yang umum digunakan karena memiliki daya tahan yang baik, ketahanan terhadap selip, serta kemampuan meredam kebisingan. Namun, kondisi ekstrem seperti suhu tinggi, beban lalu lintas berat, dan lingkungan tambang membutuhkan inovasi aspal yang lebih kuat dan tahan lama.",
-    "p2": "Salah satu inovasi tersebut adalah modifikasi aspal menggunakan crumb rubber (CR) dari ban bekas yang telah didaur ulang. Crumb rubber dapat meningkatkan performa aspal terhadap suhu tinggi, retak suhu rendah, kelelahan, dan penuaan. Selain itu, penggunaannya membantu mengurangi limbah ban dan mendukung keberlanjutan lingkungan.",
-    "p3": "Dalam implementasinya, CR dapat dicampurkan ke dalam aspal menggunakan metode basah (wet process). Dengan teknik ini, CR direaksikan langsung dengan aspal dan menghasilkan campuran homogen dengan daya rekat tinggi dan elastisitas lebih baik.",
-    "image1_alt": "Penerapan aspal modifikasi PG-76 crumb rubber di lapangan",
-    "p4": "Salah satu bentuk crumb rubber yang telah ditingkatkan kualitasnya adalah PG-76 CR, yaitu crumb rubber yang dimodifikasi untuk meningkatkan ketahanan terhadap deformasi permanen, retak, dan kelembaban. PG-76 memiliki viskositas dan kekuatan struktural lebih tinggi dibandingkan CR biasa, menjadikannya sangat cocok untuk kondisi ekstrim seperti di area pertambangan.",
-    "p5": "Penerapan PG-76 CR ini sangat ideal dalam metode double chip seal, yaitu teknik pelapisan dua lapis aspal dan agregat di atas permukaan jalan yang telah ada. Teknik ini efektif memperkuat lapisan aus, meningkatkan daya tahan terhadap air dan udara, serta memperpanjang umur pakai jalan secara signifikan.",
-    "image2_alt": "Aplikasi double chip seal dengan crumb rubber",
-    "p6": "Double chip seal dengan PG-76 CR menawarkan sejumlah keunggulan: ketahanan terhadap cuaca ekstrem, daya ikat antar lapisan yang kuat, serta penurunan kebisingan dan debu yang signifikan. Untuk jalan tambang di Indonesia—yang sering menghadapi variasi suhu, lalu lintas alat berat, dan kondisi tanah yang ekstrem—teknologi ini merupakan solusi jangka panjang yang efisien dan ramah lingkungan.",
-    "p7": "Dengan menggunakan aspal PG-76 modifikasi crumb rubber dan metode double chip seal, perusahaan dapat menghemat biaya perawatan, memperpanjang umur jalan, serta mendukung pengelolaan limbah ban secara produktif. Ini adalah langkah strategis menuju infrastruktur tambang yang berkelanjutan dan modern."
-  },
-  "article4": {
-    "title": "Faktor Penentu Biaya Preservasi Aspal dan Bitumen",
-    "image_alt": "Struktur lapisan perkerasan aspal dan bitumen",
-    "p1": "Preservasi perkerasan jalan memainkan peran penting dalam pengembangan dan pemeliharaan infrastruktur modern, termasuk jaringan transportasi yang aman dan lancar di seluruh Indonesia. Dua material yang paling umum digunakan dalam preservasi ini adalah aspal dan bitumen. Namun, memahami faktor-faktor kompleks yang memengaruhi biaya proyek preservasi perkerasan menjadi kunci untuk mengelola anggaran secara efektif.",
-    "h1": "1. Biaya Material",
-    "p2": "Material merupakan komponen utama dalam penentuan biaya. Harga aspal dan bitumen yang berfluktuasi di pasaran serta pilihan kualitas dan grade yang berbeda akan memengaruhi ketahanan dan durasi manfaat permukaan jalan. Pemilihan material yang tepat sangat menentukan efisiensi biaya dalam jangka panjang.",
-    "h2": "2. Biaya Tenaga Kerja",
-    "p3": "Proses pelaksanaan seperti persiapan permukaan, aplikasi material, dan pemadatan memerlukan tenaga kerja ahli. Selain upah, efisiensi dan pengalaman tim juga memengaruhi kualitas hasil akhir dan waktu pengerjaan, yang pada akhirnya berdampak pada biaya keseluruhan.",
-    "h3": "3. Biaya Alat dan Mesin",
-    "p4": "Penggunaan alat berat seperti paver, sprayer, dan roller berkontribusi besar pada biaya. Biaya operasional seperti bahan bakar, perawatan, serta investasi pada teknologi modern juga perlu diperhitungkan. Mesin canggih dapat meningkatkan presisi dan efisiensi namun memiliki harga awal yang lebih tinggi.",
-    "h4": "4. Lingkup dan Kompleksitas Proyek",
-    "p5": "Faktor desain jalan, volume lalu lintas, serta kondisi geografis memengaruhi jumlah material, metode aplikasi, serta pemilihan peralatan. Jalan dengan tikungan tajam atau topografi sulit membutuhkan pendekatan khusus yang bisa meningkatkan kompleksitas dan biaya.",
-    "h5": "5. Biaya Pemeliharaan dan Siklus Hidup",
-    "p6": "Memahami biaya tidak cukup hanya pada tahap pembangunan awal. Perencanaan jangka panjang termasuk pemeliharaan rutin, inspeksi, dan perbaikan ringan perlu diperhitungkan. Penggunaan material berkualitas tinggi di awal bisa mengurangi frekuensi perbaikan besar di kemudian hari.",
-    "h6": "6. Regulasi dan Perizinan",
-    "p7": "Mematuhi peraturan lokal, standar keselamatan, dan izin lingkungan bisa mempengaruhi biaya dan waktu proyek. Kegagalan mematuhi dapat menyebabkan denda atau penundaan, sehingga penting untuk mengelola dokumen perizinan sejak awal.",
-    "h7": "7. Inovasi dan Tren Masa Depan",
-    "p8": "Tren terbaru dalam preservasi jalan termasuk penggunaan material ramah lingkungan dan pendekatan prediktif berbasis data. Mengadopsi teknologi ini dapat menurunkan biaya jangka panjang dan meningkatkan keberlanjutan proyek.",
-    "h8": "Peran Xolabit Bitumen Indonesia",
-    "p9": "Xolabit Bitumen Indonesia hadir sebagai pelopor dalam menyediakan solusi preservasi jalan yang efisien dan inovatif. Dengan pendekatan menyeluruh terhadap material, tenaga kerja, dan regulasi, Xolabit menetapkan standar baru dalam efisiensi biaya dan kualitas layanan.",
-    "p10": "Dengan terus berinovasi dan mengedepankan praktik berkelanjutan, Xolabit Bitumen Indonesia mengajak seluruh pemangku kepentingan untuk bersama-sama mewujudkan infrastruktur jalan yang tangguh, aman, dan efisien bagi masa depan Indonesia."
-  },
-  "article5": {
-    "title": "Xolabit PG: Solusi Aspal Polimer Berkinerja Tinggi",
-    "image_alt": "Mesin penghampar aspal PG",
-    "p1": "<strong>Xolabit PG</strong> adalah aspal modifikasi polimer yang dirancang untuk memberikan kinerja optimal dalam proyek konstruksi jalan, sesuai standar AASHTO M320-17, M332-17, dan ASTM D6373-21a.",
-    "h1": "Keunggulan Aspal PG",
-    "features": [
-      "Memiliki elastisitas dan kekuatan tinggi untuk lalu lintas berat",
-      "Resistensi terhadap perubahan suhu ekstrem",
-      "Meningkatkan kohesi antara agregat dan aspal",
-      "Meminimalisir retak akibat kelelahan dan suhu tinggi"
-    ],
-    "h2": "Apa itu Polymer Modified Bitumen (PMB)?",
-    "p2": "PMB adalah aspal yang dimodifikasi dengan polimer untuk meningkatkan fleksibilitas dan ketahanan, membentuk ikatan yang lebih kuat dengan agregat.",
-    "h3": "Konfigurasi Polimer yang Digunakan",
-    "p3": "Xolabit menggunakan konfigurasi SBS, SB, SEBS, SIS, EVA, hingga ECR sesuai kebutuhan proyek untuk meningkatkan karakteristik aspal.",
-    "h4": "Sistem Performance Grade (PG)",
-    "p4": "Sistem PG oleh AASHTO mengklasifikasikan aspal berdasarkan kinerja lapangan; Xolabit PG tersedia dalam PG 70, PG 76, dan PG 82.",
-    "h5": "Manfaat Penggunaan PG Aspal",
-    "benefits": [
-      "Cocok untuk jalan berintensitas lalu lintas tinggi",
-      "Memperpanjang umur layanan jalan",
-      "Mengurangi biaya pemeliharaan jangka panjang",
-      "Memberikan kenyamanan berkendara yang lebih baik"
-    ],
-    "h6": "Aplikasi dan Desain Campuran",
-    "p5": "Xolabit menyediakan layanan konsultasi desain campuran aspal berdasarkan material lokal, menyesuaikan viskositas, elastisitas, dan parameter rheologi.",
-    "h7": "Komitmen terhadap Standar & Keberlanjutan",
-    "p6": "Kami memastikan setiap proyek memenuhi standar AASHTO dari desain hingga pelaksanaan, dengan pengujian dan kontrol kualitas ketat.",
-    "p7": "Pilih Xolabit PG untuk jalan yang lebih kuat, tahan lama, dan berkelanjutan."
-  },
-  "article6": {
-    "title": "Xolabit Liquid Bituminous Waterproofing",
-    "image_alt": "Aplikasi Waterproofing Bitumen Cair",
-    "p1": "Xolabit Liquid Bituminous Waterproofing adalah metode pelapisan anti air berbahan dasar bitumen cair yang diformulasikan dari emulsi aspal anionik SS-1h. Produk ini mudah diaplikasikan, cepat membentuk membran kedap air, dan cocok untuk berbagai jenis permukaan.",
-    "h1": "Apa Itu Emulsi SS-1h?",
-    "p2": "SS-1h (Slow Setting-1 Hard) adalah jenis emulsi aspal dengan viskositas rendah dan setting lambat, di mana partikel aspal bermuatan negatif didispersikan dalam air menggunakan emulsifier. Setelah air menguap, partikel aspal bersatu membentuk lapisan tahan air.",
-    "h2": "Metode Aplikasi",
-    "p3": "Xolabit Liquid Waterproofing dapat diaplikasikan dengan spray, kuas, atau roller pada permukaan seperti atap, dinding basement, jembatan, dan pondasi. Proses curing terjadi secara alami tergantung cuaca dan suhu.",
-    "h3": "Keunggulan Produk",
-    "features": [
-      "Aplikasi mudah tanpa pemanasan atau peralatan khusus",
-      "Cocok untuk substrat mineral seperti beton, bata, dan plester",
-      "Tahan terhadap cuaca ekstrem dan kerusakan mekanis",
-      "Ramah lingkungan karena rendah VOC dan bebas pelarut",
-      "Biaya efisien untuk berbagai skala proyek"
-    ],
-    "h4": "Aplikasi di Dunia Nyata",
-    "p4": "Teknologi ini telah digunakan di berbagai proyek infrastruktur seperti jalan tol, jembatan, tambang, tangki, hingga atap hijau. Proses aplikasinya yang praktis sangat cocok untuk area sulit dijangkau.",
-    "button": {
-      "text": "Lihat Video Aplikasi di LinkedIn"
+    "technical": {
+      "p1": "Emulsi aspal diproduksi dengan menggiling aspal/bitumen menjadi partikel mikroskopis dan mendispersikannya dalam air menggunakan pengemulsi kimia. Tetesan kecil aspal tetap tersuspensi secara seragam sampai emulsi digunakan.",
+      "p2": "Kimia emulsi aspal menentukan stabilitas sistem. Ketika emulsi digunakan di lapangan, sistem pada suatu saat akan menjadi tidak stabil dan menyebabkan suspensi aspal dan air bergeser. Hal ini menyebabkan air menguap, meninggalkan sisa aspal yang melapisi dan mengikat agregat saat digunakan selama aplikasi jalan.",
+      "p3": "Emulsi aspal XOLABIT memiliki beragam aplikasi, mulai dari perekat ubin, hingga lapisan bawah kendaraan. Penggunaan utama disesuaikan dengan jalan raya, termasuk pelapisan segel dan sistem daur ulang."
     }
   }
 }

@@ -17,7 +17,7 @@
               backdrop-filter var(--transition-medium);
 }
 .navbar-scrolled {
-  background-color: #eee6c2 !important;
+  background-color: #ffffff !important;
   padding: 0.5rem 1rem;
   backdrop-filter: blur(8px);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
@@ -43,6 +43,13 @@
 .navbar .nav-link:hover::after {
   width: 100%;
   left: 0;
+}
+/* Toggler icon custom with clearer stroke */
+.navbar .navbar-toggler {
+  border-color: #ffc107;
+}
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23ffc107'%3e%3cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 6h16M4 12h16M4 18h16'/%3e%3c/svg%3e");
 }
 @media (min-width: 992px) {
   .navbar-nav .dropdown:hover > .dropdown-menu {
@@ -146,20 +153,29 @@ footer hr {
 }
 
 /*---------------------------------------------
-  2. Hero Banner Effects
+  2. Hero Banner Effects - Xolabit
 ---------------------------------------------*/
+:root {
+  --transition-medium: 0.6s ease;
+}
+
 .hero-banner {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
   position: relative;
+  min-height: 100vh;
+  z-index: 1;
 }
+
 .hero-banner .overlay {
   position: absolute;
   inset: 0;
   background: linear-gradient(45deg, rgba(0,0,0,0.5), rgba(0,0,0,0.2));
   animation: overlayPulse 8s ease-in-out infinite alternate;
+  z-index: 1;
 }
+
 @keyframes overlayPulse {
   from {
     background: linear-gradient(45deg, rgba(0,0,0,0.6), rgba(0,0,0,0.3));
@@ -168,6 +184,12 @@ footer hr {
     background: linear-gradient(45deg, rgba(0,0,0,0.4), rgba(0,0,0,0.1));
   }
 }
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
 .hero-content h1,
 .hero-content p,
 .hero-content .btn {
@@ -176,11 +198,17 @@ footer hr {
   transition: opacity var(--transition-medium), transform var(--transition-medium);
 }
 
+[data-aos] {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
 .scroll-down i {
   color: #fff;
   cursor: pointer;
   animation: bounce 2s infinite;
 }
+
 @keyframes bounce {
   0%, 100% { transform: translateY(0); }
   50%      { transform: translateY(-10px); }
@@ -190,15 +218,18 @@ footer hr {
   height: 80px;
   line-height: 0;
 }
+
 .wave-svg {
   display: block;
   width: calc(100% + 1.3px);
   height: 80px;
 }
+
 @media (max-width: 768px) {
   .hero-content h1 { font-size: 2rem; }
   .hero-content p  { font-size: 1rem; }
 }
+
 
 /*---------------------------------------------
   3. About Section & Features
@@ -465,4 +496,66 @@ Produk================ */
 }
 .animate-scale:hover {
   transform: scale(1.05);
+}
+
+.hover-opacity:hover {
+  opacity: 0.85;
+  transition: 0.3s;
+}
+
+/*======BOD=====*/
+.profile-img-wrapper {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.profile-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.linkedin-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 119, 181, 0.85);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 50%;
+}
+
+.profile-img-wrapper:hover .linkedin-overlay {
+  opacity: 1;
+}
+
+.profile-img-wrapper:hover .profile-img {
+  transform: scale(1.05);
+}
+.profile-img-wrapper {
+  width: 140px;
+  height: 140px;
+}
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.linkedin-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.45);
+  transition: opacity 0.3s ease-in-out;
+}
+.profile-img-wrapper:hover .linkedin-overlay {
+  opacity: 1;
 }

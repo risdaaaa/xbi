@@ -1,183 +1,127 @@
 {
-  "index": {
-    "meta": {
-      "title": "Indonesia’s Top Polymer & Emulsion Asphalt | APE Bitumen",
-      "description": "PT Aspal Polimer Emulsindo: Polymer-Modified Asphalt & High-Quality Emulsion Asphalt specialists for Indonesia’s road infrastructure.",
-      "keywords": "asphalt, polymer, emulsion, bitumen, infrastructure, road construction",
-      "og_title": "PT Aspal Polimer Emulsindo – Best Polymer & Emulsion Asphalt",
-      "og_description": "Polymer-Modified Asphalt & High-Quality Emulsion Asphalt specialists for Indonesia’s road infrastructure.",
-      "twitter_title": "PT Aspal Polimer Emulsindo – Polymer & Emulsion Asphalt",
-      "twitter_description": "Polymer-Modified Asphalt & High-Quality Emulsion Asphalt specialists for Indonesia’s road infrastructure."
-    }
-  },
   "nav": {
     "home": "Home",
     "about": "About",
-    "product": "Product",
-    "applications": "Applications",
-    "contact": "Contact",
-    "blog": "Blog"
-  },
-  "bannerhome": {
-    "small": "PT Aspal Polimer Emulsindo",
-    "heading": "High-quality Polymer-Modified Bitumen & Emulsions for Durable and Long-Lasting Roads",
-    "sub": "Trusted Partner for Infrastructure Development."
-  },
-  "abouthome": {
-    "description": "PT Aspal Polimer Emulsindo focuses on producing various high-quality bitumen types to support infrastructure development in Indonesia.",
-    "read_more": "Read More"
-  },
-  "featureshome": {
-    "title": "Our Advantages",
-    "strength": {
-      "title": "STRONGER",
-      "text": "Roads built with our bitumen stand up to heavy traffic and high loads."
-    },
-    "economical": {
-      "title": "MORE ECONOMICAL",
-      "text": "Reconstruction and maintenance costs can be saved thanks to superior road stability."
-    },
-    "durable": {
-      "title": "LONGER LASTING",
-      "text": "Road lifespans are extended thanks to the polymer-modified bitumen properties."
-    }
-  },
-  "achievementhome": {
-    "title": "Our Achievements",
-    "clients": "Clients",
-    "projects": "Projects",
-    "workers": "Workers"
-  },
-  "producthome": {
-    "title": "Our Products",
-    "description": "Our products from PT Aspal Polimer Emulsindo are high-quality, meeting all standards and specifications through rigorous Quality Control.",
-    "read_more": "Learn More",
-    "image_alt": "APE Bitumen Products"
+    "product": "Products",
+    "contact": "Contact"
   },
   "wa": {
-    "form_title": "WhatsApp Contact Form",
-    "nama": "Name",
+    "chat_alt": "Chat via WhatsApp",
+    "form_title": "WA Contact Form",
+    "nama": "Full Name",
     "asalpt": "Company Name",
-    "email": "Email Address",
-    "tujuan": "Message",
+    "email": "Active Email",
+    "tujuan": "What would you like to ask?",
     "send_button": "Send to WhatsApp"
   },
   "footer": {
-    "company_name": "PT Aspal Polimer Emulsindo",
-    "description": "A leading producer of emulsion and polymer-modified bitumen since 2017 in Indonesia.",
-    "follow_us": "Follow Us",
-    "contact_heading": "PT. Aspal Polimer Emulsindo",
-    "address1": "Demak-Kudus Highway KM 2.2, Sekaran Village",
-    "address2": "Mranak Hamlet, Wonosalam District",
-    "address3": "Demak Regency, Central Java Province, Indonesia.",
-    "phone_label": "Phone:",
-    "email_label": "Email:"
+    "logo_alt": "Xolabit Logo",
+    "about_text": "High Performance Asphalt Solutions",
+    "links_title": "Links",
+    "link_home": "Home",
+    "link_about": "About",
+    "link_contact": "Contact",
+    "contact_title": "Contact",
+    "copy": "© 2025 Xolabit. All rights reserved."
   },
-  "about": {
-    "title": "About Us",
-    "description1": "PT Aspal Polimer Emulsindo (APE) is a national company engaged in the production and distribution of high-performance modified asphalt. Our focus is on Polymer-Modified Asphalt, Plastic Asphalt, and Asphalt Emulsion designed to meet road infrastructure needs across Indonesia.",
-    "description2": "With a commitment to quality, all APE products undergo stringent quality control and meet national and international standards such as SNI (Indonesian National Standard), ASTM, and AASHTO. Our products are engineered to withstand diverse climatic conditions and heavy traffic loads.",
-    "description3": "We continuously innovate to deliver the best asphalt solutions that support project efficiency and long-term sustainability, making APE a trusted partner in road infrastructure development in Indonesia."
+  "home": {
+    "banner": {
+      "title": "XOLABIT BITUMEN INDUSTRI",
+      "subtitle": "Trusted manufacturer of high-quality modified asphalt and waterproofing solutions supporting sustainable infrastructure in Indonesia.",
+      "alt": "Homepage Banner"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "PT Xolabit Bitumen Industri started from PT Aspal Polimer Emulsindo, a trusted manufacturer of emulsion and modified asphalt since 2017...",
+      "button": "Learn More",
+      "cta2": "Contact Us",
+      "img_alt": "XBI team inspecting waterproofing project"
+    },
+    "about_title": "Why Xolabit?",
+    "about_text": "With over 10 years of experience, we provide durable and eco-friendly asphalt & bitumen solutions.",
+    "feature_quality": "Tested & Certified Quality",
+    "feature_rnd": "R&D and Laboratory Testing",
+    "feature_support": "24/7 Technical Support",
+    "feature_eco": "Eco-Friendly"
   },
-  "xolare": {
-    "title": "XOLARE GROUP",
-    "ape": {
-      "title": "APE",
-      "description": "PT Aspal Polimer Emulsindo is the core company of XOLARE GROUP, producing polymer-modified asphalt, asphalt emulsion, and plastic asphalt to support road infrastructure needs.",
-      "learn_more": "Learn More"
+  "produkhome": {
+    "heading": "Products",
+    "subheading": "Top solutions from XBI for your waterproofing needs",
+    "bitumenpaint": {
+      "title": "Bitumen Paint",
+      "desc": "Cold-applied coating that effectively protects against weather and corrosion.",
+      "button": "More Info",
+      "alt": "Xolabit Bitumen Paint"
     },
-    "mbs": {
-      "title": "MBS",
-      "description": "PT Modifikasi Bitumen Sumatera (MBS) is a subsidiary of APE focusing on serving modified asphalt products in the Sumatra region.",
-      "learn_more": "Learn More"
+    "membrane": {
+      "title": "Bitumen Membrane",
+      "desc": "Flexible latex-reinforced coating for surface protection.",
+      "button": "More Info",
+      "alt": "Xolabit Bitumen Membrane"
     },
-    "abi": {
-      "title": "ABI",
-      "description": "PT Aplikasi Bitumen Indonesia (ABI) is a business unit providing asphalt application and coating services for road construction projects.",
-      "learn_more": "Learn More"
+    "waterproofing": {
+      "title": "Waterproofing",
+      "desc": "Waterproof and moisture-resistant membrane",
+      "button": "More Info",
+      "alt": "Xolabit Waterproofing"
     }
   },
+  "about": {
+    "banner": {
+      "alt": "About Us Page Banner",
+      "title": "About Us",
+      "subtitle": "PT Xolabit Bitumen Industri was established in 2017, starting from PT Aspal Polimer Emulsindo, and is now supported by two subsidiaries and a professional team committed to quality and transparency."
+    }
+  },
+  "visionMission": {
+    "title": "Vision & Mission",
+    "subtitle": "Achieving national quality and excellence"
+  },
   "vision": {
-    "title": "Vision",
-    "icon_alt": "Icon",
-    "item1": "To become a healthy, independent, and nationally competitive company by providing the best asphalt products to support infrastructure development in Indonesia."
+    "heading": "Vision",
+    "text": "To become a healthy, independent, and nationally competitive company by providing quality asphalt products to support infrastructure development in Indonesia."
   },
   "mission": {
-    "title": "Mission",
-    "icon_alt": "Icon",
-    "item1": "Provide solutions to customers to meet their needs for quality asphalt according to required specifications.",
-    "item2": "Make customer satisfaction the ultimate goal of every product by prioritizing quality and on-time delivery.",
-    "item3": "Develop professionalism and uphold high standards of business ethics.",
-    "item4": "Focus on supporting the realization of high-quality and reliable road infrastructure."
+    "heading": "Mission",
+    "point1": "Provide customers with solutions to meet their needs for quality asphalt according to required specifications.",
+    "point2": "Make customer satisfaction the ultimate goal of every product by prioritizing quality and timeliness.",
+    "point3": "Focus on supporting the realization of high-quality and reliable road infrastructure."
+  },
+  "struktur_title": "Board of Directors",
+  "komisaris_name": "Achmad Alwi SH",
+  "komisaris_title": "Commissioner",
+  "dirutama_name": "Mochamad Bhadawi",
+  "dirutama_title": "President Director",
+  "group": {
+    "title": "Group of Companies",
+    "subtitle": "Part of PT. Xolare RCR Energy",
+    "parent": "PT. Xolare RCR Energy",
+    "ape": "PT. Aspal Polimer Emulsindo",
+    "mbs": "PT. Modifikasi Bitumen Sumatera",
+    "borneo": "PT. Xolabit Bitumen Borneo",
+    "xbi": "PT. Xolabit Bitumen Industri",
+    "abi": "PT. Aplikasi Bitumen Indonesia"
+  },
+  "button": {
+    "more": "Read More"
+  },
+  "contact": {
+    "subtitle": "Contact Us",
+    "title": "Our Office & Location",
+    "desc": "We’re ready to support your project needs with premium bitumen solutions.",
+    "header": "Contact",
+    "address": "Kedungrejo Hamlet, Karangasem Village RT 03 RW 05, Jenu Sub-district, Tuban Regency, East Java - Indonesia 62352"
+  },
+  "aspalemulsi": {
+    "banner": {
+      "alt": "Emulsion Asphalt Page Banner",
+      "title": "XOLABIT EMULSION ASPHALT",
+      "subtitle": "Eco-friendly solution for modern pavement"
+    }
   },
   "product": {
-    "meta": {
-      "title": "Our Products – PT Aspal Polimer Emulsindo",
-      "description": "Explore PT Aspal Polimer Emulsindo’s premium products: Polymer Asphalt, Emulsion Asphalt, Cold Mix, Waterproofing, and more with top quality.",
-      "og_title": "PT Aspal Polimer Emulsindo | Featured Products",
-      "og_description": "Explore PT Aspal Polimer Emulsindo’s premium products: Polymer Asphalt, Emulsion Asphalt, Cold Mix, Waterproofing, and more with top quality.",
-      "twitter_title": "PT Aspal Polimer Emulsindo | Featured Products",
-      "twitter_description": "Explore PT Aspal Polimer Emulsindo’s premium products: Polymer Asphalt, Emulsion Asphalt, Cold Mix, Waterproofing, and more with top quality."
-    },
-    "sidebar": {
-      "title": "Select Product"
-    },
-    "banner": {
-      "title": "PT Aspal Polimer Emulsindo",
-      "description": "PT Aspal Polimer Emulsindo is a trusted asphalt producer in Indonesia specializing in asphalt emulsion, polymer-modified asphalt, 60/70 drum pen asphalt, and a wide range of high-quality asphalt products. All our items are manufactured under strict quality control and meet national and international standards. Our Demak-based plant produces various modified asphalts such as CRS, CMS, and CSS emulsions, cutback asphalt, rapid patching (TCM), and bitumen-based waterproofing solutions."
-    },
-    "section_title": "Our Products",
-    "list": {
-      "aspalPolimer": "Polymer Asphalt",
-      "aspalEmulsi": "Emulsion Asphalt",
-      "aspalDingin": "Cold Asphalt",
-      "waterproofing": "Waterproofing",
-      "bitumenPaint": "Bitumen Paint",
-      "asphalticPlug": "Asphaltic Plug"
-    },
-    "request_data_sheet": "Request Product Data Sheet",
-    "polimer": {
-      "title": "ASPAL POLIMER",
-      "subtitle": "POLYMER BITUMEN",
-      "packaging_label": "Packaging:",
-      "packaging": {
-        "item1": "Steel Drum @150Kg",
-        "item2": "Sack @50Kg"
-      },
-      "products": {
-        "item1": {
-          "title": "Xolabit – Rubber Asphalt",
-          "subtitle": "Natural Rubber Bitumen"
-        },
-        "item2": {
-          "title": "Xolabit – Plastic Asphalt",
-          "subtitle": "Plastic Recycle Bitumen"
-        },
-        "item3": {
-          "title": "Xolabit – Polymer Asphalt",
-          "subtitle": "PG-70, PG-76, PG-82"
-        }
-      },
-      "image_alt": "Xolabit Polymer Bitumen Drum",
-      "usage": {
-        "title": "Applications",
-        "text": "Paving for airfield runways, urban roads, toll roads, connecting roads, and other paving works."
-      },
-      "technical": {
-        "p1": "Polymer modified asphalt cements (PMA) have been used for many years to reduce the severity of distress and extend the service life of hot mix asphalt pavements and overlays.",
-        "p2": "XOLABIT offers the industry’s most advanced line of PMA, designed to maximize the beneficial effects of the binder on permanent deformation, fatigue, and low-temperature cracking under your environmental and traffic conditions.",
-        "benefits_label": "Benefits of PMA:",
-        "benefit1": "Better resistance to permanent deformation (rutting and shoving)",
-        "benefit2": "Significantly improved tensile strength and elastic modulus",
-        "benefit3": "Improved fatigue resistance and temperature susceptibility",
-        "benefit4": "Excellent aggregate adhesion",
-        "benefit5": "Increased service life and life-cycle cost savings",
-        "benefit6": "No special handling or storage conditions required",
-        "benefit7": "No special equipment required for transport or paving"
-      }
-    },
     "emulsi": {
-      "title": "ASPAL EMULSI",
+      "title": "EMULSION ASPHALT",
       "subtitle": "EMULSION BITUMEN",
       "packaging_label": "Packaging:",
       "packaging": {
@@ -193,403 +137,18 @@
         "item6": "XOLABIT CSS-1",
         "item7": "XOLABIT CSS-1h"
       },
-      "image_alt": "Bitumen Emulsion Illustration",
       "usage": {
-        "title": "Applications",
-        "text": "Road pavements, tile adhesive, seal coating, resurfacing, as a filler material."
+        "title": "Usage",
+        "text": "Pavement, tile adhesive, seal coating, resurfacing, as filler material."
       },
       "technical": {
-        "p1": "Asphalt emulsions are produced by grinding asphalt/bitumen into microscopic particles and dispersing them in water using chemical emulsifiers. The fine asphalt droplets remain uniformly suspended until the emulsion is applied.",
-        "p2": "The chemistry of the asphalt emulsion determines the stability of the system. When the emulsion is used in the field, the system eventually becomes unstable, causing the asphalt and water suspension to break. This leads to water evaporation, leaving behind asphalt residue that coats and binds aggregates during pavement application.",
-        "p3": "XOLABIT asphalt emulsions have a wide range of applications, from tile adhesive to underlayment for vehicles. The primary uses are tailored for roadways, including seal coating and recycling systems."
-      }
-    },
-    "dingin": {
-      "title": "ASPAL DINGIN (Cold Mix)",
-      "subtitle": "COLDMIX DGEM",
-      "image_alt": "Coldmix DGEM Asphalt",
-      "packaging_label": "Packaging:",
-      "packaging": {
-        "item1": "Sack @25Kg"
+        "p1": "Emulsion asphalt is produced by grinding asphalt or bitumen into microscopic particles and dispersing them in water using chemical emulsifiers. These tiny droplets of asphalt remain uniformly suspended until the emulsion is applied in the field. This method allows asphalt to be used in cold applications, making it safer and more environmentally friendly.",
+        "p2": "The chemistry of asphalt emulsion determines the stability of the system. When applied, the emulsion eventually breaks—causing the asphalt and water suspension to separate. The water evaporates, leaving behind the asphalt residue which then coats and binds the aggregates in road construction applications.",
+        "p3": "XOLABIT asphalt emulsions offer a wide range of applications, from tile adhesives to automotive undercoatings. However, their primary use is for road construction and maintenance, including seal coating, tack coats, and cold recycling systems. Our formulations are engineered to ensure superior adhesion, fast setting, and long-term durability.",
+        "image_alt": "Technical illustration of asphalt emulsion usage"
       },
-      "products": {
-        "item1": {
-          "title": "XOLABIT DGEM TCM",
-          "subtitle": "Type IV, V, VI"
-        },
-        "item2": {
-          "title": "XOLABIT DGEM SCMA",
-          "subtitle": "Type IV, V, VI"
-        }
-      },
-      "usage": {
-        "title": "Applications",
-        "text": "Suitable for minor repairs on sidewalks, access roads, potholes, storage areas, and work sites."
-      },
-      "technical": {
-        "p1": "Cold mix asphalt refers to an asphalt mixture combined with unheated aggregates, mineral fillers, and asphalt emulsion. This mix can be used all day and is ideal for repairing various types of roadway surfaces.",
-        "p2": "This mixture requires no heating, is flexible, and can self-heal even under pressure and low temperatures.",
-        "p3": "Our Cold Asphalt Plant allows for custom designs to meet customer needs. Therefore, our cold asphalt is well-received by a wide range of users."
-      }
-    },
-    "waterproofing": {
-      "title": "WATERPROOFING",
-      "subtitle": "BITUMEN WATERPROOFING",
-      "image_alt": "Bitumen Waterproofing",
-      "packaging_label": "Packaging:",
-      "packaging": {
-        "item1": "Pail @18Kg"
-      },
-      "products": {
-        "item1": "XOLABIT SEALKOTE"
-      },
-      "usage": {
-        "title": "Applications",
-        "text": "Moisture protection for walls, lining water tanks, preventing corrosion on undersides, metal structures, and vehicle roof assemblies; leak-proofing gutters and corrugated metal roofs; kitchens, bathrooms, concrete structures, boats, and fishing vessels."
-      },
-      "technical": {
-        "p1": "XOLABIT manufactures and supplies a complete line of waterproof and moisture-barrier membranes.",
-        "p2": "Waterproof membranes form a monolithic layer resistant to moisture penetration while remaining flexible across a wide temperature range. They can be used in applications from bridges to roofing.",
-        "p3": "Moisture-barrier membranes are formulated with selected asphalt and petroleum cutback to meet waterproofing specifications. They serve as coatings or protective layers to enhance adhesion between substrates and coatings and prevent vapor migration through concrete or other structures."
-      }
-    },
-    "paint": {
-      "title": "BITUMEN PAINT",
-      "subtitle": "BITUMEN PAINT",
-      "image_alt": "Bitumen Paint",
-      "products": {
-        "item1": "XOLABIT BITUMEN PAINT"
-      },
-      "packaging_label": "Packaging:",
-      "packaging": {
-        "item1": "Tin Can @1L",
-        "item2": "Tin Can @5L",
-        "item3": "Tin Can @20L"
-      },
-      "usage": {
-        "title": "Applications",
-        "text": "Can be used on pipes, concrete, steel structures, wood, marine vessels, staircases, bridges, gutters, underground pipes, fences, gates, etc."
-      },
-      "technical": {
-        "p1": "XOLABIT BITUMEN PAINT is used as a cold-applied protective coating that is effective, weather-resistant, and corrosion-resistant for concrete substrates. Suitable for metal surfaces, bridges, emergency staircases, gutters, fences, gates, and more.",
-        "p2": "XOLABIT BITUMEN PAINT can also be used as a primer for sheet and liquid membranes. It is suitable for marine environments and steel surfaces, as well as for the interiors of non-water tanks."
-      }
-    },
-    "membrane": {
-      "products": {
-        "item1": "XOLABIT HYDROSTOP BITUMEN MEMBRANE",
-        "item2": "PY-P (Plain Polos)",
-        "item3": "PY-M (Mineral Finish / Pasir)",
-        "item4": "PRIMER WB (Waterbase)",
-        "item5": "PRIMER S (Solventbase)"
-      },
-      "image_alt": "XOLABIT Membrane",
-      "usage": {
-        "title": "Applications",
-        "text": "Can be used on walls, roofs, gutters, under pipes, and pools."
-      },
-      "technical": {
-        "p1": "XOLABIT Membrane is a rubber-latex–reinforced, bitumen-based coating designed to provide flexibility and enhanced strength.",
-        "p2": "This membrane is used on retaining walls, roofs, ponds, underground pipes, drainage boxes, embankments, and other areas exposed to water."
-      }
-    },
-    "asphalticPlug": {
-      "title": "ASPHALTIC PLUG",
-      "subtitle": "Expansion Joint Sealant",
-      "image_alt": "Asphaltic Plug",
-      "packaging_label": "Packaging:",
-      "packaging": {
-        "item1": "Steel Drum @17Kg"
-      },
-      "products": {
-        "item1": "AP-85 JOINT SEALANT (Concrete Joint)",
-        "item2": "AP-125 EXPANSION JOINT (Bridge)"
-      },
-      "usage": {
-        "title": "Applications",
-        "text": "Ideal for bridge joints, concrete pavement, waterproofing, building expansion joints, concrete joint sealants, and other flexible bitumen applications."
-      },
-      "technical": {
-        "p1": "XOLABIT Asphaltic Plug is designed for expansion joints with low to medium movement capacity, suitable for use on highway bridges and other structures.",
-        "p2": "The maximum design joint movement for this product is ±25 mm horizontally and ±1.5 mm vertically.",
-        "benefits_asphaltic": "Key advantages:",
-        "benefitplug1": "Complete waterproofing",
-        "benefitplug2": "Smooth and comfortable riding surface",
-        "benefitplug3": "High durability and flexibility",
-        "benefitplug4": "Quick installation and easy maintenance"
-      }
-    }
-  },
-  "applications": {
-    "meta": {
-      "title": "Applications – PT Aspal Polimer Emulsindo",
-      "description": "Bitumen Emulsindo applications solutions for a wide range of road and infrastructure construction needs in Indonesia."
-    },
-    "banner": {
-      "heading": "APPLICATIONS",
-      "dots": "•••••",
-      "intro": "PT Aspal Polimer Emulsindo (APE) offers high-quality bitumen products—polymer-modified asphalt, emulsions, cold mix, and waterproofing—to support asphalt application works on national roads, toll roads, urban streets, and pothole repairs. Our solutions withstand tropical climates and heavy traffic, making them ideal for contractors, government agencies, and large infrastructure projects."
-    },
-    "services": {
-      "title": "SERVICES WE OFFER",
-      "description": "Through PT. Aspal Polimer Emulsindo, a subsidiary of PT. Xolare RCR Energy, we provide chip seal and slurry seal services for both building and road construction."
-    },
-    "chipseal": {
-      "title": "CHIPSEAL",
-      "description": "Chipseal is applying a layer of asphalt followed by a layer of chipping. This process can be repeated multiple times with the appropriate chip size for the desired seal type.",
-      "types_label": "Types:",
-      "types": [
-        "Single layer (BURTU)",
-        "Double layer (BURDA)",
-        "Racked-in (Layered)",
-        "Sandwich Dressing",
-        "Precoat + Single Dressing"
-      ],
-      "typical_sizes": "Typical Sizes: 7, 10, 14, 16 & 20 mm",
-      "ratio": "Ratio: 1 : 2",
-      "adhesive_label": "Adhesive Material:",
-      "adhesives": [
-        "Emulsion Asphalt: CRS-1, CRS-2 or CRS-2P",
-        "Hot Asphalt: Asphalt cement / Polymer Asphalt"
-      ],
-      "binder_label": "Binders used:",
-      "binders": ["Xolabit PMB PG-76"],
-      "advantages_title": "Advantages",
-      "advantages": [
-        "Lower cost compared to hot mix",
-        "Water-tight surface, fast application",
-        "Suitable for high to low traffic",
-        "Looks like a new pavement",
-        "Flexible",
-        "Ensures good adhesion"
-      ]
-    },
-    "slurryseal": {
-      "title": "SLURRYSEAL",
-      "description": "Slurry seal is a cover layer of asphalt emulsion slurry for minor crack repair, void filling, wear correction, and surface texture restoration.",
-      "composition_label": "Composition:",
-      "composition": [
-        "Aggregate",
-        "Mineral Filler",
-        "Water",
-        "Asphalt Emulsion (CSS-1H/ CQS-1H)",
-        "Additive"
-      ],
-      "typical_sizes_label": "Typical Sizes:",
-      "sizes_image_alt": "Slurryseal Size Chart",
-      "advantages_title": "Advantages",
-      "advantages": [
-        "Uniform adhesion to pavement surface",
-        "Long-lasting, skid-resistant new texture"
-      ]
-    }
-  },
-  "contactForm": {
-    "title": "PT APE Contact Form",
-    "required_note": "required",
-    "email_label": "Email Address",
-    "name_label": "Name",
-    "company_label": "Company Name",
-    "product_label": "Product Required",
-    "product_option_default": "-- Select Product --",
-    "product_option_aspalPolimer": "Polymer Asphalt",
-    "product_option_aspalEmulsi": "Emulsion Asphalt",
-    "product_option_aspalDingin": "Cold Mix Asphalt",
-    "product_option_waterproofing": "Waterproofing",
-    "product_option_terminalAspal": "Asphalt Terminal",
-    "product_option_membranAspal": "Bitumen Membrane",
-    "product_option_chutback": "Cutback Asphalt",
-    "product_option_aspalPlug": "Asphaltic Plug",
-    "product_option_lainnya": "Other",
-    "message_label": "Message",
-    "submit": "Submit"
-  },
-  "carousel": {
-    "slide1": {
-      "img_alt": "MSCR Testing on Polymer Asphalt",
-      "title": "MSCR Testing: Ensuring Polymer Asphalt Quality for Heavy Traffic",
-      "description": "APE Update — Polymer asphalt is modified with polymers to improve performance and resistance under heavy traffic loads.",
-      "link": "Read More",
-      "date": "March 22, 2025"
-    },
-    "slide2": {
-      "img_alt": "Double Chip Seal on Quarry Road",
-      "title": "Double Chip Seal Application of PG-76 Polymer Asphalt for Mining Roads in Indonesia",
-      "description": "APE Update — This technique involves two layers of hot asphalt and crushed stone aggregate, ideal for mining roads.",
-      "link": "Read More",
-      "date": "March 22, 2025"
-    },
-    "slide3": {
-      "img_alt": "PG-76 Crumb Rubber Chip Seal",
-      "title": "PG-76 Crumb Rubber Solution for Double Chip Seal Applications",
-      "description": "APE Update — PG-76 crumb rubber enhances structural strength and reduces maintenance costs for mining roads.",
-      "link": "Read More",
-      "date": "March 22, 2025"
-    },
-    "slide4": {
-      "img_alt": "Asphalt and Bitumen Preservation Costs",
-      "title": "Key Factors Determining Asphalt and Bitumen Preservation Costs",
-      "description": "Xolabit — Exploring the complex factors that affect pavement preservation expenses.",
-      "link": "Read More",
-      "date": "June 2, 2025"
-    },
-    "slide5": {
-      "img_alt": "Xolabit PG High-Performance Polymer Asphalt",
-      "title": "Xolabit PG: High-Performance Polymer Asphalt Solution",
-      "description": "Xolabit — Our PG asphalt cement is engineered to meet AASHTO standards for heavy-duty projects.",
-      "link": "Read More",
-      "date": "June 2, 2025"
-    },
-    "slide6": {
-      "img_alt": "Liquid Bitumen Waterproofing",
-      "title": "Liquid Bitumen Waterproofing: Versatile Protection",
-      "description": "Xolabit — SS-1h emulsion coating ideal for foundations, bridges, and other waterproofing applications.",
-      "link": "Read More",
-      "date": "June 2, 2025"
-    }
-  },
-  "cards": {
-    "card1": {
-      "img_alt": "News 1",
-      "title": "MSCR Testing: Ensuring Polymer Asphalt Quality for Heavy Traffic",
-      "date": "March 22, 2025",
-      "description": "APE Update — Polymer asphalt is asphalt modified with polymer additives to improve performance and durability under heavy traffic loads..."
-    },
-    "card2": {
-      "img_alt": "News 2",
-      "title": "PG-76 Polymer Asphalt Double Chip Seal Application for Mining Roads in Indonesia",
-      "date": "March 22, 2025",
-      "description": "APE Update — This technology involves two layers of hot asphalt and crushed aggregate, ideal for mining roads..."
-    },
-    "card3": {
-      "img_alt": "News 3",
-      "title": "PG-76 Crumb Rubber Asphalt Solution for Double Chip Seal on Mining Roads",
-      "date": "March 22, 2025",
-      "description": "APE Update — Asphalt is a widely used pavement material known for its flexibility and resilience..."
-    },
-    "card4": {
-      "img_alt": "News 4",
-      "title": "Cost Drivers in Asphalt and Bitumen Preservation",
-      "date": "June 2, 2025",
-      "description": "Xolabit — Understanding the cost drivers of asphalt and bitumen pavement preservation to optimize maintenance budgets..."
-    },
-    "card5": {
-      "img_alt": "News 5",
-      "title": "Xolabit PG: High-Performance Polymer Asphalt Solution",
-      "date": "June 2, 2025",
-      "description": "Xolabit — A PG product that meets AASHTO standards for reliability and long service life..."
-    },
-    "card6": {
-      "img_alt": "News 6",
-      "title": "Liquid Bitumen Waterproofing: Versatile Water-Resistant Protection",
-      "date": "June 2, 2025",
-      "description": "Xolabit — SS-1h liquid bitumen coating suitable for roofs, foundations, and bridges, offering maximum protection..."
-    }
-  },
-
-  "article1": {
-    "title": "MSCR Testing: Ensuring Polymer Asphalt Quality for Heavy Traffic",
-    "p1": "Polymer-modified asphalt is asphalt blended with polymers to enhance its performance and resistance to damage under traffic loading. One method to evaluate high-temperature performance of polymer asphalt is the MSCR (Multiple Stress Creep Recovery) test, which measures its deformation behavior under cyclic loading.",
-    "p2": "In the MSCR test, different shear stress levels are applied for 1 second, followed by a 9-second recovery period. This cycle repeats 10 times at each stress level. Two key parameters are obtained: non-recoverable creep compliance (Jnr) and percent recovery (R). Jnr quantifies permanent deformation after recovery—lower Jnr means better rutting resistance. R indicates elastic recovery—higher R shows better viscoelasticity, absorbing traffic loads and mitigating fatigue cracking.",
-    "p3": "A major factor affecting high-temperature performance is traffic loading, expressed as ESAL (Equivalent Single Axle Load), representing cumulative axle load impacts over road life. High ESAL roads require polymer asphalt with low Jnr and high R for durability.",
-    "p4": "Thus, MSCR testing in relation to ESAL is vital for selecting the right polymer asphalt for heavy-traffic pavements. It guides mix design to match traffic and climate demands, ensuring long-lasting, high-performance road surfaces.",
-    "image_alt": "Traffic Loading Classification and Jnr Table"
-  },
-  "article2": {
-    "title": "PG-76 Polymer Asphalt Double Chip Seal Application for Mining Roads in Indonesia",
-    "p1": "Mining roads in Indonesia—such as those in Kalimantan and Sumatra—face extreme conditions: heavy traffic loads, high dust levels, standing water, and soil erosion. These factors cause pavement damage and high maintenance costs. A durable, long-lasting, and cost-effective preservation solution is therefore essential.",
-    "p2": "One potential solution is the use of hot double chip seal with PG-76 polymer asphalt. This technology involves sequential application of two layers of hot binder and crushed aggregate over the existing pavement surface. It creates a new wearing course resistant to cracking, raveling, and bleeding.",
-    "p3": "Hot double chip seal enhances skid resistance, provides waterproofing, and improves the pavement’s aesthetics. Additionally, this method dampens noise and reduces dust around mining sites.",
-    "image1_alt": "Chip seal surface structure",
-    "p4": "The use of PG-76 polymer asphalt—modified with styrene-butadiene or styrene-butadiene-styrene (SBS)—adds significant value. This binder offers higher viscosity and elasticity than conventional asphalt, and is more resistant to extreme temperatures and aging. It delivers superior adhesion and cohesion, boosting chip seal durability under heavy traffic.",
-    "image2_alt": "Types of chip seal",
-    "p5": "According to the Asphalt Emulsion Manufacturers Association (AEMA), PG-76 hot double chip seal can reduce life-cycle costs by up to 25% compared to conventional asphalt. It can also extend pavement service life by up to 7 years and cut maintenance frequency by 50%.",
-    "p6": "With all these advantages, PG-76 polymer asphalt hot double chip seal is the ideal choice for mining roads in Indonesia—offering long-term performance, cost savings, and environmental benefits."
-  },
-  "article3": {
-    "title": "PG-76 Crumb Rubber Asphalt Solution for Double Chip Seal Applications on Mining Roads in Indonesia",
-    "p1": "Asphalt is a widely used pavement material due to its durability, skid resistance, and noise-reducing ability. However, extreme conditions such as high temperatures, heavy traffic loads, and mining environments demand stronger and more resilient asphalt innovations.",
-    "p2": "One such innovation is modifying asphalt with crumb rubber (CR) made from recycled used tires. Crumb rubber enhances asphalt performance against high temperatures, low-temperature cracking, fatigue, and aging. Additionally, it helps reduce tire waste and supports environmental sustainability.",
-    "p3": "In practice, CR can be blended into asphalt using the wet process method. This technique allows CR to react directly with the asphalt, producing a homogeneous mixture with high adhesion and improved elasticity.",
-    "image1_alt": "PG-76 crumb rubber asphalt application in the field",
-    "p4": "An advanced form of crumb rubber is PG-76 CR, which is specifically modified to increase resistance to permanent deformation, cracking, and moisture. PG-76 offers higher viscosity and structural strength compared to standard CR, making it ideal for extreme mining conditions.",
-    "p5": "The implementation of PG-76 CR is particularly well suited for the double chip seal method, which involves applying two successive layers of asphalt and aggregate over an existing pavement. This approach strengthens the wearing course, enhances resistance to water and weathering, and significantly extends service life.",
-    "image2_alt": "Double chip seal application with crumb rubber",
-    "p6": "Double chip seal with PG-76 CR offers several benefits: resilience to extreme weather, strong interlayer bonding, and significant reductions in noise and dust. For mining roads in Indonesia—where temperature fluctuations, heavy-machinery traffic, and challenging subgrade conditions are common—this technology provides a long-term, efficient, and eco-friendly solution.",
-    "p7": "By using crumb rubber–modified PG-76 asphalt and the double chip seal method, companies can reduce maintenance costs, extend pavement life, and support productive tire-waste management. It represents a strategic step toward sustainable and modern mining infrastructure."
-  },
-   "article4": {
-    "title": "Key Cost Drivers in Asphalt and Bitumen Preservation",
-     "image_alt": "Asphalt and bitumen pavement structure",
-    "p1": "Pavement preservation plays a vital role in developing and maintaining modern infrastructure, including safe and efficient transport networks across Indonesia. The two most common materials used in preservation are asphalt and bitumen. Understanding the complex factors that influence project costs is essential for effective budget management.",
-    "h1": "1. Material Costs",
-    "p2": "Materials are the primary component of overall costs. Market price fluctuations for asphalt and bitumen, as well as varying quality grades, affect durability and service life. Choosing the right material is critical to long-term cost efficiency.",
-    "h2": "2. Labor Costs",
-    "p3": "Execution processes such as surface preparation, material application, and compaction require skilled labor. Beyond wages, team efficiency and expertise impact final quality and project duration, directly affecting total costs.",
-    "h3": "3. Equipment and Machinery Costs",
-    "p4": "Heavy machinery such as pavers, sprayers, and rollers significantly contribute to costs. Operational expenses like fuel, maintenance, and investment in advanced technology must be factored in. While modern equipment improves precision and efficiency, it often comes with a higher upfront price.",
-    "h4": "4. Project Scope and Complexity",
-    "p5": "Road design factors, traffic volume, and geographic conditions influence material quantities, application methods, and equipment selection. Roads with sharp curves or challenging topography demand specialized approaches, raising complexity and costs.",
-    "h5": "5. Maintenance and Life‐Cycle Costs",
-    "p6": "Cost planning must extend beyond initial construction. Long‐term maintenance, inspections, and minor repairs should be considered. Using high‐quality materials up front can reduce the frequency of major overhauls later.",
-    "h6": "6. Regulations and Permitting",
-    "p7": "Compliance with local regulations, safety standards, and environmental permits can impact project costs and timelines. Non‐compliance may lead to fines or delays, making early permit management crucial.",
-    "h7": "7. Future Innovations and Trends",
-    "p8": "Emerging preservation trends include eco‐friendly materials and data‐driven predictive maintenance. Adopting these technologies can lower long‐term expenses and boost project sustainability.",
-    "h8": "Role of Xolabit Bitumen Indonesia",
-    "p9": "Xolabit Bitumen Indonesia leads the way in delivering efficient, innovative pavement preservation solutions. By taking a holistic approach to materials, workforce, and regulations, Xolabit sets a new benchmark for cost efficiency and service quality.",
-    "p10": "Through continuous innovation and sustainable practices, Xolabit Bitumen Indonesia invites all stakeholders to build resilient, safe, and efficient road infrastructure for Indonesia’s future."
-  },
-  "article5": {
-    "title": "Xolabit PG: High-Performance Polymer-Modified Asphalt Solution",
-    "image_alt": "PG asphalt paving machine",
-    "p1": "<strong>Xolabit PG</strong> is a polymer-modified bitumen engineered for optimal roadway performance, meeting AASHTO M320-17, M332-17, and ASTM D6373-21a standards.",
-    "h1": "Advantages of PG Asphalt",
-    "features": [
-      "High elasticity and strength for heavy traffic",
-      "Resistance to extreme temperature fluctuations",
-      "Enhanced cohesion between aggregate and binder",
-      "Minimized fatigue cracking and thermal cracking"
-    ],
-    "h2": "What is Polymer Modified Bitumen (PMB)?",
-    "p2": "PMB is asphalt modified with polymers to boost flexibility and durability, forming stronger bonds with aggregate.",
-    "h3": "Polymer Configurations Used",
-    "p3": "Xolabit employs SBS, SB, SEBS, SIS, EVA, and ECR configurations tailored to project requirements.",
-    "h4": "Performance Grade (PG) System",
-    "p4": "The AASHTO PG system classifies asphalt by field performance; Xolabit PG is available in PG 70, PG 76, and PG 82 grades.",
-    "h5": "Benefits of Using PG Asphalt",
-    "benefits": [
-      "Ideal for high-traffic roadways",
-      "Extends pavement service life",
-      "Reduces long-term maintenance costs",
-      "Improves ride comfort"
-    ],
-    "h6": "Mix Design & Applications",
-    "p5": "Xolabit offers mix design consultancy using local materials, optimizing viscosity, elasticity, and rheological properties.",
-    "h7": "Commitment to Standards & Sustainability",
-    "p6": "We ensure every project meets AASHTO specifications from design through construction with rigorous testing and QA.",
-    "p7": "Choose Xolabit PG for stronger, longer-lasting, and sustainable roads."
-  },
-  "article6": {
-    "title": "Xolabit Liquid Bituminous Waterproofing",
-    "image_alt": "Liquid Bituminous Waterproofing Application",
-    "p1": "Xolabit Liquid Bituminous Waterproofing is a water-resistant coating method based on SS-1h anionic bitumen emulsion. It’s easy to apply, quickly forms a waterproof membrane, and is suitable for a variety of surfaces.",
-    "h1": "What Is SS-1h Emulsion?",
-    "p2": "SS-1h (Slow Setting-1 Hard) is a bitumen emulsion with low viscosity and slow setting. In this anionic emulsion, negatively charged bitumen particles are dispersed in water with an emulsifier. As the water evaporates, the particles coalesce into a waterproof layer.",
-    "h2": "Application Method",
-    "p3": "Xolabit Liquid Waterproofing can be applied by spray, brush, or roller to surfaces such as roofs, basement walls, bridges, and foundations. Curing occurs naturally depending on weather and temperature.",
-    "h3": "Product Advantages",
-    "features": [
-      "Easy application without heating or special equipment",
-      "Suitable for mineral substrates like concrete, brick, and plaster",
-      "Resistant to extreme weather and mechanical damage",
-      "Environmentally friendly with low VOC and solvent-free",
-      "Cost-effective across various project scales"
-    ],
-    "h4": "Real-World Applications",
-    "p4": "This technology has been used in infrastructure projects such as highways, bridges, mines, tanks, and green roofs. Its practical application process is ideal for hard-to-reach areas.",
-    "button": {
-      "text": "Watch Application Video on LinkedIn"
+      "image_alt": "Emulsion Asphalt Illustration"
     }
   }
+
 }
