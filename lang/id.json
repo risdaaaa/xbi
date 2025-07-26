@@ -32,7 +32,7 @@
     },
     "about": {
       "title": "Tentang Kami",
-      "description": "PT Xolabit Bitumen Industri berawal dari PT Aspal Polimer Emulsindo yang telah berpengalaman dalam bisnis produsen aspal emulsi dan aspal modifikasi sejak tahun 2017...",
+      "description": "PT Aspal Polimer Emulsindo yang telah berpengalaman dalam bisnis produsen aspal emulsi dan aspal modifikasi sejak tahun 2017. Seiring berkembangnya perusahaan, maka didirikanlah dua perusahaan lainnya yaitu PT.Modifikasi Bitumen Sumatera dan PT.Aplikasi Bitumen Indonesia. Dengan didukung oleh tim profesional yang solid dan berpengalaman dibidangnya, perusahaan kami optimis mampu mewujudkan visi misi serta tetap berkomitmen terhadap profesionalisme, etika etika bisnis dan transparansi terhadap manajemen maupun investor.",
       "button": "Pelajari Lebih Lanjut",
       "cta2": "Hubungi Kami",
       "img_alt": "Tim XBI meninjau proyek waterproofing"
@@ -112,7 +112,14 @@
     "header": "Kontak",
     "address": "Dusun Kedungrejo, Desa Karangasem RT 03 RW 05, Kec. Jenu, Kab. Tuban, Jawa Timur - Indonesia 62352"
   },
-  "emulsi": {
+  "aspalemulsi": {
+    "banner": {
+      "alt": "Banner Halaman Aspal Emulsi",
+      "title": "XOLABIT \n ASPAL EMULSI",
+      "subtitle": "Solusi ramah lingkungan untuk perkerasan jalan modern"
+    }
+  },
+  "productemulsi": {
     "title": "ASPAL EMULSI",
     "subtitle": "EMULSION BITUMEN",
     "packaging_label": "Kemasan:",
@@ -120,6 +127,7 @@
       "item1": "Drum Baja @155Kg",
       "item2": "Drum Baja @200Kg"
     },
+    "image_alt": "Ilustrasi Emulsi Aspal",
     "products": {
       "item1": "XOLABIT CRS-1",
       "item2": "XOLABIT CRS-2",
@@ -129,7 +137,6 @@
       "item6": "XOLABIT CSS-1",
       "item7": "XOLABIT CSS-1h"
     },
-    "image_alt": "Ilustrasi Emulsi Aspal",
     "usage": {
       "title": "Penggunaan",
       "text": "Perkerasan jalan, perekat ubin, pelapisan segel, pelapisan ulang, sebagai bahan pengisi."
@@ -137,7 +144,179 @@
     "technical": {
       "p1": "Emulsi aspal diproduksi dengan menggiling aspal/bitumen menjadi partikel mikroskopis dan mendispersikannya dalam air menggunakan pengemulsi kimia. Tetesan kecil aspal tetap tersuspensi secara seragam sampai emulsi digunakan.",
       "p2": "Kimia emulsi aspal menentukan stabilitas sistem. Ketika emulsi digunakan di lapangan, sistem pada suatu saat akan menjadi tidak stabil dan menyebabkan suspensi aspal dan air bergeser. Hal ini menyebabkan air menguap, meninggalkan sisa aspal yang melapisi dan mengikat agregat saat digunakan selama aplikasi jalan.",
-      "p3": "Emulsi aspal XOLABIT memiliki beragam aplikasi, mulai dari perekat ubin, hingga lapisan bawah kendaraan. Penggunaan utama disesuaikan dengan jalan raya, termasuk pelapisan segel dan sistem daur ulang."
+      "p3": "Emulsi aspal XOLABIT memiliki beragam aplikasi, mulai dari perekat ubin, hingga lapisan bawah kendaraan. Penggunaan utama disesuaikan dengan jalan raya, termasuk pelapisan segel dan sistem daur ulang.",
+      "image_alt": "Diagram proses emulsi aspal"
     }
+  },
+  "aspalpolimer": {
+    "banner": {
+      "alt": "Banner Halaman Aspal Polimer",
+      "title": "XOLABIT \n ASPAL POLIMER",
+      "subtitle": "Solusi fleksibel dan tahan lama untuk infrastruktur modern"
+    }
+  },
+  "productpolimer": {
+    "title": "ASPAL POLIMER",
+    "subtitle": "POLYMER BITUMEN",
+    "packaging_label": "Kemasan:",
+    "packaging": {
+      "item1": "Drum Baja @150Kg",
+      "item2": "Zak / Karung @50Kg"
+    },
+    "image_alt": "Ilustrasi kemasan aspal polimer",
+    "products": {
+      "item1": {
+        "title": "Xolabit – Aspal Karet",
+        "subtitle": "Aspal Karet Alam"
+      },
+      "item2": {
+        "title": "Xolabit – Aspal Plastik",
+        "subtitle": "Aspal Daur Ulang Plastik"
+      },
+      "item3": {
+        "title": "Xolabit – Aspal Polimer",
+        "subtitle": "PG-70, PG-76, PG-82"
+      }
+    },
+    "usage": {
+      "title": "Penggunaan",
+      "text": "Pengaspalan pada lintasan landasan udara, jalan perkotaan, jalan tol, dan pengaspalan lainnya."
+    },
+    "technical": {
+      "image_alt": "Spesifikasi Teknis Aspal Polimer",
+      "p1": "Semen aspal modifikasi polimer (PMA) telah digunakan selama bertahun-tahun untuk mengurangi tingkat keparahan kerusakan, dan memperpanjang masa pakai perkerasan dan pelapisan aspal campuran panas.",
+      "p2": "XOLABIT menawarkan lini PMA tercanggih di industri, yang dirancang untuk memaksimalkan efek menguntungkan dari pengikat pada deformasi permanen, kelelahan, dan retak suhu rendah dalam kondisi lingkungan dan lalu lintas Anda.",
+      "benefits_label": "Manfaat PMA:",
+      "benefit1": "Ketahanan lebih baik terhadap deformasi permanen (rutting dan shoving)",
+      "benefit2": "Sangat meningkatkan kekuatan tarik dan modulus elastisitas",
+      "benefit3": "Peningkatan ketahanan dan suhu kelelahan",
+      "benefit4": "Adhesi agregat sangat baik",
+      "benefit5": "Meningkatkan masa pakai layanan dan siklus hidup",
+      "benefit6": "Tidak diperlukan penanganan khusus atau kondisi penyimpanan khusus",
+      "benefit7": "Tidak memerlukan peralatan khusus untuk pengangkutan atau pengaspalan"
+    }
+  },
+  "asphalticplug": {
+    "banner": {
+      "alt": "Banner Halaman Asphaltic Plug Joint",
+      "title": "XOLABIT \n ASPHALTIC PLUG JOINT",
+      "subtitle": "Sistem sambungan ekspansi jembatan yang tahan lama dan elastis"
+    }
+  },
+  "productasphalticPlug": {
+    "title": "ASPHALTIC PLUG",
+    "subtitle": "Expansion Joint Sealant",
+    "packaging_label": "Kemasan:",
+    "packaging": {
+      "item1": "Drum Baja @17Kg"
+    },
+    "image_alt": "Ilustrasi produk Asphaltic Plug Joint",
+    "products": {
+      "item1": "AP-85 JOINT SEALANT (Sambungan Beton)",
+      "item2": "AP-125 EXPANSION JOINT (Jembatan)"
+    },
+    "usage": {
+      "title": "Penggunaan",
+      "text": "Cocok untuk sambungan jembatan, concrete pavement, waterproofing, sambungan delatasi bangunan, joint sealant beton, dan aplikasi fleksibel bitumen lainnya."
+    },
+    "technical": {
+      "p1": "XOLABIT Asphaltic Plug dirancang untuk sambungan ekspansi dengan kapasitas gerak rendah hingga sedang, cocok digunakan pada jembatan jalan raya dan struktur lainnya.",
+      "p2": "Desain maksimum pergerakan sambungan ini adalah ±25 mm horizontal dan ±1.5 mm vertikal.",
+      "benefits_asphaltic": "Keunggulan:",
+      "benefitplug1": "Waterproof sempurna",
+      "benefitplug2": "Permukaan berkendara halus dan nyaman",
+      "benefitplug3": "Daya tahan tinggi dan fleksibel",
+      "benefitplug4": "Pemasangan cepat dan mudah dirawat"
+    }
+  },
+  "bitumenmembrane": {
+    "banner": {
+      "alt": "Banner Halaman Bitumen Membrane",
+      "title": "XOLABIT \n BITUMEN MEMBRANE",
+      "subtitle": "pelapis fleksibel yang diperkuat lateks karet untuk melindungi permukaan"
+    },
+    "product_name": "XOLABIT HYDROSTOP",
+    "application_title": "Penggunaan",
+    "application_subtitle": "Aplikasi",
+    "application_paragraph": "Dapat digunakan pada dinding, atap, talang, bawah pipa dan kolam.",
+    "desc_1": "Bitumen Membran XOLABIT adalah pelapis dengan tujuan umum untuk perlindungan permukaan. Ini diperkuat dengan lateks karet untuk memberikan fleksibilitas dan peningkatan kekuatan.",
+    "desc_2": "Bitumen Membran XOLABIT dapat digunakan untuk dinding penahan tanah, kotak penanam, atap, talang dan bawah pipa dan dalam banyak kasus diperlukan untuk pemeriksaan saluran air. Produk ini aman untuk kontak dengan air dan cocok untuk situasi terendam, mis. kolam, fitur air dll."
+  },
+  "bitumenpaint": {
+    "banner": {
+      "alt": "Banner Halaman Bitumen Paint",
+      "title": "XOLABIT \n BITUMEN PAINT",
+      "subtitle": "pelapis dingin yang melindungi secara efektif dari cuaca dan korosi"
+    },
+    "product_name": "XOLABIT BITUMEN PAINT",
+    "pack_1": "1 Liter",
+    "pack_5": "5 Liter",
+    "pack_20": "20 Liter",
+    "can": "Kaleng",
+    "application_title": "Penggunaan",
+    "application_subtitle": "Aplikasi",
+    "application_paragraph": "Dapat digunakan pada pipa, beton, struktur baja, kayu, dan kapal laut, tangga, jembatan, talang, pipa bawah, pagar, gerbang, dll.",
+    "desc_1": "XOLABIT BITUMEN PAINT digunakan sebagai lapisan dingin, pelindung, efektif, tahan cuaca dan tahan korosi yang dibutuhkan beton bawah Permukaan logam yang terbuka dan terkubur seperti lembaran bergelombang, tangga darurat, tangga, talang, pipa bawah, pagar, gerbang, pipa dll.",
+    "desc_2": "XOLABIT BITUMEN PAINT juga dapat digunakan sebagai bahan primer untuk lembaran dan membran cair. XOLABIT BITUMEN PAINT untuk penggunaan di laut dan permukaan baja. XOLABIT BITUMEN PAINT juga dapat digunakan di belakang insulasi dan tangki non-air XOLABIT BITUMEN PAINT juga dapat digunakan pada beton dan pasangan bata sebagai pelapis anti lembab."
+  },
+  "dingin": {
+    "banner": {
+      "alt": "Banner Halaman Aspal Dingin",
+      "title": "XOLABIT \n BITUMEN COLDMIX",
+      "subtitle": "Solusi praktis dan cepat untuk perbaikan jalan tanpa pemanasan"
+    }
+  },
+  "productdingin": {
+    "title": "ASPAL DINGIN (Cold Mix)",
+    "subtitle": "COLDMIX DGEM",
+    "image_alt": "Ilustrasi produk aspal dingin",
+    "packaging_label": "Packaging:",
+    "packaging": {
+      "item1": "Sack @25Kg"
+    },
+    "products": {
+      "item1": {
+        "title": "XOLABIT DGEM TCM",
+        "subtitle": "Type IV, V, VI"
+      },
+      "item2": {
+        "title": "XOLABIT DGEM SCMA",
+        "subtitle": "Type IV, V, VI"
+      }
+    },
+    "usage": {
+      "title": "Penggunaan",
+      "text": "Cocok untuk perbaikan kecil pada trotoar, jalan akses, lubang aspal, area penyimpanan, dan lokasi pekerjaan."
+    },
+    "technical": {
+      "p1": "Campuran aspal dingin mengacu pada campuran aspal yang dicampur dengan agregat yang tidak dipanaskan, pengisi mineral, dan emulsi aspal. Campuran ini dapat digunakan sepanjang hari dan sangat cocok untuk perbaikan berbagai jenis permukaan jalan.",
+      "p2": "Campuran ini tidak memerlukan pemanasan, fleksibel, dan dapat menyembuhkan dirinya sendiri bahkan di bawah tekanan dan suhu rendah.",
+      "p3": "Pabrik Aspal Dingin yang kami miliki memungkinkan desain khusus untuk kebutuhan pelanggan. Oleh karena itu, aspal dingin kami diterima dengan baik oleh berbagai kalangan.",
+      "image_alt": "Teknologi dan penggunaan XOLABIT Coldmix"
+    }
+  },
+  "waterproofing": {
+    "banner": {
+      "alt": "Banner Halaman Waterproofing",
+      "title": "XOLABIT \n WATERPROOFING",
+      "subtitle": "membran kedap air dan kedap lembap"
+    }
+  },
+  "waterpoofingproduct": {
+    "name": "XOLABIT SEALKOTE",
+    "pack": "Packaging: Pail @ 18Kg"
+  },
+  "waterpoofingapplication": {
+    "title": "Penggunaan",
+    "subtitle": "Application",
+    "paragraph": "Menjaga dinding agar tidak lembab, melapisi tangki air, mencegah karat pada bagian bawah, struktur besi dan struktur atap dari kendaraan bermotor, anti bocor untuk talang dan atap seng, dapur, kamar mandi, struktur beton, perahu dan kapal ikan."
+  },
+  "waterpoofingbitumen": {
+    "desc1": "XOLABIT memproduksi dan menyediakan lini lengkap membran kedap air dan kedap lembap.",
+    "desc2": "Membran kedap air membentuk lapisan monolitik kontinu mulus, yang kedap terhadap penetrasi kelembaban dan tetap fleksibel pada berbagai suhu. Ini dapat digunakan dalam aplikasi apa pun mulai dari jembatan hingga teras atap.",
+    "desc3": "Membran kedap lembab adalah campuran dari aspal pilihan dan pengurangan minyak bumi yang sesuai dengan persyaratan primer pemeriksaan lembab/kedap air. Membran kedap lembab dapat digunakan sebagai kondisioner permukaan untuk meningkatkan ikatan antara substrat dan membran kedap air atau pelapis tipe aspal lainnya dan digunakan sebagai pelapis kedap air/pelapis untuk mencegah migrasi uap air melalui struktur batu atau beton."
   }
+
+
+
 }

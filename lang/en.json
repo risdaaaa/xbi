@@ -32,7 +32,7 @@
     },
     "about": {
       "title": "About Us",
-      "description": "PT Xolabit Bitumen Industri started from PT Aspal Polimer Emulsindo, a trusted manufacturer of emulsion and modified asphalt since 2017...",
+      "description": "PT Aspal Polimer Emulsindo has been in the business of producing asphalt emulsion and modified asphalt since 2017. As the company has grown, two additional companies were established: PT. Bitumen Modification Sumatera and PT. Bitumen Application Indonesia. With a strong and experienced professional team in their respective fields, our company is confident in achieving its vision and mission while remaining committed to professionalism, business ethics, and transparency toward management and investors.",
       "button": "Learn More",
       "cta2": "Contact Us",
       "img_alt": "XBI team inspecting waterproofing project"
@@ -115,40 +115,205 @@
   "aspalemulsi": {
     "banner": {
       "alt": "Emulsion Asphalt Page Banner",
-      "title": "XOLABIT EMULSION ASPHALT",
-      "subtitle": "Eco-friendly solution for modern pavement"
+      "title": "XOLABIT \n EMULSION ASPHALT",
+      "subtitle": "Eco-friendly solution for modern road pavement"
     }
   },
-  "product": {
-    "emulsi": {
-      "title": "EMULSION ASPHALT",
-      "subtitle": "EMULSION BITUMEN",
-      "packaging_label": "Packaging:",
-      "packaging": {
-        "item1": "Steel Drum @155Kg",
-        "item2": "Steel Drum @200Kg"
-      },
-      "products": {
-        "item1": "XOLABIT CRS-1",
-        "item2": "XOLABIT CRS-2",
-        "item3": "XOLABIT CRS-2p",
-        "item4": "XOLABIT CMS-2",
-        "item5": "XOLABIT CMS-2h",
-        "item6": "XOLABIT CSS-1",
-        "item7": "XOLABIT CSS-1h"
-      },
-      "usage": {
-        "title": "Usage",
-        "text": "Pavement, tile adhesive, seal coating, resurfacing, as filler material."
-      },
-      "technical": {
-        "p1": "Emulsion asphalt is produced by grinding asphalt or bitumen into microscopic particles and dispersing them in water using chemical emulsifiers. These tiny droplets of asphalt remain uniformly suspended until the emulsion is applied in the field. This method allows asphalt to be used in cold applications, making it safer and more environmentally friendly.",
-        "p2": "The chemistry of asphalt emulsion determines the stability of the system. When applied, the emulsion eventually breaks—causing the asphalt and water suspension to separate. The water evaporates, leaving behind the asphalt residue which then coats and binds the aggregates in road construction applications.",
-        "p3": "XOLABIT asphalt emulsions offer a wide range of applications, from tile adhesives to automotive undercoatings. However, their primary use is for road construction and maintenance, including seal coating, tack coats, and cold recycling systems. Our formulations are engineered to ensure superior adhesion, fast setting, and long-term durability.",
-        "image_alt": "Technical illustration of asphalt emulsion usage"
-      },
-      "image_alt": "Emulsion Asphalt Illustration"
+  "productemulsi": {
+    "title": "EMULSION ASPHALT",
+    "subtitle": "EMULSION BITUMEN",
+    "packaging_label": "Packaging:",
+    "packaging": {
+      "item1": "Steel Drum @155Kg",
+      "item2": "Steel Drum @200Kg"
+    },
+    "image_alt": "Emulsion Asphalt Illustration",
+    "products": {
+      "item1": "XOLABIT CRS-1",
+      "item2": "XOLABIT CRS-2",
+      "item3": "XOLABIT CRS-2p",
+      "item4": "XOLABIT CMS-2",
+      "item5": "XOLABIT CMS-2h",
+      "item6": "XOLABIT CSS-1",
+      "item7": "XOLABIT CSS-1h"
+    },
+    "usage": {
+      "title": "Usage",
+      "text": "Road pavement, tile adhesive, seal coating, resurfacing, and as filler material."
+    },
+    "technical": {
+      "p1": "Bitumen emulsion is produced by milling bitumen into microscopic particles and dispersing it in water using chemical emulsifiers. The small droplets of bitumen remain uniformly suspended until the emulsion is used.",
+      "p2": "The chemistry of the bitumen emulsion determines the stability of the system. When applied in the field, the system eventually breaks, allowing the bitumen and water to separate. The water evaporates, leaving behind a bitumen residue that coats and bonds aggregates during road applications.",
+      "p3": "XOLABIT bitumen emulsion has a wide range of applications, from tile adhesive to undercoating vehicles. Its primary use is for highways, including seal coating and recycling systems.",
+      "image_alt": "Emulsion asphalt process diagram"
     }
+  },
+  "aspalpolimer": {
+    "banner": {
+      "alt": "Polymer Asphalt Page Banner",
+      "title": "XOLABIT \n POLYMER ASPHALT",
+      "subtitle": "Flexible and durable solution for modern infrastructure"
+    }
+  },
+  "productpolimer": {
+    "title": "POLYMER ASPHALT",
+    "subtitle": "POLYMER BITUMEN",
+    "packaging_label": "Packaging:",
+    "packaging": {
+      "item1": "Steel Drum @150Kg",
+      "item2": "Sack @50Kg"
+    },
+    "image_alt": "Polymer Asphalt Packaging Illustration",
+    "products": {
+      "item1": {
+        "title": "Xolabit – Rubber Asphalt",
+        "subtitle": "Natural Rubber Bitumen"
+      },
+      "item2": {
+        "title": "Xolabit – Plastic Asphalt",
+        "subtitle": "Plastic Recycled Bitumen"
+      },
+      "item3": {
+        "title": "Xolabit – Polymer Asphalt",
+        "subtitle": "PG-70, PG-76, PG-82"
+      }
+    },
+    "usage": {
+      "title": "Usage",
+      "text": "Paving for airstrips, urban roads, toll roads, and other asphalt applications."
+    },
+    "technical": {
+      "image_alt": "Polymer Asphalt Technical Specification",
+      "p1": "Polymer Modified Asphalt (PMA) has been used for years to reduce damage severity and extend the life of pavement and hot mix asphalt surfacing.",
+      "p2": "XOLABIT offers the industry's most advanced PMA line, designed to maximize the beneficial effects of binder on permanent deformation, fatigue, and low-temperature cracking under your environmental and traffic conditions.",
+      "benefits_label": "PMA Benefits:",
+      "benefit1": "Better resistance to permanent deformation (rutting and shoving)",
+      "benefit2": "Significantly improves tensile strength and elastic modulus",
+      "benefit3": "Enhanced fatigue resistance and temperature stability",
+      "benefit4": "Excellent aggregate adhesion",
+      "benefit5": "Extends service life and life cycle",
+      "benefit6": "No special handling or storage conditions required",
+      "benefit7": "No special equipment needed for transport or paving"
+    }
+  },
+  "asphalticplug": {
+    "banner": {
+      "alt": "Asphaltic Plug Joint Page Banner",
+      "title": "XOLABIT \n ASPHALTIC PLUG JOINT",
+      "subtitle": "Durable and flexible expansion joint system for bridges"
+    }
+  },
+  "productasphalticPlug": {
+    "title": "ASPHALTIC PLUG",
+    "subtitle": "Expansion Joint Sealant",
+    "packaging_label": "Packaging:",
+    "packaging": {
+      "item1": "Steel Drum @17Kg"
+    },
+    "image_alt": "Asphaltic Plug Joint product illustration",
+    "products": {
+      "item1": "AP-85 JOINT SEALANT (Concrete Joint)",
+      "item2": "AP-125 EXPANSION JOINT (Bridge)"
+    },
+    "usage": {
+      "title": "Usage",
+      "text": "Ideal for bridge joints, concrete pavement, waterproofing, building expansion joints, concrete joint sealant, and other flexible bitumen applications."
+    },
+    "technical": {
+      "p1": "XOLABIT Asphaltic Plug is designed for low to medium movement expansion joints, ideal for highway bridges and similar structures.",
+      "p2": "The maximum design joint movement is ±25 mm horizontal and ±1.5 mm vertical.",
+      "benefits_asphaltic": "Advantages:",
+      "benefitplug1": "Perfect waterproofing",
+      "benefitplug2": "Smooth and comfortable driving surface",
+      "benefitplug3": "Highly durable and flexible",
+      "benefitplug4": "Quick installation and easy maintenance"
+    }
+  },
+  "bitumenmembrane": {
+    "banner": {
+      "alt": "Bitumen Membrane Page Banner",
+      "title": "XOLABIT \n BITUMEN MEMBRANE",
+      "subtitle": "a flexible latex-reinforced coating to protect surfaces"
+    },
+    "product_name": "XOLABIT HYDROSTOP",
+    "application_title": "Application",
+    "application_subtitle": "Application",
+    "application_paragraph": "Can be applied on walls, roofs, gutters, under pipes, and pools.",
+    "desc_1": "XOLABIT Bitumen Membrane is a general-purpose surface protection coating. It is reinforced with rubber latex for flexibility and improved strength.",
+    "desc_2": "XOLABIT Bitumen Membrane can be used for retaining walls, planter boxes, roofs, gutters, under pipes, and in many cases is required for water channel inspection. The product is safe for water contact and suitable for submerged conditions such as pools and water features."
+  },
+  "bitumenpaint": {
+    "banner": {
+      "alt": "Bitumen Paint Page Banner",
+      "title": "XOLABIT \n BITUMEN PAINT",
+      "subtitle": "a cold coating that effectively protects from weather and corrosion"
+    },
+    "product_name": "XOLABIT BITUMEN PAINT",
+    "pack_1": "1 Liter",
+    "pack_5": "5 Liter",
+    "pack_20": "20 Liter",
+    "can": "Tin Can",
+    "application_title": "Application",
+    "application_subtitle": "Application",
+    "application_paragraph": "Can be used on pipes, concrete, steel structures, wood, and marine vessels, stairs, bridges, gutters, underground pipes, fences, gates, etc.",
+    "desc_1": "XOLABIT BITUMEN PAINT is used as a cold, protective, effective, weather-resistant and anti-corrosion coating required for concrete and exposed/buried metal surfaces such as corrugated sheets, emergency stairs, gutters, pipes, fences, gates, and more.",
+    "desc_2": "XOLABIT BITUMEN PAINT can also be used as a primer for sheet and liquid membranes. It is suitable for marine use and steel surfaces, behind insulation and non-water tanks. It can also be applied on concrete and masonry as a damp-proof coating."
+  },
+  "dingin": {
+    "banner": {
+      "alt": "Bitumen Coldmix Page Banner",
+      "title": "XOLABIT \n BITUMEN COLDMIX",
+      "subtitle": "Practical and fast solution for road repair without heating"
+    }
+  },
+  "productdingin": {
+    "title": "COLDMIX BITUMEN",
+    "subtitle": "COLDMIX DGEM",
+    "image_alt": "Cold asphalt product illustration",
+    "packaging_label": "Packaging:",
+    "packaging": {
+      "item1": "Sack @25Kg"
+    },
+    "products": {
+      "item1": {
+        "title": "XOLABIT DGEM TCM",
+        "subtitle": "Type IV, V, VI"
+      },
+      "item2": {
+        "title": "XOLABIT DGEM SCMA",
+        "subtitle": "Type IV, V, VI"
+      }
+    },
+    "usage": {
+      "title": "Usage",
+      "text": "Suitable for minor repairs on sidewalks, access roads, potholes, storage areas, and job sites."
+    },
+    "technical": {
+      "p1": "Cold asphalt mix refers to asphalt combined with unheated aggregates, mineral fillers, and asphalt emulsion. This mix can be used throughout the day and is ideal for repairing various road surfaces.",
+      "p2": "This mixture requires no heating, is flexible, and can self-heal even under pressure and low temperatures.",
+      "p3": "Our Coldmix Plant enables custom designs tailored to customer needs. Therefore, our cold asphalt is widely accepted by various sectors.",
+      "image_alt": "XOLABIT Coldmix technology and usage"
+    }
+  },
+  "waterproofing": {
+    "banner": {
+      "alt": "Waterproofing Page Banner",
+      "title": "XOLABIT \n WATERPROOFING",
+      "subtitle": "waterproof and damp-proof membranes"
+    }
+  },
+  "waterpoofingproduct": {
+    "name": "XOLABIT SEALKOTE",
+    "pack": "Packaging: Pail @ 18Kg"
+  },
+  "waterpoofingapplication": {
+    "title": "Application",
+    "subtitle": "Application",
+    "paragraph": "Protects walls from moisture, coats water tanks, prevents rust on underside, steel structures and roof frames of vehicles, leak-proof for gutters and zinc roofs, kitchens, bathrooms, concrete structures, boats, and fishing vessels."
+  },
+  "waterpoofingbitumen": {
+    "desc1": "XOLABIT manufactures and supplies a complete line of waterproof and damp-proof membranes.",
+    "desc2": "Waterproof membranes form a seamless monolithic continuous layer, impermeable to moisture penetration and remain flexible at various temperatures. Suitable for applications from bridges to roof terraces.",
+    "desc3": "Damp-proof membranes are a blend of selected bitumen and petroleum reducers, meeting primer requirements for damp/waterproof checks. They can be used as a surface conditioner to enhance adhesion between substrate and waterproof membrane or other bituminous coatings, and as a waterproofing layer to prevent vapor migration through masonry or concrete structures."
   }
-
 }
