@@ -1,0 +1,12 @@
+# robots.txt for https://www.xolabit.co.id/
+
+User-agent: *
+Disallow: /lib/
+Disallow: /lang/
+Disallow: /css/bootstrap.min.css
+Disallow: /js/bootstrap.bundle.min.js
+Disallow: /js/i18n.js
+
+Allow: /
+
+Sitemap: https://www.xolabit.co.id/sitemap.xml

@@ -118,7 +118,7 @@ window.addEventListener('DOMContentLoaded', () => {
         return;
       }
       const msg = encodeURIComponent(`Halo, saya *${nama}* dari *${asalpt}*.\nEmail: ${email}\nTujuan: ${tujuan}`);
-      window.open(`https://wa.me/6281313089239?text=${msg}`, '_blank');
+      window.open(`https://wa.me/6287745361174?text=${msg}`, '_blank');
     });
   }
 
